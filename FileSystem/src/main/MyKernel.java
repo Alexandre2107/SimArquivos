@@ -43,7 +43,6 @@ public class MyKernel implements Kernel {
         System.out.println("Chamada de Sistema: ls");
         System.out.println("\tParametros: " + parameters);
         String[] par = parameters.split("/");
-        
 
         for (int i = 0; i < diretorioAtual.getFilhos().size(); i++) {
             if (!diretorioAtual.getFilhos().get(i).getNome().isEmpty()) {
@@ -54,17 +53,17 @@ public class MyKernel implements Kernel {
         }
 
         for (int i = 0; i < diretorioAtual.getArquivos().size(); i++) {
-            if(diretorioAtual.getArquivos().isEmpty()){
+            if (diretorioAtual.getArquivos().isEmpty()) {
                 break;
             }
             if (!diretorioAtual.getArquivos().get(i).getNome().isEmpty()) {
-                result += " "+diretorioAtual.getArquivos().get(i).getNome();
+                result += " " + diretorioAtual.getArquivos().get(i).getNome();
             }
-            System.out.println("Arquivos: "+diretorioAtual.getArquivos().get(i).getPai().getNome());
+            System.out.println("Arquivos: " + diretorioAtual.getArquivos().get(i).getPai().getNome());
         }
 
         if (par.length == 2) {
-            
+
         }
 
         return result;
@@ -329,42 +328,41 @@ public class MyKernel implements Kernel {
     }
 
     public String createfile(String parameters) {
-        //variavel result deverah conter o que vai ser impresso na tela apos comando do usuário
+        // variavel result deverah conter o que vai ser impresso na tela apos comando do
+        // usuário
         String result = "";
         System.out.println("Chamada de Sistema: createfile");
         System.out.println("\tParametros: " + parameters);
 
-        //inicio da implementacao do aluno
+        // inicio da implementacao do aluno
         String[] comando = parameters.split(".txt");
         String[] caminho = comando[0].split("/");
-        if(diretorioAtual.getNome().equals(raiz.getNome())){
+        if (diretorioAtual.getNome().equals(raiz.getNome())) {
             result = "Você Não pode criar na raiz";
             return result;
         }
 
-        
-
-        if(comando.length < 2){
-                result = "É necessario passar um conteudo no arquivo";
-                return result;
-            }
+        if (comando.length < 2) {
+            result = "É necessario passar um conteudo no arquivo";
+            return result;
+        }
         if (comando.length >= 1) {
-            
+
             String conteudo = comando[1];
             System.out.println(conteudo);
             String nome = caminho[caminho.length - 1];
 
-            System.out.println("ksksk"+conteudo);
-            
-            if(verificaNome(nome)){
+            System.out.println("ksksk" + conteudo);
+
+            if (verificaNome(nome)) {
                 nome = nome + ".txt";
-            } else{
-                    result = "Erro no comando inserido";
-                    return result;
+            } else {
+                result = "Erro no comando inserido";
+                return result;
             }
             System.out.println(nome);
             for (int i = 0; i < diretorioAtual.getArquivos().size(); i++) {
-                if(diretorioAtual.getArquivos().get(i).getNome().equals(nome)){
+                if (diretorioAtual.getArquivos().get(i).getNome().equals(nome)) {
                     result = "Já existe um arquivo com esse nome neste caminho";
                     return result;
                 }
@@ -382,11 +380,9 @@ public class MyKernel implements Kernel {
 
             result = "Arquivo criado com sucesso";
 
-            
-            
         }
-        //fim da implementacao do aluno
-        
+        // fim da implementacao do aluno
+
         return result;
     }
 
@@ -413,9 +409,12 @@ public class MyKernel implements Kernel {
         String[] par = parameters.split("/");
         System.out.println("inicio" + par[0] + "fim");
         if (par.length == 1) {
-
-             
-           List<String> config = diretorioAtual.getArquivos().get(0).getConteudo();
+            List<String> config = new ArrayList<>() ;
+            for (int i = 0; i < diretorioAtual.getArquivos().size(); i++) {
+                if (diretorioAtual.getArquivos().get(i).getNome().equals(parameters)) {
+                    config = diretorioAtual.getArquivos().get(i).getConteudo();
+                }
+            }
             for (int i = 0; i < config.size(); i++) {
                 result += config.get(i) + "\n";
                 System.out.println("\n");
