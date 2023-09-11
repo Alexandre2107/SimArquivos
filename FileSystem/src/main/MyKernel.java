@@ -40,26 +40,28 @@ public class MyKernel implements Kernel {
         String result = "";
         System.out.println("Chamada de Sistema: ls");
         System.out.println("\tParametros: " + parameters);
-
         String[] par = parameters.split(" ");
 
+        Diretorio dir = diretorioAtual;
+
         if (par.length == 0) {
-            result = listarConteudoDiretorio(diretorioAtual);
+            encontrarDiretorio(par[0], dir);
+            result = listarConteudoDiretorio(dir);
         } else if (par.length == 1) {
             if (par[0].equals("-l")) {
-                result = listarConteudoDetalhadoDiretorio(diretorioAtual);
+                result = listarConteudoDetalhadoDiretorio(dir);
             } else {
-                Diretorio diretorioListado = encontrarDiretorio(par[0]);
-                if (diretorioListado != null) {
-                    result = listarConteudoDiretorio(diretorioListado);
+                dir = encontrarDiretorio(par[0], dir);
+                if (dir != null) {
+                    result = listarConteudoDiretorio(dir);
                 } else {
                     result = par[0] + ": Diretório não existe.";
                 }
             }
         } else if (par.length == 2 && par[0].equals("-l")) {
-            Diretorio diretorioListado = encontrarDiretorio(par[1]);
-            if (diretorioListado != null) {
-                result = listarConteudoDetalhadoDiretorio(diretorioListado);
+            dir = encontrarDiretorio(par[1], dir);
+            if (dir != null) {
+                result = listarConteudoDetalhadoDiretorio(dir);
             } else {
                 result = par[1] + ": Diretório não existe.";
             }
@@ -93,26 +95,21 @@ public class MyKernel implements Kernel {
         return conteudo;
     }
 
-    private Diretorio encontrarDiretorio(String caminho) {
+    private Diretorio encontrarDiretorio(String caminho, Diretorio dir) {
         String[] partes = caminho.split("/");
-
-        Diretorio diretorioAtual = raiz;
-
         // Loop pelas partes do caminho
         for (String parte : partes) {
             if (parte.isEmpty()) {
                 continue;
             }
-            Diretorio subDiretorio = diretorioAtual.buscaDiretorioPeloNome(parte);
+            dir = dir.buscaDiretorioPeloNome(parte);
 
-            if (subDiretorio == null) {
+            if (dir == null) {
                 return null;
             }
-            diretorioAtual = subDiretorio;
         }
 
-        return diretorioAtual;
-
+        return dir;
     }
 
     public String mkdir(String parameters) {
@@ -162,7 +159,9 @@ public class MyKernel implements Kernel {
             }
         } else {
             String[] pathParts = parameters.split("/");
+            System.out.println(diretorioAtual.getNome());
             for (String part : pathParts) {
+                Diretorio aux = diretorioAtual.buscaDiretorioPeloNome(part);
                 if (part.equals(".")) {
                 } else if (part.equals("..")) {
                     if (diretorioAtual.getPai() != null) {
@@ -171,18 +170,25 @@ public class MyKernel implements Kernel {
                         result = "Você já está na raiz";
                         return result;
                     }
-                } else {
-                    Diretorio proximoDiretorio = diretorioAtual.buscaDiretorioPeloNome(part);
-                    if (proximoDiretorio != null) {
-                        diretorioAtual = proximoDiretorio;
-                    } else {
-                        result = parameters + ": Diretório não existe.";
-                        return result;
-                    }
                 }
+                if (aux == null) {
+                    result = parameters + ": Diretório não existe.";
+                    return result;
+                } else {
+                    diretorioAtual = aux;
+                }
+
+                // } else {
+                // Diretorio proximoDiretorio = diretorioAtual.buscaDiretorioPeloNome(part);
+                // if (proximoDiretorio != null) {
+                // diretorioAtual = proximoDiretorio;
+                // } else {
+                // result = parameters + ": Diretório não existe.";
+                // return result;
+                // }
+                // }
             }
         }
-
         Diretorio aux = diretorioAtual;
         while (!aux.getNome().equals("/")) {
             caminho.add(aux.getNome());
@@ -204,7 +210,7 @@ public class MyKernel implements Kernel {
     private Diretorio encontraDiretorioPeloCaminhoAbsoluto(String path) {
         String[] dirs = path.split("/");
 
-        Diretorio atual = raiz;
+        Diretorio atual = this.diretorioAtual;
 
         for (int i = 1; i < dirs.length; i++) {
             String dir = dirs[i];
@@ -220,30 +226,30 @@ public class MyKernel implements Kernel {
     }
 
     public String rmdir(String parameters) {
-        // variável result deverá conter o que vai ser impresso na tela após comando do usuário
+        // variável result deverá conter o que vai ser impresso na tela após comando do
+        // usuário
         String result = "";
         System.out.println("Chamada de Sistema: rmdir");
         System.out.println("\tParametros: " + parameters);
-    
+
         // Tratamento da string de parâmetros
         String[] par = parameters.split("/");
-    
- 
-            String nomeDiretorio = par[0];
-    
-            // Verifica se o diretório existe no diretório atual
-            Diretorio diretorioARemover = diretorioAtual.buscaDiretorioPeloNome(nomeDiretorio);
-    
-            if (diretorioARemover != null) {
-                if (diretorioARemover.getFilhos().isEmpty() && diretorioARemover.getArquivos().isEmpty()) {
-                    diretorioAtual.removeFilho(diretorioARemover);
-                } else {
-                    result = "rmdir: Diretório " + parameters + " possui arquivos e/ou diretórios. (Nada foi removido)";
-                }
+
+        String nomeDiretorio = par[0];
+
+        // Verifica se o diretório existe no diretório atual
+        Diretorio diretorioARemover = diretorioAtual.buscaDiretorioPeloNome(nomeDiretorio);
+
+        if (diretorioARemover != null) {
+            if (diretorioARemover.getFilhos().isEmpty() && diretorioARemover.getArquivos().isEmpty()) {
+                diretorioAtual.removeFilho(diretorioARemover);
             } else {
-                result = "rmdir: Diretório " + parameters + " não existe. (Nada foi removido)";
+                result = "rmdir: Diretório " + parameters + " possui arquivos e/ou diretórios. (Nada foi removido)";
             }
-    
+        } else {
+            result = "rmdir: Diretório " + parameters + " não existe. (Nada foi removido)";
+        }
+
         return result;
     }
 
