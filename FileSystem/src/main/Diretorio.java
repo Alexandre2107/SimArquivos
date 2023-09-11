@@ -102,7 +102,8 @@ public class Diretorio {
     public void setPermissao(String permissao) {
         this.permissao = permissao;
     }
-     public String getDataCriacaoFormatada() {
+
+    public String getDataCriacaoFormatada() {
         return dataCriacaoFormatada;
     }
 

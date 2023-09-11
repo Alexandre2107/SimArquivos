@@ -122,17 +122,43 @@ public class MyKernel implements Kernel {
 
         // Diretório inicial
         Diretorio diretorioAtual = this.diretorioAtual;
-
-        for (int i = 0; i < par.length; i++) {
-            String dirName = par[i];
-            if (diretorioAtual.buscaDiretorioPeloNome(dirName) != null) {
-                result = "mkdir: " + dirName + ": Diretório já existe (Nenhum diretório foi criado).";
-                break;
+        if (parameters.startsWith("./")) {
+            for (int i = 1; i < par.length; i++) {
+                String dirName = par[i];
+                if (diretorioAtual.buscaDiretorioPeloNome(dirName) != null) {
+                    result = "mkdir: " + dirName + ": Diretório já existe (Nenhum diretório foi criado).";
+                    break;
+                }
+                Diretorio novoDiretorio = new Diretorio(diretorioAtual);
+                novoDiretorio.setNome(dirName);
+                diretorioAtual.addFilho(novoDiretorio);
+                diretorioAtual = novoDiretorio;
             }
-            Diretorio novoDiretorio = new Diretorio(diretorioAtual);
-            novoDiretorio.setNome(dirName);
-            diretorioAtual.addFilho(novoDiretorio);
-            diretorioAtual = novoDiretorio;
+        } else if (parameters.startsWith("/")) {
+            for (int i = 1; i < par.length; i++) {
+                String dirName = par[i];
+                if (diretorioAtual.buscaDiretorioPeloNome(dirName) != null) {
+                    result = "mkdir: " + dirName + ": Diretório já existe (Nenhum diretório foi criado).";
+                    break;
+                }
+                Diretorio novoDiretorio = new Diretorio(diretorioAtual);
+                novoDiretorio.setNome(dirName);
+                diretorioAtual.addFilho(novoDiretorio);
+                diretorioAtual = novoDiretorio;
+            }
+
+        } else {
+            for (int i = 0; i < par.length; i++) {
+                String dirName = par[i];
+                if (diretorioAtual.buscaDiretorioPeloNome(dirName) != null) {
+                    result = "mkdir: " + dirName + ": Diretório já existe (Nenhum diretório foi criado).";
+                    break;
+                }
+                Diretorio novoDiretorio = new Diretorio(diretorioAtual);
+                novoDiretorio.setNome(dirName);
+                diretorioAtual.addFilho(novoDiretorio);
+                diretorioAtual = novoDiretorio;
+            }
         }
         return result;
     }
@@ -162,8 +188,7 @@ public class MyKernel implements Kernel {
             System.out.println(diretorioAtual.getNome());
             for (String part : pathParts) {
                 Diretorio aux = diretorioAtual.buscaDiretorioPeloNome(part);
-                if (part.equals(".")) {
-                } else if (part.equals("..")) {
+                if (part.equals("..")) {
                     if (diretorioAtual.getPai() != null) {
                         diretorioAtual = diretorioAtual.getPai();
                     } else {
@@ -232,45 +257,118 @@ public class MyKernel implements Kernel {
 
         // Quebre o caminho em partes usando "/"
         String[] parts = parameters.split("/");
-
         // Comece na raiz
         Diretorio currentDir = raiz;
 
         // Percorra as partes do caminho
-        for (int i = 0; i < parts.length; i++) {
-            String part = parts[i];
+        if (parameters.startsWith("/")) {
+            for (int i = 1; i < parts.length; i++) {
+                String part = parts[i];
 
-            // Verifique se a parte atual está vazia
-            if (currentDir.getFilhos().isEmpty()) {
-                result = "Diretório vazio";
-                return result;
-            }
-
-            // Encontre o filho com o nome da parte atual
-            Diretorio childDir = null;
-            for (Diretorio dir : currentDir.getFilhos()) {
-                if (dir.getNome().equals(part)) {
-                    childDir = dir;
-                    break;
-                }
-            }
-            // Se não encontrou o filho, o diretório não existe
-            if (childDir == null) {
-                result = "Diretório não existe";
-                return result;
-            }
-
-            // Se chegou à última parte do caminho, remova o diretório se estiver vazio
-            if (i == parts.length - 1) {
-                if (!childDir.getFilhos().isEmpty() || !childDir.getArquivos().isEmpty()) {
-                    result = "Diretório não está vazio";
+                // Verifique se a parte atual está vazia
+                if (currentDir.getFilhos().isEmpty()) {
+                    result = "Diretório vazio";
                     return result;
                 }
 
-                currentDir.removeFilho(childDir);
-            }
+                // Encontre o filho com o nome da parte atual
+                Diretorio childDir = null;
+                for (Diretorio dir : currentDir.getFilhos()) {
+                    if (dir.getNome().equals(part)) {
+                        childDir = dir;
+                        break;
+                    }
+                }
+                // Se não encontrou o filho, o diretório não existe
+                if (childDir == null) {
+                    result = "Diretório não existe";
+                    return result;
+                }
 
-            currentDir = childDir; // Vá para o próximo diretório
+                // Se chegou à última parte do caminho, remova o diretório se estiver vazio
+                if (i == parts.length - 1) {
+                    if (!childDir.getFilhos().isEmpty() || !childDir.getArquivos().isEmpty()) {
+                        result = "Diretório não está vazio";
+                        return result;
+                    }
+
+                    currentDir.removeFilho(childDir);
+                }
+
+                currentDir = childDir; // Vá para o próximo diretório
+            }
+        } else if (parameters.startsWith("./")) {
+            for (int i = 1; i < parts.length; i++) {
+                String part = parts[i];
+
+                // Verifique se a parte atual está vazia
+                if (currentDir.getFilhos().isEmpty()) {
+                    result = "Diretório vazio";
+                    return result;
+                }
+
+                // Encontre o filho com o nome da parte atual
+                Diretorio childDir = null;
+                for (Diretorio dir : currentDir.getFilhos()) {
+                    if (dir.getNome().equals(part)) {
+                        childDir = dir;
+                        break;
+                    }
+                }
+                // Se não encontrou o filho, o diretório não existe
+                if (childDir == null) {
+                    result = "Diretório não existe";
+                    return result;
+                }
+
+                // Se chegou à última parte do caminho, remova o diretório se estiver vazio
+                if (i == parts.length - 1) {
+                    if (!childDir.getFilhos().isEmpty() || !childDir.getArquivos().isEmpty()) {
+                        result = "Diretório não está vazio";
+                        return result;
+                    }
+
+                    currentDir.removeFilho(childDir);
+                }
+
+                currentDir = childDir; // Vá para o próximo diretório
+            }
+        } else {
+            for (int i = 0; i < parts.length; i++) {
+                String part = parts[i];
+
+                // Verifique se a parte atual está vazia
+                if (currentDir.getFilhos().isEmpty()) {
+                    result = "Diretório vazio";
+                    return result;
+                }
+
+                // Encontre o filho com o nome da parte atual
+                Diretorio childDir = null;
+                for (Diretorio dir : currentDir.getFilhos()) {
+                    if (dir.getNome().equals(part)) {
+                        childDir = dir;
+                        break;
+                    }
+                }
+                // Se não encontrou o filho, o diretório não existe
+                if (childDir == null) {
+                    result = "Diretório não existe";
+                    return result;
+                }
+
+                // Se chegou à última parte do caminho, remova o diretório se estiver vazio
+                if (i == parts.length - 1) {
+                    if (!childDir.getFilhos().isEmpty() || !childDir.getArquivos().isEmpty()) {
+                        result = "Diretório não está vazio";
+                        return result;
+                    }
+
+                    currentDir.removeFilho(childDir);
+                }
+
+                currentDir = childDir; // Vá para o próximo diretório
+            }
         }
 
         return result;
@@ -432,25 +530,66 @@ public class MyKernel implements Kernel {
         Diretorio currentDir = raiz;
 
         // Percorra as partes do caminho, exceto a última que é o nome do arquivo
-        for (int i = 0; i < parts.length - 1; i++) {
-            String part = parts[i];
+        if (parameters.startsWith("/")) {
+            for (int i = 1; i < parts.length - 1; i++) {
+                String part = parts[i];
 
-            // Encontre o filho com o nome da parte atual
-            Diretorio childDir = null;
-            for (Diretorio dir : currentDir.getFilhos()) {
-                if (dir.getNome().equals(part)) {
-                    childDir = dir;
-                    break;
+                // Encontre o filho com o nome da parte atual
+                Diretorio childDir = null;
+                for (Diretorio dir : currentDir.getFilhos()) {
+                    if (dir.getNome().equals(part)) {
+                        childDir = dir;
+                        break;
+                    }
                 }
-            }
+                // Se não encontrou o filho, o diretório não existe
+                if (childDir == null) {
+                    result = "cat: Diretório não encontrado: " + parameters;
+                    return result;
+                }
 
-            // Se não encontrou o filho, o diretório não existe
-            if (childDir == null) {
-                result = "cat: Diretório não encontrado: " + parameters;
-                return result;
+                currentDir = childDir; // Vá para o próximo diretório
             }
+        } else if (parameters.startsWith("./")) {
+            for (int i = 1; i < parts.length - 1; i++) {
+                String part = parts[i];
 
-            currentDir = childDir; // Vá para o próximo diretório
+                // Encontre o filho com o nome da parte atual
+                Diretorio childDir = null;
+                for (Diretorio dir : currentDir.getFilhos()) {
+                    if (dir.getNome().equals(part)) {
+                        childDir = dir;
+                        break;
+                    }
+                }
+                // Se não encontrou o filho, o diretório não existe
+                if (childDir == null) {
+                    result = "cat: Diretório não encontrado: " + parameters;
+                    return result;
+                }
+
+                currentDir = childDir; // Vá para o próximo diretório
+            }
+        } else {
+            for (int i = 0; i < parts.length - 1; i++) {
+                String part = parts[i];
+
+                // Encontre o filho com o nome da parte atual
+                Diretorio childDir = null;
+                for (Diretorio dir : currentDir.getFilhos()) {
+                    if (dir.getNome().equals(part)) {
+                        childDir = dir;
+                        break;
+                    }
+                }
+                // Se não encontrou o filho, o diretório não existe
+                if (childDir == null) {
+                    result = "cat: Diretório não encontrado: " + parameters;
+                    return result;
+                }
+
+                currentDir = childDir; // Vá para o próximo diretório
+            }
         }
 
         // Agora, currentDir é o diretório que deve conter o arquivo
