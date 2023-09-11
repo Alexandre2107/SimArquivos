@@ -226,28 +226,51 @@ public class MyKernel implements Kernel {
     }
 
     public String rmdir(String parameters) {
-        // variável result deverá conter o que vai ser impresso na tela após comando do
-        // usuário
         String result = "";
         System.out.println("Chamada de Sistema: rmdir");
         System.out.println("\tParametros: " + parameters);
 
-        // Tratamento da string de parâmetros
-        String[] par = parameters.split("/");
+        // Quebre o caminho em partes usando "/"
+        String[] parts = parameters.split("/");
 
-        String nomeDiretorio = par[0];
+        // Comece na raiz
+        Diretorio currentDir = raiz;
 
-        // Verifica se o diretório existe no diretório atual
-        Diretorio diretorioARemover = diretorioAtual.buscaDiretorioPeloNome(nomeDiretorio);
+        // Percorra as partes do caminho
+        for (int i = 0; i < parts.length; i++) {
+            String part = parts[i];
 
-        if (diretorioARemover != null) {
-            if (diretorioARemover.getFilhos().isEmpty() && diretorioARemover.getArquivos().isEmpty()) {
-                diretorioAtual.removeFilho(diretorioARemover);
-            } else {
-                result = "rmdir: Diretório " + parameters + " possui arquivos e/ou diretórios. (Nada foi removido)";
+            // Verifique se a parte atual está vazia
+            if (currentDir.getFilhos().isEmpty()) {
+                result = "Diretório vazio";
+                return result;
             }
-        } else {
-            result = "rmdir: Diretório " + parameters + " não existe. (Nada foi removido)";
+
+            // Encontre o filho com o nome da parte atual
+            Diretorio childDir = null;
+            for (Diretorio dir : currentDir.getFilhos()) {
+                if (dir.getNome().equals(part)) {
+                    childDir = dir;
+                    break;
+                }
+            }
+            // Se não encontrou o filho, o diretório não existe
+            if (childDir == null) {
+                result = "Diretório não existe";
+                return result;
+            }
+
+            // Se chegou à última parte do caminho, remova o diretório se estiver vazio
+            if (i == parts.length - 1) {
+                if (!childDir.getFilhos().isEmpty() || !childDir.getArquivos().isEmpty()) {
+                    result = "Diretório não está vazio";
+                    return result;
+                }
+
+                currentDir.removeFilho(childDir);
+            }
+
+            currentDir = childDir; // Vá para o próximo diretório
         }
 
         return result;
@@ -311,50 +334,76 @@ public class MyKernel implements Kernel {
         // inicio da implementacao do aluno
         String[] comando = parameters.split(".txt");
         String[] caminho = comando[0].split("/");
+        String caminhoAb = "";
 
-        if (comando.length < 2) {
-            result = "É necessario passar um conteudo no arquivo";
-            return result;
+        for (int i = 1; i < caminho.length - 1; i++) {
+            caminhoAb += "/" + caminho[i];
         }
-        if (comando.length >= 1) {
+        System.out.println("Comando" + caminhoAb);
 
-            String conteudo = comando[1];
-            System.out.println(conteudo);
-            String nome = caminho[caminho.length - 1];
-
-            if (verificaNome(nome)) {
-                nome = nome + ".txt";
-            } else {
-                result = "Erro no comando inserido";
+        Diretorio novo = encontraDiretorioPeloCaminhoAbsolutoAlternativo(caminhoAb);
+        if (novo != null) {
+            if (comando.length < 2) {
+                result = "É necessario passar um conteudo no arquivo";
                 return result;
             }
-            System.out.println(nome);
-            for (int i = 0; i < diretorioAtual.getArquivos().size(); i++) {
-                if (diretorioAtual.getArquivos().get(i).getNome().equals(nome)) {
-                    result = "Já existe um arquivo com esse nome neste caminho";
+            if (comando.length >= 1) {
+
+                String conteudo = comando[1];
+                System.out.println(conteudo);
+                String nome = caminho[caminho.length - 1];
+
+                if (verificaNome(nome)) {
+                    nome = nome + ".txt";
+                } else {
+                    result = "Erro no comando inserido";
                     return result;
                 }
+                for (int i = 0; i < novo.getArquivos().size(); i++) {
+                    if (novo.getArquivos().get(i).getNome().equals(nome)) {
+                        result = "Já existe um arquivo com esse nome neste caminho";
+                        return result;
+                    }
+                }
+                String[] cont = conteudo.split("\\\\n");
+                ArrayList<String> armazena = new ArrayList<>();
+                for (int i = 0; i < cont.length; i++) {
+                    System.out.println(cont[i]);
+                    armazena.add(cont[i]);
+                }
+                System.out.println("Atual" + novo.getNome());
+                Arquivo novoArquivo = new Arquivo(novo);
+                novoArquivo.setNome(nome);
+                novoArquivo.setConteudo(armazena);
+                novo.addArquivo(novoArquivo);
+
+                result = "Arquivo criado com sucesso";
+
             }
-
-            String[] cont = conteudo.split("\n");
-            System.out.println();
-            ArrayList<String> armazena = new ArrayList<>();
-
-            for (int i = 0; i < cont.length; i++) {
-                System.out.println(cont[i]);
-                armazena.add(cont[i]);
-            }
-            Arquivo novoArquivo = new Arquivo(diretorioAtual);
-            novoArquivo.setNome(nome);
-            novoArquivo.setConteudo(armazena);
-            diretorioAtual.addArquivo(novoArquivo);
-
-            result = "Arquivo criado com sucesso";
-
+        } else {
+            result = "Diretorio nao existe";
         }
+
         // fim da implementacao do aluno
 
         return result;
+    }
+
+    private Diretorio encontraDiretorioPeloCaminhoAbsolutoAlternativo(String path) {
+        String[] dirs = path.split("/");
+        Diretorio atual = this.diretorioAtual;
+
+        for (int i = 1; i < dirs.length; i++) {
+            String dir = dirs[i];
+            Diretorio novoDiretorio = atual.buscaDiretorioPeloNome(dir);
+            if (novoDiretorio != null) {
+                atual = novoDiretorio;
+            } else {
+                return null;
+            }
+        }
+
+        return atual;
     }
 
     public boolean verificaNome(String nome) {
@@ -370,68 +419,65 @@ public class MyKernel implements Kernel {
     }
 
     public String cat(String parameters) {
-        // variavel result deverah conter o que vai ser impresso na tela apos comando do
-        // usuário
         String result = "";
         System.out.println("Chamada de Sistema: cat");
         System.out.println("\tParametros: " + parameters);
 
-        // inicio da implementacao do aluno
-        String[] par = parameters.split("/");
-        System.out.println("inicio" + par[0] + "fim");
-        if (par.length == 1) {
+        // Início da implementação do aluno
+        String[] parts = parameters.split("/");
 
-            List<String> config = diretorioAtual.getArquivos().get(0).getConteudo();
-            for (int i = 0; i < config.size(); i++) {
-                result += config.get(i) + "\n";
-                System.out.println("\n");
+        // Verifique se o parâmetro foi passado corretamente
 
+        // Comece na raiz
+        Diretorio currentDir = raiz;
+
+        // Percorra as partes do caminho, exceto a última que é o nome do arquivo
+        for (int i = 0; i < parts.length - 1; i++) {
+            String part = parts[i];
+
+            // Encontre o filho com o nome da parte atual
+            Diretorio childDir = null;
+            for (Diretorio dir : currentDir.getFilhos()) {
+                if (dir.getNome().equals(part)) {
+                    childDir = dir;
+                    break;
+                }
             }
+
+            // Se não encontrou o filho, o diretório não existe
+            if (childDir == null) {
+                result = "cat: Diretório não encontrado: " + parameters;
+                return result;
+            }
+
+            currentDir = childDir; // Vá para o próximo diretório
         }
-        if (par.length == 2) {
-            List<String> config = FileManager.stringReader(par[1]);
-            for (int i = 0; i < config.size(); i++) {
-                result += config.get(i) + "\n";
-                System.out.println("\n");
-            }
-        }
-        if (par.length > 2) {
-            diretorioCriacao = diretorioAtual;
-            List<String> config = FileManager.stringReader(par[1]);
-            for (int i = 1; i < par.length - 1; i++) {
 
-                int au = 0;
+        // Agora, currentDir é o diretório que deve conter o arquivo
+        String fileName = parts[parts.length - 1];
 
-                Diretorio auxiliar = diretorioCriacao;
-
-                if (diretorioCriacao.getFilhos().isEmpty()) {
-                    result = "Diretorio vazio";
-                    return result;
-                }
-                for (int j = 0; j < diretorioCriacao.getFilhos().size(); j++) {
-                    System.out.println("au:" + au + "auxiliar:" + auxiliar.getFilhos().size() + "par " + par[i]
-                            + "array" + diretorioCriacao.getFilhos().get(j).getNome());
-                    if (!(diretorioCriacao.getFilhos().get(j).getNome().equals(par[i]))) {
-                        au += 1;
-                    }
-                    if (diretorioCriacao.getFilhos().get(j).getNome().equals(par[i])) {
-                        diretorioCriacao = diretorioCriacao.getFilhos().get(j);
-                    }
-                }
-                System.out.println(
-                        "au:" + au + "auxiliar:" + auxiliar.getFilhos().size() + " criac" + diretorioCriacao.getNome());
-                if (au == auxiliar.getFilhos().size()) {
-                    result = "Diretorio inexisite";
-                    return result;
-                }
-            }
-            for (int i = 0; i < config.size(); i++) {
-                result += config.get(i) + "\n";
-                System.out.println("\n");
+        // Procure o arquivo no diretório atual
+        Arquivo arquivo = null;
+        for (Arquivo file : currentDir.getArquivos()) {
+            if (file.getNome().equals(fileName)) {
+                arquivo = file;
+                break;
             }
         }
 
-        // fim da implementacao do aluno
+        // Se não encontrou o arquivo, retorne um erro
+        if (arquivo == null) {
+            result = "cat: Arquivo não encontrado: " + parameters;
+            return result;
+        }
+
+        // Leitura e concatenação do conteúdo do arquivo
+        List<String> conteudo = arquivo.getConteudo();
+        for (String linha : conteudo) {
+            result += linha + "\n";
+        }
+
+        // Fim da implementação do aluno
         return result;
     }
 
