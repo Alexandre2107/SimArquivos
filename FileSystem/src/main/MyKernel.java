@@ -37,66 +37,82 @@ public class MyKernel implements Kernel {
     }
 
     public String ls(String parameters) {
-        // variável result deverá conter o que vai ser impresso na tela após o comando
-        // do usuário
         String result = "";
         System.out.println("Chamada de Sistema: ls");
         System.out.println("\tParametros: " + parameters);
 
-        // Tratamento da string de parâmetros
         String[] par = parameters.split(" ");
 
-        // Verifica se a opção -l está presente nos parâmetros
-        boolean listarDetalhes = false;
-        String diretorioParaListar = "";
-
-        if (par.length > 0) {
+        if (par.length == 0) {
+            result = listarConteudoDiretorio(diretorioAtual);
+        } else if (par.length == 1) {
             if (par[0].equals("-l")) {
-                listarDetalhes = true;
+                result = listarConteudoDetalhadoDiretorio(diretorioAtual);
             } else {
-                diretorioParaListar = par[0];
-            }
-        }
-
-        // Lista o conteúdo do diretório atual ou do diretório especificado
-        Diretorio diretorioLista = diretorioAtual;
-
-        if (!diretorioParaListar.isEmpty()) {
-            Diretorio novoDiretorio = diretorioAtual.buscaDiretorioPeloNome(diretorioParaListar);
-            if (novoDiretorio != null) {
-                diretorioLista = novoDiretorio;
-            } else {
-                result = diretorioParaListar + ": Diretório não existe.";
-                return result;
-            }
-        }
-
-        if (listarDetalhes) {
-            for (Diretorio filho : diretorioLista.getFilhos()) {
-                if (!filho.getNome().isEmpty()) {
-                    result += filho.getPermissao() + " " + filho.getDataCriacaoFormatada() + " " + filho.getNome()
-                            + "\n";
+                Diretorio diretorioListado = encontrarDiretorio(par[0]);
+                if (diretorioListado != null) {
+                    result = listarConteudoDiretorio(diretorioListado);
+                } else {
+                    result = par[0] + ": Diretório não existe.";
                 }
             }
-            for (Arquivo arquivo : diretorioLista.getArquivos()) {
-                if (!arquivo.getNome().isEmpty()) {
-                    result += arquivo.getPermissao() + " " + arquivo.getDataCriacao() + " " + arquivo.getNome() + "\n";
-                }
+        } else if (par.length == 2 && par[0].equals("-l")) {
+            Diretorio diretorioListado = encontrarDiretorio(par[1]);
+            if (diretorioListado != null) {
+                result = listarConteudoDetalhadoDiretorio(diretorioListado);
+            } else {
+                result = par[1] + ": Diretório não existe.";
             }
         } else {
-            for (Diretorio filho : diretorioLista.getFilhos()) {
-                if (!filho.getNome().isEmpty()) {
-                    result += filho.getNome() + " ";
-                }
-            }
-            for (Arquivo arquivo : diretorioLista.getArquivos()) {
-                if (!arquivo.getNome().isEmpty()) {
-                    result += arquivo.getNome() + " ";
-                }
-            }
+            result = "Número de parâmetros inválido. Uso correto: ls [-l] [caminho]";
         }
 
         return result;
+    }
+
+    private String listarConteudoDiretorio(Diretorio diretorio) {
+        String conteudo = "";
+        for (Diretorio filho : diretorio.getFilhos()) {
+            conteudo += " " + filho.getNome();
+        }
+        for (Arquivo arquivo : diretorio.getArquivos()) {
+            conteudo += " " + arquivo.getNome();
+        }
+        return conteudo;
+    }
+
+    private String listarConteudoDetalhadoDiretorio(Diretorio diretorio) {
+        String conteudo = "";
+        for (Diretorio filho : diretorio.getFilhos()) {
+            conteudo += " " + filho.getPermissao() + " " + filho.getDataCriacaoFormatada() + " " + filho.getNome()
+                    + "\n";
+        }
+        for (Arquivo arquivo : diretorio.getArquivos()) {
+            conteudo += " " + arquivo.getPermissao() + " " + arquivo.getDataCriacao() + " " + arquivo.getNome() + "\n";
+        }
+        return conteudo;
+    }
+
+    private Diretorio encontrarDiretorio(String caminho) {
+        String[] partes = caminho.split("/");
+
+        Diretorio diretorioAtual = raiz;
+
+        // Loop pelas partes do caminho
+        for (String parte : partes) {
+            if (parte.isEmpty()) {
+                continue;
+            }
+            Diretorio subDiretorio = diretorioAtual.buscaDiretorioPeloNome(parte);
+
+            if (subDiretorio == null) {
+                return null;
+            }
+            diretorioAtual = subDiretorio;
+        }
+
+        return diretorioAtual;
+
     }
 
     public String mkdir(String parameters) {
@@ -187,6 +203,7 @@ public class MyKernel implements Kernel {
 
     private Diretorio encontraDiretorioPeloCaminhoAbsoluto(String path) {
         String[] dirs = path.split("/");
+
         Diretorio atual = raiz;
 
         for (int i = 1; i < dirs.length; i++) {
@@ -203,78 +220,30 @@ public class MyKernel implements Kernel {
     }
 
     public String rmdir(String parameters) {
-        // variavel result deverah conter o que vai ser impresso na tela apos comando do
-        // usuário
+        // variável result deverá conter o que vai ser impresso na tela após comando do usuário
         String result = "";
         System.out.println("Chamada de Sistema: rmdir");
         System.out.println("\tParametros: " + parameters);
-
-        // inicio da implementacao do aluno
+    
+        // Tratamento da string de parâmetros
         String[] par = parameters.split("/");
-
-        Diretorio auxiliar = diretorioAtual;
-        System.out.println(auxiliar.getFilhos().size());
-        if (par.length == 1) {
-            int au = 0;
-            for (int i = 0; i < diretorioAtual.getFilhos().size(); i++) {
-                if (diretorioAtual.getFilhos().isEmpty()) {
-                    result = "Diretorio vazio";
-                    return result;
+    
+ 
+            String nomeDiretorio = par[0];
+    
+            // Verifica se o diretório existe no diretório atual
+            Diretorio diretorioARemover = diretorioAtual.buscaDiretorioPeloNome(nomeDiretorio);
+    
+            if (diretorioARemover != null) {
+                if (diretorioARemover.getFilhos().isEmpty() && diretorioARemover.getArquivos().isEmpty()) {
+                    diretorioAtual.removeFilho(diretorioARemover);
+                } else {
+                    result = "rmdir: Diretório " + parameters + " possui arquivos e/ou diretórios. (Nada foi removido)";
                 }
-                System.out.println(diretorioAtual.getFilhos().get(i).getNome() + "" + parameters);
-                if (!(diretorioAtual.getFilhos().get(i).getNome().equals(parameters))) {
-                    au += 1;
-                }
-                if (!diretorioAtual.getFilhos().get(i).getFilhos().isEmpty()
-                        || !diretorioAtual.getFilhos().get(i).getArquivos().isEmpty()) {
-                    result = "Diretorio não está vazio";
-                    return result;
-                }
-                if (diretorioAtual.getFilhos().get(i).getNome().equals(parameters)) {
-                    System.out.println(diretorioAtual.getFilhos().get(i).getNome());
-                    diretorioAtual.removeFilho(diretorioAtual.getFilhos().get(i));
-                    System.out.println(auxiliar.getFilhos().size());
-                    break;
-                }
-
-                System.out.println(
-                        "au:" + au + "auxiliar:" + auxiliar.getFilhos().size() + " criac" + diretorioCriacao.getNome());
-                if (au == auxiliar.getFilhos().size()) {
-                    result = "Diretorio não existe";
-                    return result;
-                }
-
+            } else {
+                result = "rmdir: Diretório " + parameters + " não existe. (Nada foi removido)";
             }
-        }
-        if (par.length == 2) {
-            int au = 0;
-            for (int i = 0; i < diretorioAtual.getFilhos().size(); i++) {
-                if (!(diretorioAtual.getFilhos().get(i).getNome().equals(par[par.length - 1]))) {
-                    au += 1;
-                }
-                if (!diretorioAtual.getFilhos().get(i).getFilhos().isEmpty()
-                        || !diretorioAtual.getFilhos().get(i).getArquivos().isEmpty()) {
-                    result = "Diretorio não está vazio";
-                    return result;
-                }
-                if (diretorioAtual.getFilhos().get(i).getNome().equals(par[par.length - 1])) {
-                    System.out.println(diretorioAtual.getFilhos().get(i).getNome());
-                    diretorioAtual.removeFilho(diretorioAtual.getFilhos().get(i));
-                    System.out.println(auxiliar.getFilhos().size());
-                    break;
-                }
-                System.out.println(
-                        "au:" + au + "auxiliar:" + auxiliar.getFilhos().size() + " criac" + diretorioCriacao.getNome());
-                if (au == auxiliar.getFilhos().size()) {
-                    result = "Diretorio não existe";
-                    return result;
-                }
-            }
-        }
-
-        // implementacao da remocao do caminho absoluto
-
-        // fim da implementacao do aluno
+    
         return result;
     }
 
@@ -347,8 +316,6 @@ public class MyKernel implements Kernel {
             System.out.println(conteudo);
             String nome = caminho[caminho.length - 1];
 
-            System.out.println("ksksk" + conteudo);
-
             if (verificaNome(nome)) {
                 nome = nome + ".txt";
             } else {
@@ -362,8 +329,11 @@ public class MyKernel implements Kernel {
                     return result;
                 }
             }
-            String[] cont = conteudo.split(" ");
+
+            String[] cont = conteudo.split("\n");
+            System.out.println();
             ArrayList<String> armazena = new ArrayList<>();
+
             for (int i = 0; i < cont.length; i++) {
                 System.out.println(cont[i]);
                 armazena.add(cont[i]);
