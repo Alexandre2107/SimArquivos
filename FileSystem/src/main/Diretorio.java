@@ -28,7 +28,7 @@ public class Diretorio {
         this.pai = pai;
         this.dataCriacao = new Date(System.currentTimeMillis());
         this.permissao = "drwxrwxrwx";
-        SimpleDateFormat sdf = new SimpleDateFormat("MM dd HH:mm:ss");
+        SimpleDateFormat sdf = new SimpleDateFormat("MM dd yyyy HH:mm");
         this.dataCriacaoFormatada = sdf.format(dataCriacao);
         this.filhos = new ArrayList<>();
         this.arquivos = new ArrayList<>();
@@ -61,6 +61,19 @@ public class Diretorio {
 
     public void addArquivo(Arquivo arquivo) {
         arquivos.add(arquivo);
+    }
+
+    public void removeArquivo (Arquivo arquivo){
+        arquivos.remove(arquivo);
+    }
+
+    public Arquivo getArquivoPorNome(String nomeArquivo) {
+        for (Arquivo arquivo : arquivos) {
+            if (arquivo.getNome().equals(nomeArquivo)) {
+                return arquivo; // Encontrou o arquivo pelo nome
+            }
+        }
+        return null;
     }
 
     public Diretorio getPai() {
