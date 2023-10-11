@@ -375,15 +375,85 @@ public class MyKernel implements Kernel {
     }
 
     public String cp(String parameters) {
-        // variavel result deverah conter o que vai ser impresso na tela apos comando do
-        // usuário
+        // variavel result deverah conter o que vai ser impresso na tela apos comando do usuário
         String result = "";
         System.out.println("Chamada de Sistema: cp");
         System.out.println("\tParametros: " + parameters);
-
-        // inicio da implementacao do aluno
-        // fim da implementacao do aluno
+    
+        String[] parts = parameters.split(" ");
+        boolean recursive = false;
+        String origem = "";
+        String destino = "";
+    
+        if (parts.length == 2) {
+            origem = parts[0];
+            destino = parts[1];
+        } else if (parts.length == 3 && parts[0].equals("-R")) {
+            recursive = true;
+            origem = parts[1];
+            destino = parts[2];
+        } else {
+            result = "Erro: parâmetros inválidos";
+            return result;
+        }
+    
+        Diretorio diretorioAtual = this.diretorioAtual;
+    
+        if (recursive) {
+            // Cópia recursiva de diretórios
+            Diretorio origemDir = encontraDiretorioPeloCaminhoAbsoluto(origem);
+            if (origemDir != null) {
+                Diretorio destinoDir = encontraDiretorioPeloCaminhoAbsoluto(destino);
+                if (destinoDir != null) {
+                    // Faça a cópia recursiva do diretório e de seu conteúdo
+                    Diretorio novoDiretorio = new Diretorio(destinoDir);
+                    novoDiretorio.setNome(origemDir.getNome());
+                    copyDiretorio(origemDir, novoDiretorio);
+                    destinoDir.addFilho(novoDiretorio);
+                } else {
+                    result = "cp: O diretório de destino não existe. (Nada foi copiado)";
+                }
+            } else {
+                result = "cp: O diretório de origem não existe. (Nada foi copiado)";
+            }
+        } else {
+            Arquivo arquivoOrigem = diretorioAtual.getNome(origem);
+            if (arquivoOrigem != null) {
+                Diretorio destinoDir = encontraDiretorioPeloCaminhoAbsoluto(destino);
+                if (destinoDir != null) {
+                    Arquivo novoArquivo = new Arquivo(destinoDir);
+                    novoArquivo.setNome(arquivoOrigem.getNome());
+                    novoArquivo.setConteudo(arquivoOrigem.getConteudo());
+                    destinoDir.addArquivo(novoArquivo);
+                } else {
+                    result = "cp: O diretório de destino não existe. (Nada foi copiado)";
+                }
+            } else {
+                result = "cp: O arquivo de origem não existe. (Nada foi copiado)";
+            }
+        }
+    
         return result;
+    }
+    
+    private void copyDiretorio(Diretorio origem, Diretorio destino) {
+        // Crie um novo diretório no destino com o mesmo nome da origem
+        Diretorio novoDiretorio = new Diretorio(destino);
+        novoDiretorio.setNome(origem.getNome());
+        destino.addFilho(novoDiretorio);
+    
+        // Copie os arquivos da origem para o destino
+        for (Arquivo arquivoOrigem : origem.getArquivos()) {
+            Arquivo novoArquivo = new Arquivo(novoDiretorio);
+            novoArquivo.setNome(arquivoOrigem.getNome());
+            novoArquivo.setConteudo(arquivoOrigem.getConteudo());
+            novoDiretorio.addArquivo(novoArquivo);
+        }
+    
+        // Copie os subdiretórios da origem para o destino (recursivamente)
+        for (Diretorio subdiretorioOrigem : origem.getFilhos()) {
+            copyDiretorio(subdiretorioOrigem, novoDiretorio);
+        }
     }
 
     public String mv(String parameters) {
