@@ -413,7 +413,7 @@ public class MyKernel implements Kernel {
                 result = "cp: O diretório de origem não existe. (Nada foi copiado)";
             }
         } else {
-            Arquivo arquivoOrigem = diretorioAtual.getNome(origem);
+            Arquivo arquivoOrigem = diretorioAtual.getArquivoPorNome(origem);
             if (arquivoOrigem != null) {
                 Diretorio destinoDir = encontraDiretorioPeloCaminhoAbsoluto(destino);
                 if (destinoDir != null) {
@@ -433,12 +433,11 @@ public class MyKernel implements Kernel {
     }
     
     private void copyDiretorio(Diretorio origem, Diretorio destino) {
-        // Crie um novo diretório no destino com o mesmo nome da origem
         Diretorio novoDiretorio = new Diretorio(destino);
-        novoDiretorio.setNome(origem.getNome());
+        novoDiretorio.setNome(destino.getNome());
         destino.addFilho(novoDiretorio);
     
-        // Copie os arquivos da origem para o destino
+
         for (Arquivo arquivoOrigem : origem.getArquivos()) {
             Arquivo novoArquivo = new Arquivo(novoDiretorio);
             novoArquivo.setNome(arquivoOrigem.getNome());
@@ -446,7 +445,6 @@ public class MyKernel implements Kernel {
             novoDiretorio.addArquivo(novoArquivo);
         }
     
-        // Copie os subdiretórios da origem para o destino (recursivamente)
         for (Diretorio subdiretorioOrigem : origem.getFilhos()) {
             copyDiretorio(subdiretorioOrigem, novoDiretorio);
         }
