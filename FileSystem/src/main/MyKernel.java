@@ -18,7 +18,6 @@ import operatingSystem.Kernel;
 public class MyKernel implements Kernel {
 
     private Diretorio raiz;
-    public Diretorio teste;
     private Diretorio diretorioAtual;
     private Diretorio diretorioCriacao;
     public String aux_cd;
@@ -30,9 +29,6 @@ public class MyKernel implements Kernel {
         diretorioAtual = raiz;
         diretorioCriacao = diretorioAtual;
 
-        teste = new Diretorio(raiz);
-        teste.setNome("teste");
-        diretorioAtual.addFilho(teste);
         aux_cd = "";
     }
 
@@ -476,10 +472,70 @@ public class MyKernel implements Kernel {
         System.out.println("\tParametros: " + parameters);
 
         // inicio da implementacao do aluno
-        // fim da implementacao do aluno
-        return result;
-    }
+        Diretorio currentDir = raiz;
+        String [] params = parameters.split(" ");
+        boolean recursive = false;
+        String path = "";
+        if (params.length == 1) {
+            path = params[0];
+        } else if (params.length == 2 && params[0].equals("-R")){
+            recursive = true;
+            path = params[1];
+        } else {
+            result = "Erro: parâmetros inválidos";
+            return result;
+        }
 
+        if (recursive) {
+            for (int i = 1; i < params.length; i++) {
+                String part = params[i];
+
+                // Verifique se a parte atual está vazia
+                if (currentDir.getFilhos().isEmpty()) {
+                    result = "Diretório vazio";
+                    return result;
+                }
+
+                // Encontre o filho com o nome da parte atual
+                Diretorio childDir = null;
+                for (Diretorio dir : currentDir.getFilhos()) {
+                    if (dir.getNome().equals(part)) {
+                        childDir = dir;
+                        break;
+                    }
+                }
+                // Se não encontrou o filho, o diretório não existe
+                if (childDir == null) {
+                    result = "Diretório não existe";
+                    return result;
+                }
+
+                // Se chegou à última parte do caminho, remova o diretório se estiver vazio
+                if (i == params.length - 1) {
+                    if (!childDir.getFilhos().isEmpty() || !childDir.getArquivos().isEmpty()) {
+                        result = "Diretório não está vazio";
+                        return result;
+                    }
+
+                    currentDir.removeFilho(childDir);
+                }
+
+                currentDir = childDir; // Vá para o próximo diretório
+            }
+        } else {
+            // Remoção de arquivo
+            Diretorio diretorioAtual = this.diretorioAtual; // Referência ao diretório atual
+            Arquivo arquivoRemover = diretorioAtual.getArquivoPorNome(path);
+    
+            if (arquivoRemover != null) {
+                // Remove o arquivo do diretório atual
+                diretorioAtual.removeArquivo(arquivoRemover);
+            } else {
+                result = "rm: " + path + ": Arquivo não existe. (Nada foi removido)";
+            }
+        }
+                return result;
+        }
     public String chmod(String parameters) {
         // variavel result deverah conter o que vai ser impresso na tela apos comando do
         // usuário
