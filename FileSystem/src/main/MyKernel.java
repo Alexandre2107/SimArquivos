@@ -1,6 +1,7 @@
 package main;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /*
@@ -198,16 +199,6 @@ public class MyKernel implements Kernel {
                 } else {
                     diretorioAtual = aux;
                 }
-
-                // } else {
-                // Diretorio proximoDiretorio = diretorioAtual.buscaDiretorioPeloNome(part);
-                // if (proximoDiretorio != null) {
-                // diretorioAtual = proximoDiretorio;
-                // } else {
-                // result = parameters + ": Diretório não existe.";
-                // return result;
-                // }
-                // }
             }
         }
         Diretorio aux = diretorioAtual;
@@ -229,21 +220,19 @@ public class MyKernel implements Kernel {
     }
 
     private Diretorio encontraDiretorioPeloCaminhoAbsoluto(String path) {
-        String[] dirs = path.split("/");
+        ArrayList<String> dirs = new ArrayList<String>(Arrays.asList(path.split("/")));
+        dirs.removeIf(dir -> dir.isEmpty());
+        Diretorio currentDir = raiz;
 
-        Diretorio atual = this.diretorioAtual;
-
-        for (int i = 1; i < dirs.length; i++) {
-            String dir = dirs[i];
-            Diretorio novoDiretorio = atual.buscaDiretorioPeloNome(dir);
-            if (novoDiretorio != null) {
-                atual = novoDiretorio;
-            } else {
+        for (int i = 0 ; i < dirs.size(); i++) {
+            String dir = dirs.get(i);
+            currentDir = currentDir.buscaDiretorioPeloNome(dir);
+            if (currentDir == null) {
                 return null;
             }
         }
 
-        return atual;
+        return currentDir;
     }
 
     public String rmdir(String parameters) {
@@ -371,83 +360,158 @@ public class MyKernel implements Kernel {
     }
 
     public String cp(String parameters) {
-        // variavel result deverah conter o que vai ser impresso na tela apos comando do usuário
         String result = "";
         System.out.println("Chamada de Sistema: cp");
         System.out.println("\tParametros: " + parameters);
-    
+
         String[] parts = parameters.split(" ");
-        boolean recursive = false;
-        String origem = "";
-        String destino = "";
-    
-        if (parts.length == 2) {
-            origem = parts[0];
-            destino = parts[1];
-        } else if (parts.length == 3 && parts[0].equals("-R")) {
-            recursive = true;
-            origem = parts[1];
-            destino = parts[2];
-        } else {
-            result = "Erro: parâmetros inválidos";
-            return result;
-        }
-    
-        Diretorio diretorioAtual = this.diretorioAtual;
-    
-        if (recursive) {
-            // Cópia recursiva de diretórios
-            Diretorio origemDir = encontraDiretorioPeloCaminhoAbsoluto(origem);
-            if (origemDir != null) {
-                Diretorio destinoDir = encontraDiretorioPeloCaminhoAbsoluto(destino);
-                if (destinoDir != null) {
-                    // Faça a cópia recursiva do diretório e de seu conteúdo
-                    Diretorio novoDiretorio = new Diretorio(destinoDir);
-                    novoDiretorio.setNome(origemDir.getNome());
-                    copyDiretorio(origemDir, novoDiretorio);
-                    destinoDir.addFilho(novoDiretorio);
-                } else {
-                    result = "cp: O diretório de destino não existe. (Nada foi copiado)";
-                }
+        int numParams = parts.length;
+
+        if (numParams == 3) {
+            boolean recursive = false;
+            String sourcePath = parts[1];
+            String destPath = parts[2];
+
+            if (parts[0].equals("-R")) {
+                recursive = true;
             } else {
-                result = "cp: O diretório de origem não existe. (Nada foi copiado)";
+                result = "Erro: parâmetros inválidos";
+                return result;
+            }
+
+            if (recursive) {
+                Diretorio sourceDir = encontraDiretorioPeloCaminhoAbsoluto(sourcePath);
+                if (sourceDir != null) {
+                    if (sourceDir.getArquivos().isEmpty() && sourceDir.getFilhos().isEmpty()) {
+                        // O diretório de origem está vazio
+                        result = "cp: " + sourcePath + ": Diretório de origem está vazio. (Nada foi copiado)";
+                    } else {
+                        // Encontre ou crie o diretório de destino
+                        Diretorio destDir = encontrarOuCriarDiretorio(destPath);
+                        // Copie o conteúdo recursivamente
+                        copiarDiretorioRecursivamente(sourceDir, destDir);
+                    }
+                } else {
+                    result = "cp: " + sourcePath + ": Diretório de origem não existe. (Nada foi copiado)";
+                }
+            }
+        } else if (numParams == 2) {
+            String sourcePath = parts[0];
+            String destPath = parts[1];
+
+            Arquivo sourceFile = encontrarArquivo(sourcePath);
+            if (sourceFile != null) {
+                // Encontre ou crie o arquivo de destino
+                Arquivo destFile = encontrarOuCriarArquivo(destPath);
+                // Copie o conteúdo do arquivo
+                destFile.setConteudo(sourceFile.getConteudo());
+            } else {
+                result = "cp: " + sourcePath + ": Arquivo de origem não existe. (Nada foi copiado)";
             }
         } else {
-            Arquivo arquivoOrigem = diretorioAtual.getArquivoPorNome(origem);
-            if (arquivoOrigem != null) {
-                Diretorio destinoDir = encontraDiretorioPeloCaminhoAbsoluto(destino);
-                if (destinoDir != null) {
-                    Arquivo novoArquivo = new Arquivo(destinoDir);
-                    novoArquivo.setNome(arquivoOrigem.getNome());
-                    novoArquivo.setConteudo(arquivoOrigem.getConteudo());
-                    destinoDir.addArquivo(novoArquivo);
-                } else {
-                    result = "cp: O diretório de destino não existe. (Nada foi copiado)";
-                }
-            } else {
-                result = "cp: O arquivo de origem não existe. (Nada foi copiado)";
-            }
+            result = "Erro: número incorreto de parâmetros";
         }
-    
+
         return result;
     }
-    
-    private void copyDiretorio(Diretorio origem, Diretorio destino) {
-        Diretorio novoDiretorio = new Diretorio(destino);
-        novoDiretorio.setNome(destino.getNome());
-        destino.addFilho(novoDiretorio);
-    
 
-        for (Arquivo arquivoOrigem : origem.getArquivos()) {
-            Arquivo novoArquivo = new Arquivo(novoDiretorio);
-            novoArquivo.setNome(arquivoOrigem.getNome());
-            novoArquivo.setConteudo(arquivoOrigem.getConteudo());
-            novoDiretorio.addArquivo(novoArquivo);
+    // Função para encontrar ou criar um diretório com base no caminho
+    private Diretorio encontrarOuCriarDiretorio(String caminho) {
+        String[] partes = caminho.split("/");
+        Diretorio diretorioAtual = this.diretorioAtual;
+
+        for (String parte : partes) {
+            if (parte.isEmpty()) {
+                // Pular partes vazias, por exemplo, quando há barras duplas no caminho
+                continue;
+            }
+
+            // Verifique se o diretório já existe
+            Diretorio proximoDir = diretorioAtual.getDiretorioFilhoPorNome(parte);
+
+            if (proximoDir == null) {
+                // O diretório não existe, então crie-o
+                proximoDir = new Diretorio(diretorioAtual);
+                proximoDir.setNome(parte);
+                diretorioAtual.addFilho(proximoDir);
+            }
+
+            diretorioAtual = proximoDir;
         }
-    
-        for (Diretorio subdiretorioOrigem : origem.getFilhos()) {
-            copyDiretorio(subdiretorioOrigem, novoDiretorio);
+
+        return diretorioAtual;
+    }
+
+    // Função para copiar o conteúdo de um diretório recursivamente
+    private void copiarDiretorioRecursivamente(Diretorio sourceDir, Diretorio destDir) {
+        for (Diretorio filho : sourceDir.getFilhos()) {
+            // Para cada filho do diretório de origem, crie um diretório correspondente no
+            // diretório de destino
+            Diretorio novoDestDir = new Diretorio(destDir);
+            novoDestDir.setNome(filho.getNome());
+            destDir.addFilho(novoDestDir);
+
+            // Recursivamente copie o conteúdo desse filho
+            copiarDiretorioRecursivamente(filho, novoDestDir);
         }
+
+        for (Arquivo arquivo : sourceDir.getArquivos()) {
+            // Para cada arquivo no diretório de origem, crie um arquivo correspondente no
+            // diretório de destino
+            Arquivo novoArquivo = new Arquivo(destDir);
+            novoArquivo.setNome(arquivo.getNome());
+            destDir.addArquivo(novoArquivo);
+        }
+    }
+
+    // Função para encontrar ou criar um arquivo com base no caminho
+    private Arquivo encontrarOuCriarArquivo(String caminho) {
+        String[] partes = caminho.split("/");
+        String nomeArquivo = partes[partes.length - 1];
+        String caminhoDiretorio = caminho.substring(0, caminho.length() - nomeArquivo.length());
+        Diretorio diretorioPai = encontrarOuCriarDiretorio(caminhoDiretorio);
+        Arquivo arquivo = diretorioPai.getArquivoPorNome(nomeArquivo);
+
+        if (arquivo == null) {
+            // O arquivo não existe, então crie-o
+            arquivo = new Arquivo(diretorioPai);
+            arquivo.setNome(nomeArquivo);
+            diretorioPai.addArquivo(arquivo);
+        }
+
+        return arquivo;
+    }
+
+    private Arquivo encontrarArquivo(String caminho) {
+        // Comece na raiz do sistema de arquivos
+        Diretorio diretorioAtual = this.raiz;
+
+        // Divida o caminho em partes usando o caractere '/'
+        String[] partes = caminho.split("/");
+
+        // Itere através das partes do caminho
+        for (int i = 0; i < partes.length; i++) {
+            String parte = partes[i];
+
+            if (parte.isEmpty()) {
+                // Ignorar partes vazias, como resultado de caminhos como "//"
+                continue;
+            }
+
+            // Verifique se o diretório atual tem uma entrada para a parte atual do caminho
+            Arquivo arquivo = diretorioAtual.getArquivoPorNome(parte);
+
+            if (arquivo == null) {
+                // Se o arquivo não foi encontrado, retorne null
+                return null;
+            }
+
+            // Atualize o diretório atual para a próxima parte
+
+        }
+        Arquivo arquivo = diretorioAtual.getArquivoPorNome(partes[partes.length - 1]);
+        // Retorna o arquivo encontrado no caminho
+        return arquivo;
     }
 
     public String mv(String parameters) {
@@ -471,12 +535,12 @@ public class MyKernel implements Kernel {
 
         // inicio da implementacao do aluno
         Diretorio currentDir = raiz;
-        String [] params = parameters.split(" ");
+        String[] params = parameters.split(" ");
         boolean recursive = false;
         String path = "";
         if (params.length == 1) {
             path = params[0];
-        } else if (params.length == 2 && params[0].equals("-R")){
+        } else if (params.length == 2 && params[0].equals("-R")) {
             recursive = true;
             path = params[1];
         } else {
@@ -524,7 +588,7 @@ public class MyKernel implements Kernel {
             // Remoção de arquivo
             Diretorio diretorioAtual = this.diretorioAtual; // Referência ao diretório atual
             Arquivo arquivoRemover = diretorioAtual.getArquivoPorNome(path);
-    
+
             if (arquivoRemover != null) {
                 // Remove o arquivo do diretório atual
                 diretorioAtual.removeArquivo(arquivoRemover);
@@ -532,8 +596,9 @@ public class MyKernel implements Kernel {
                 result = "rm: " + path + ": Arquivo não existe. (Nada foi removido)";
             }
         }
-                return result;
-        }
+        return result;
+    }
+
     public String chmod(String parameters) {
         // variavel result deverah conter o que vai ser impresso na tela apos comando do
         // usuário
@@ -563,7 +628,7 @@ public class MyKernel implements Kernel {
         }
         System.out.println("Comando" + caminhoAb);
 
-        Diretorio novo = encontraDiretorioPeloCaminhoAbsolutoAlternativo(caminhoAb);
+        Diretorio novo = encontraDiretorioPeloCaminhoAbsoluto(caminhoAb);
         if (novo != null) {
             if (comando.length < 2) {
                 result = "É necessario passar um conteudo no arquivo";
@@ -611,23 +676,6 @@ public class MyKernel implements Kernel {
         return result;
     }
 
-    private Diretorio encontraDiretorioPeloCaminhoAbsolutoAlternativo(String path) {
-        String[] dirs = path.split("/");
-        Diretorio atual = this.diretorioAtual;
-
-        for (int i = 1; i < dirs.length; i++) {
-            String dir = dirs[i];
-            Diretorio novoDiretorio = atual.buscaDiretorioPeloNome(dir);
-            if (novoDiretorio != null) {
-                atual = novoDiretorio;
-            } else {
-                return null;
-            }
-        }
-
-        return atual;
-    }
-
     public boolean verificaNome(String nome) {
 
         if (nome.contains(".")) {
@@ -647,14 +695,11 @@ public class MyKernel implements Kernel {
 
         // Início da implementação do aluno
         String[] parts = parameters.split("/");
-
-        // Verifique se o parâmetro foi passado corretamente
-
-        // Comece na raiz
-        Diretorio currentDir = raiz;
+        Diretorio currentDir = this.diretorioAtual;
 
         // Percorra as partes do caminho, exceto a última que é o nome do arquivo
         if (parameters.startsWith("/")) {
+            currentDir = raiz;
             for (int i = 1; i < parts.length - 1; i++) {
                 String part = parts[i];
 
@@ -694,7 +739,7 @@ public class MyKernel implements Kernel {
 
                 currentDir = childDir; // Vá para o próximo diretório
             }
-        } else {
+        } else if(parts.length > 1) {
             for (int i = 0; i < parts.length - 1; i++) {
                 String part = parts[i];
 
@@ -714,20 +759,15 @@ public class MyKernel implements Kernel {
 
                 currentDir = childDir; // Vá para o próximo diretório
             }
+        
+
         }
 
         // Agora, currentDir é o diretório que deve conter o arquivo
         String fileName = parts[parts.length - 1];
 
         // Procure o arquivo no diretório atual
-        Arquivo arquivo = null;
-        for (Arquivo file : currentDir.getArquivos()) {
-            if (file.getNome().equals(fileName)) {
-                arquivo = file;
-                break;
-            }
-        }
-
+        Arquivo arquivo = currentDir.getArquivoPorNome(fileName);
         // Se não encontrou o arquivo, retorne um erro
         if (arquivo == null) {
             result = "cat: Arquivo não encontrado: " + parameters;

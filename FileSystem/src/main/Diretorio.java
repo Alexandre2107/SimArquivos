@@ -124,4 +124,8 @@ public class Diretorio {
         this.dataCriacaoFormatada = dataCriacaoFormatada;
     }
 
+    public Diretorio getDiretorioFilhoPorNome(String parte) {
+        return null;
+    }
+
 }
