@@ -22,7 +22,7 @@ public class Arquivo {
 
     public Arquivo(Diretorio dir) {
         this.pai = dir;
-        this.permissao = "-rwxrwxrwx";
+        this.permissao = "rwxrwxrwx";
         SimpleDateFormat formato = new SimpleDateFormat("MMM dd yyyy HH:mm");
         this.dataCriacao = formato.format(new Date());
     }

@@ -27,7 +27,7 @@ public class Diretorio {
     public Diretorio(Diretorio pai) {
         this.pai = pai;
         this.dataCriacao = new Date(System.currentTimeMillis());
-        this.permissao = "drwxrwxrwx";
+        this.permissao = "rwxrwxrwx";
         SimpleDateFormat sdf = new SimpleDateFormat("MM dd yyyy HH:mm");
         this.dataCriacaoFormatada = sdf.format(dataCriacao);
         this.filhos = new ArrayList<>();
@@ -65,6 +65,15 @@ public class Diretorio {
 
     public void removeArquivo (Arquivo arquivo){
         arquivos.remove(arquivo);
+    }
+
+    public Diretorio getDiretorioPorNome(String nomeDiretorio){
+        for (Diretorio dir : filhos) {
+            if (dir.getNome().equals(nomeDiretorio)) {
+                return dir; // Encontrou o diretorio pelo nome
+            }
+        }
+        return null;
     }
 
     public Arquivo getArquivoPorNome(String nomeArquivo) {
