@@ -1,6 +1,7 @@
 package main;
 
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -25,6 +26,9 @@ public class MyKernel implements Kernel {
     private Diretorio diretorioAtual;
     public String aux_cd;
     ArrayList<Arquivo> a = new ArrayList<Arquivo>();
+    private ArrayList<String> dumpDiretorio;
+    private ArrayList<String> dumpArquivo;
+    private ArrayList<String> dumpPermissao;
 
     public MyKernel() {
         raiz = new Diretorio(null);
@@ -1090,42 +1094,39 @@ public class MyKernel implements Kernel {
         return result;
     }
 
-    public String dump(String parameters) {
-        // variavel result deverah conter o que vai ser impresso na tela apos comando do usuário
-        String result = "";
-        System.out.println("Chamada de Sistema: dump");
-        System.out.println("\tParametros: " + parameters);
-
-        // inicio da implementacao do aluno
-        String outputPath = parameters;
-
-        try(BufferedWriter write = new BufferedWriter(new FileWriter(outputPath))) {
-            String script = generateDumpScript(raiz);
-            write.write(script);
-            result = "Arquivo de dump criado com sucesso";
-        } catch (IOException e) {
-            result = "Erro: não foi possível escrever no arquivo";
-            return result;
-        }
-        // fim da implementacao do aluno
-        return result;
+public String dump(String parameters) {
+        getDump(raiz, "");
+        System.out.println(dumpDiretorio.toString());
+        System.out.println(dumpArquivo.toString());
+        System.out.println(dumpPermissao.toString());
+        return "";
     }
 
-    private String generateDumpScript(Diretorio dir){
-        String script = "";
-        script += "mkdir " + dir.getCaminhoAbsoluto() + "\n";
-        script += "chmod 777 " + dir.getCaminhoAbsoluto() + "\n";
+    public void getDump(Diretorio node, String path) {
+        if (node == null)
+            return;
 
-        for (Diretorio subDir : dir.getFilhos()) {
-            script += generateDumpScript(subDir);
+        path += node.getNome();
+
+        if (!node.getArquivos().isEmpty()) {
+            for (Arquivo file : node.getArquivos()) {
+                String bar = node.getNome().equals("/") ? "" : "/";
+                String content = String.join("\n", file.getConteudo());
+                dumpArquivo.add("createfile " + path + bar + file.getNome() + " " + content);
+                dumpPermissao.add("chmod " + file.getPermissao() + " " + path + bar + file.getNome());
+            }
         }
 
-        for (Arquivo file : dir.getArquivos()) {
-            script += "createfile " + file.getCaminhoAbsoluto() + " " + file.getConteudo() + "\n";
-            script += "chmod 777 " + file.getCaminhoAbsoluto() + "\n";
+        if (node.getFilhos().isEmpty()) {
+            dumpDiretorio.add("mkdir " + path);
+            dumpPermissao.add("chmod " + node.getPermissao() + " " + path);
+        } else if (!node.getNome().equals("/")) {
+            path += "/";
         }
 
-        return script;
+        for (Diretorio child : node.getFilhos()) {
+            getDump(child, path);
+        }
     }
 
     public String info() {
