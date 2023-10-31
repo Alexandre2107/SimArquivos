@@ -1,0 +1,3004 @@
+rm -R /
+rm -R ../
+rm -R ./
+mkdir pasta00
+mkdir pasta01
+mkdir pasta02
+mkdir pasta03
+mkdir pasta04
+mkdir pasta05
+mkdir pasta06
+mkdir pasta07
+mkdir pasta08
+mkdir pasta09
+mkdir pasta10
+mkdir pasta11
+mkdir pasta12
+mkdir pasta13
+mkdir pasta14
+mkdir pasta15
+mkdir pasta16
+mkdir pasta17
+mkdir pasta18
+mkdir pasta19
+mkdir pasta20
+mkdir pasta21
+mkdir pasta22
+mkdir pasta23
+mkdir pasta24
+mkdir pasta25
+mkdir pasta26
+mkdir pasta27
+mkdir pasta28
+mkdir pasta29
+mkdir pasta30
+mkdir pasta31
+mkdir pasta32
+mkdir pasta33
+mkdir pasta34
+mkdir pasta35
+mkdir pasta36
+mkdir pasta37
+mkdir pasta38
+mkdir pasta39
+mkdir pasta40
+mkdir pasta41
+mkdir pasta42
+mkdir pasta43
+mkdir pasta44
+mkdir pasta45
+mkdir pasta46
+mkdir pasta47
+mkdir pasta48
+mkdir pasta49
+mkdir pasta50
+mkdir pasta51
+mkdir pasta52
+mkdir pasta53
+mkdir pasta54
+mkdir pasta55
+mkdir pasta56
+mkdir pasta57
+mkdir pasta58
+mkdir pasta59
+mkdir pasta60
+mkdir pasta61
+mkdir pasta62
+mkdir pasta63
+mkdir pasta64
+mkdir pasta65
+mkdir pasta66
+mkdir pasta67
+mkdir pasta68
+mkdir pasta69
+mkdir pasta70
+mkdir pasta71
+mkdir pasta72
+mkdir pasta73
+mkdir pasta74
+mkdir pasta75
+mkdir pasta76
+mkdir pasta77
+mkdir pasta78
+mkdir pasta79
+mkdir pasta80
+mkdir pasta81
+mkdir pasta82
+mkdir pasta83
+mkdir pasta84
+mkdir pasta85
+mkdir pasta86
+mkdir pasta87
+mkdir pasta88
+mkdir pasta89
+mkdir pasta90
+mkdir pasta91
+mkdir pasta92
+mkdir pasta93
+mkdir pasta94
+mkdir pasta95
+mkdir pasta96
+mkdir pasta97
+mkdir pasta98
+mkdir pasta99
+mkdir pasta100
+mkdir pasta101
+mkdir pasta102
+mkdir pasta103
+mkdir pasta104
+mkdir pasta105
+mkdir pasta106
+mkdir pasta107
+mkdir pasta108
+mkdir pasta109
+mkdir pasta110
+mkdir pasta111
+mkdir pasta112
+mkdir pasta113
+mkdir pasta114
+mkdir pasta115
+mkdir pasta116
+mkdir pasta117
+mkdir pasta118
+mkdir pasta119
+mkdir pasta120
+mkdir pasta121
+mkdir pasta122
+mkdir pasta123
+mkdir pasta124
+mkdir pasta125
+mkdir pasta126
+mkdir pasta127
+mkdir pasta128
+mkdir pasta129
+mkdir pasta130
+mkdir pasta131
+mkdir pasta132
+mkdir pasta133
+mkdir pasta134
+mkdir pasta135
+mkdir pasta136
+mkdir pasta137
+mkdir pasta138
+mkdir pasta139
+mkdir pasta140
+mkdir pasta141
+mkdir pasta142
+mkdir pasta143
+mkdir pasta144
+mkdir pasta145
+mkdir pasta146
+mkdir pasta147
+mkdir pasta148
+mkdir pasta149
+mkdir pasta150
+mkdir pasta151
+mkdir pasta152
+mkdir pasta153
+mkdir pasta154
+mkdir pasta155
+mkdir pasta156
+mkdir pasta157
+mkdir pasta158
+mkdir pasta159
+mkdir pasta160
+mkdir pasta161
+mkdir pasta162
+mkdir pasta163
+mkdir pasta164
+mkdir pasta165
+mkdir pasta166
+mkdir pasta167
+mkdir pasta168
+mkdir pasta169
+mkdir pasta170
+mkdir pasta171
+mkdir pasta172
+mkdir pasta173
+mkdir pasta174
+mkdir pasta175
+mkdir pasta176
+mkdir pasta177
+mkdir pasta178
+mkdir pasta179
+mkdir pasta180
+mkdir pasta181
+mkdir pasta182
+mkdir pasta183
+mkdir pasta184
+mkdir pasta185
+mkdir pasta186
+mkdir pasta187
+mkdir pasta188
+mkdir pasta189
+mkdir pasta190
+mkdir pasta191
+mkdir pasta192
+mkdir pasta193
+mkdir pasta194
+mkdir pasta195
+mkdir pasta196
+mkdir pasta197
+mkdir pasta198
+mkdir pasta199
+mkdir pasta200
+mkdir pasta201
+mkdir pasta202
+mkdir pasta203
+mkdir pasta204
+mkdir pasta205
+mkdir pasta206
+mkdir pasta207
+mkdir pasta208
+mkdir pasta209
+mkdir pasta210
+mkdir pasta211
+mkdir pasta212
+mkdir pasta213
+mkdir pasta214
+mkdir pasta215
+mkdir pasta216
+mkdir pasta217
+mkdir pasta218
+mkdir pasta219
+mkdir pasta220
+mkdir pasta221
+mkdir pasta222
+mkdir pasta223
+mkdir pasta224
+mkdir pasta225
+mkdir pasta226
+mkdir pasta227
+mkdir pasta228
+mkdir pasta229
+mkdir pasta230
+mkdir pasta231
+mkdir pasta232
+mkdir pasta233
+mkdir pasta234
+mkdir pasta235
+mkdir pasta236
+mkdir pasta237
+mkdir pasta238
+mkdir pasta239
+mkdir pasta240
+mkdir pasta241
+mkdir pasta242
+mkdir pasta243
+mkdir pasta244
+mkdir pasta245
+mkdir pasta246
+mkdir pasta247
+mkdir pasta248
+mkdir pasta249
+mkdir pasta250
+mkdir pasta251
+mkdir pasta252
+mkdir pasta253
+mkdir pasta254
+mkdir pasta255
+mkdir pasta256
+mkdir pasta257
+mkdir pasta258
+mkdir pasta259
+mkdir pasta260
+mkdir pasta261
+mkdir pasta262
+mkdir pasta263
+mkdir pasta264
+mkdir pasta265
+mkdir pasta266
+mkdir pasta267
+mkdir pasta268
+mkdir pasta269
+mkdir pasta270
+mkdir pasta271
+mkdir pasta272
+mkdir pasta273
+mkdir pasta274
+mkdir pasta275
+mkdir pasta276
+mkdir pasta277
+mkdir pasta278
+mkdir pasta279
+mkdir pasta280
+mkdir pasta281
+mkdir pasta282
+mkdir pasta283
+mkdir pasta284
+mkdir pasta285
+mkdir pasta286
+mkdir pasta287
+mkdir pasta288
+mkdir pasta289
+mkdir pasta290
+mkdir pasta291
+mkdir pasta292
+mkdir pasta293
+mkdir pasta294
+mkdir pasta295
+mkdir pasta296
+mkdir pasta297
+mkdir pasta298
+mkdir pasta299
+mkdir pasta300
+mkdir pasta301
+mkdir pasta302
+mkdir pasta303
+mkdir pasta304
+mkdir pasta305
+mkdir pasta306
+mkdir pasta307
+mkdir pasta308
+mkdir pasta309
+mkdir pasta310
+mkdir pasta311
+mkdir pasta312
+mkdir pasta313
+mkdir pasta314
+mkdir pasta315
+mkdir pasta316
+mkdir pasta317
+mkdir pasta318
+mkdir pasta319
+mkdir pasta320
+mkdir pasta321
+mkdir pasta322
+mkdir pasta323
+mkdir pasta324
+mkdir pasta325
+mkdir pasta326
+mkdir pasta327
+mkdir pasta328
+mkdir pasta329
+mkdir pasta330
+mkdir pasta331
+mkdir pasta332
+mkdir pasta333
+mkdir pasta334
+mkdir pasta335
+mkdir pasta336
+mkdir pasta337
+mkdir pasta338
+mkdir pasta339
+mkdir pasta340
+mkdir pasta341
+mkdir pasta342
+mkdir pasta343
+mkdir pasta344
+mkdir pasta345
+mkdir pasta346
+mkdir pasta347
+mkdir pasta348
+mkdir pasta349
+mkdir pasta350
+mkdir pasta351
+mkdir pasta352
+mkdir pasta353
+mkdir pasta354
+mkdir pasta355
+mkdir pasta356
+mkdir pasta357
+mkdir pasta358
+mkdir pasta359
+mkdir pasta360
+mkdir pasta361
+mkdir pasta362
+mkdir pasta363
+mkdir pasta364
+mkdir pasta365
+mkdir pasta366
+mkdir pasta367
+mkdir pasta368
+mkdir pasta369
+mkdir pasta370
+mkdir pasta371
+mkdir pasta372
+mkdir pasta373
+mkdir pasta374
+mkdir pasta375
+mkdir pasta376
+mkdir pasta377
+mkdir pasta378
+mkdir pasta379
+mkdir pasta380
+mkdir pasta381
+mkdir pasta382
+mkdir pasta383
+mkdir pasta384
+mkdir pasta385
+mkdir pasta386
+mkdir pasta387
+mkdir pasta388
+mkdir pasta389
+mkdir pasta390
+mkdir pasta391
+mkdir pasta392
+mkdir pasta393
+mkdir pasta394
+mkdir pasta395
+mkdir pasta396
+mkdir pasta397
+mkdir pasta398
+mkdir pasta399
+mkdir pasta400
+mkdir pasta401
+mkdir pasta402
+mkdir pasta403
+mkdir pasta404
+mkdir pasta405
+mkdir pasta406
+mkdir pasta407
+mkdir pasta408
+mkdir pasta409
+mkdir pasta410
+mkdir pasta411
+mkdir pasta412
+mkdir pasta413
+mkdir pasta414
+mkdir pasta415
+mkdir pasta416
+mkdir pasta417
+mkdir pasta418
+mkdir pasta419
+mkdir pasta420
+mkdir pasta421
+mkdir pasta422
+mkdir pasta423
+mkdir pasta424
+mkdir pasta425
+mkdir pasta426
+mkdir pasta427
+mkdir pasta428
+mkdir pasta429
+mkdir pasta430
+mkdir pasta431
+mkdir pasta432
+mkdir pasta433
+mkdir pasta434
+mkdir pasta435
+mkdir pasta436
+mkdir pasta437
+mkdir pasta438
+mkdir pasta439
+mkdir pasta440
+mkdir pasta441
+mkdir pasta442
+mkdir pasta443
+mkdir pasta444
+mkdir pasta445
+mkdir pasta446
+mkdir pasta447
+mkdir pasta448
+mkdir pasta449
+mkdir pasta450
+mkdir pasta451
+mkdir pasta452
+mkdir pasta453
+mkdir pasta454
+mkdir pasta455
+mkdir pasta456
+mkdir pasta457
+mkdir pasta458
+mkdir pasta459
+mkdir pasta460
+mkdir pasta461
+mkdir pasta462
+mkdir pasta463
+mkdir pasta464
+mkdir pasta465
+mkdir pasta466
+mkdir pasta467
+mkdir pasta468
+mkdir pasta469
+mkdir pasta470
+mkdir pasta471
+mkdir pasta472
+mkdir pasta473
+mkdir pasta474
+mkdir pasta475
+mkdir pasta476
+mkdir pasta477
+mkdir pasta478
+mkdir pasta479
+mkdir pasta480
+mkdir pasta481
+mkdir pasta482
+mkdir pasta483
+mkdir pasta484
+mkdir pasta485
+mkdir pasta486
+mkdir pasta487
+mkdir pasta488
+mkdir pasta489
+mkdir pasta490
+mkdir pasta491
+mkdir pasta492
+mkdir pasta493
+mkdir pasta494
+mkdir pasta495
+mkdir pasta496
+mkdir pasta497
+mkdir pasta498
+mkdir pasta499
+mkdir pasta500
+mkdir pasta501
+mkdir pasta502
+mkdir pasta503
+mkdir pasta504
+mkdir pasta505
+mkdir pasta506
+mkdir pasta507
+mkdir pasta508
+mkdir pasta509
+mkdir pasta510
+mkdir pasta511
+mkdir pasta512
+mkdir pasta513
+mkdir pasta514
+mkdir pasta515
+mkdir pasta516
+mkdir pasta517
+mkdir pasta518
+mkdir pasta519
+mkdir pasta520
+mkdir pasta521
+mkdir pasta522
+mkdir pasta523
+mkdir pasta524
+mkdir pasta525
+mkdir pasta526
+mkdir pasta527
+mkdir pasta528
+mkdir pasta529
+mkdir pasta530
+mkdir pasta531
+mkdir pasta532
+mkdir pasta533
+mkdir pasta534
+mkdir pasta535
+mkdir pasta536
+mkdir pasta537
+mkdir pasta538
+mkdir pasta539
+mkdir pasta540
+mkdir pasta541
+mkdir pasta542
+mkdir pasta543
+mkdir pasta544
+mkdir pasta545
+mkdir pasta546
+mkdir pasta547
+mkdir pasta548
+mkdir pasta549
+mkdir pasta550
+mkdir pasta551
+mkdir pasta552
+mkdir pasta553
+mkdir pasta554
+mkdir pasta555
+mkdir pasta556
+mkdir pasta557
+mkdir pasta558
+mkdir pasta559
+mkdir pasta560
+mkdir pasta561
+mkdir pasta562
+mkdir pasta563
+mkdir pasta564
+mkdir pasta565
+mkdir pasta566
+mkdir pasta567
+mkdir pasta568
+mkdir pasta569
+mkdir pasta570
+mkdir pasta571
+mkdir pasta572
+mkdir pasta573
+mkdir pasta574
+mkdir pasta575
+mkdir pasta576
+mkdir pasta577
+mkdir pasta578
+mkdir pasta579
+mkdir pasta580
+mkdir pasta581
+mkdir pasta582
+mkdir pasta583
+mkdir pasta584
+mkdir pasta585
+mkdir pasta586
+mkdir pasta587
+mkdir pasta588
+mkdir pasta589
+mkdir pasta590
+mkdir pasta591
+mkdir pasta592
+mkdir pasta593
+mkdir pasta594
+mkdir pasta595
+mkdir pasta596
+mkdir pasta597
+mkdir pasta598
+mkdir pasta599
+mkdir pasta600
+mkdir pasta601
+mkdir pasta602
+mkdir pasta603
+mkdir pasta604
+mkdir pasta605
+mkdir pasta606
+mkdir pasta607
+mkdir pasta608
+mkdir pasta609
+mkdir pasta610
+mkdir pasta611
+mkdir pasta612
+mkdir pasta613
+mkdir pasta614
+mkdir pasta615
+mkdir pasta616
+mkdir pasta617
+mkdir pasta618
+mkdir pasta619
+mkdir pasta620
+mkdir pasta621
+mkdir pasta622
+mkdir pasta623
+mkdir pasta624
+mkdir pasta625
+mkdir pasta626
+mkdir pasta627
+mkdir pasta628
+mkdir pasta629
+mkdir pasta630
+mkdir pasta631
+mkdir pasta632
+mkdir pasta633
+mkdir pasta634
+mkdir pasta635
+mkdir pasta636
+mkdir pasta637
+mkdir pasta638
+mkdir pasta639
+mkdir pasta640
+mkdir pasta641
+mkdir pasta642
+mkdir pasta643
+mkdir pasta644
+mkdir pasta645
+mkdir pasta646
+mkdir pasta647
+mkdir pasta648
+mkdir pasta649
+mkdir pasta650
+mkdir pasta651
+mkdir pasta652
+mkdir pasta653
+mkdir pasta654
+mkdir pasta655
+mkdir pasta656
+mkdir pasta657
+mkdir pasta658
+mkdir pasta659
+mkdir pasta660
+mkdir pasta661
+mkdir pasta662
+mkdir pasta663
+mkdir pasta664
+mkdir pasta665
+mkdir pasta666
+mkdir pasta667
+mkdir pasta668
+mkdir pasta669
+mkdir pasta670
+mkdir pasta671
+mkdir pasta672
+mkdir pasta673
+mkdir pasta674
+mkdir pasta675
+mkdir pasta676
+mkdir pasta677
+mkdir pasta678
+mkdir pasta679
+mkdir pasta680
+mkdir pasta681
+mkdir pasta682
+mkdir pasta683
+mkdir pasta684
+mkdir pasta685
+mkdir pasta686
+mkdir pasta687
+mkdir pasta688
+mkdir pasta689
+mkdir pasta690
+mkdir pasta691
+mkdir pasta692
+mkdir pasta693
+mkdir pasta694
+mkdir pasta695
+mkdir pasta696
+mkdir pasta697
+mkdir pasta698
+mkdir pasta699
+mkdir pasta700
+mkdir pasta701
+mkdir pasta702
+mkdir pasta703
+mkdir pasta704
+mkdir pasta705
+mkdir pasta706
+mkdir pasta707
+mkdir pasta708
+mkdir pasta709
+mkdir pasta710
+mkdir pasta711
+mkdir pasta712
+mkdir pasta713
+mkdir pasta714
+mkdir pasta715
+mkdir pasta716
+mkdir pasta717
+mkdir pasta718
+mkdir pasta719
+mkdir pasta720
+mkdir pasta721
+mkdir pasta722
+mkdir pasta723
+mkdir pasta724
+mkdir pasta725
+mkdir pasta726
+mkdir pasta727
+mkdir pasta728
+mkdir pasta729
+mkdir pasta730
+mkdir pasta731
+mkdir pasta732
+mkdir pasta733
+mkdir pasta734
+mkdir pasta735
+mkdir pasta736
+mkdir pasta737
+mkdir pasta738
+mkdir pasta739
+mkdir pasta740
+mkdir pasta741
+mkdir pasta742
+mkdir pasta743
+mkdir pasta744
+mkdir pasta745
+mkdir pasta746
+mkdir pasta747
+mkdir pasta748
+mkdir pasta749
+mkdir pasta750
+mkdir pasta751
+mkdir pasta752
+mkdir pasta753
+mkdir pasta754
+mkdir pasta755
+mkdir pasta756
+mkdir pasta757
+mkdir pasta758
+mkdir pasta759
+mkdir pasta760
+mkdir pasta761
+mkdir pasta762
+mkdir pasta763
+mkdir pasta764
+mkdir pasta765
+mkdir pasta766
+mkdir pasta767
+mkdir pasta768
+mkdir pasta769
+mkdir pasta770
+mkdir pasta771
+mkdir pasta772
+mkdir pasta773
+mkdir pasta774
+mkdir pasta775
+mkdir pasta776
+mkdir pasta777
+mkdir pasta778
+mkdir pasta779
+mkdir pasta780
+mkdir pasta781
+mkdir pasta782
+mkdir pasta783
+mkdir pasta784
+mkdir pasta785
+mkdir pasta786
+mkdir pasta787
+mkdir pasta788
+mkdir pasta789
+mkdir pasta790
+mkdir pasta791
+mkdir pasta792
+mkdir pasta793
+mkdir pasta794
+mkdir pasta795
+mkdir pasta796
+mkdir pasta797
+mkdir pasta798
+mkdir pasta799
+mkdir pasta800
+mkdir pasta801
+mkdir pasta802
+mkdir pasta803
+mkdir pasta804
+mkdir pasta805
+mkdir pasta806
+mkdir pasta807
+mkdir pasta808
+mkdir pasta809
+mkdir pasta810
+mkdir pasta811
+mkdir pasta812
+mkdir pasta813
+mkdir pasta814
+mkdir pasta815
+mkdir pasta816
+mkdir pasta817
+mkdir pasta818
+mkdir pasta819
+mkdir pasta820
+mkdir pasta821
+mkdir pasta822
+mkdir pasta823
+mkdir pasta824
+mkdir pasta825
+mkdir pasta826
+mkdir pasta827
+mkdir pasta828
+mkdir pasta829
+mkdir pasta830
+mkdir pasta831
+mkdir pasta832
+mkdir pasta833
+mkdir pasta834
+mkdir pasta835
+mkdir pasta836
+mkdir pasta837
+mkdir pasta838
+mkdir pasta839
+mkdir pasta840
+mkdir pasta841
+mkdir pasta842
+mkdir pasta843
+mkdir pasta844
+mkdir pasta845
+mkdir pasta846
+mkdir pasta847
+mkdir pasta848
+mkdir pasta849
+mkdir pasta850
+mkdir pasta851
+mkdir pasta852
+mkdir pasta853
+mkdir pasta854
+mkdir pasta855
+mkdir pasta856
+mkdir pasta857
+mkdir pasta858
+mkdir pasta859
+mkdir pasta860
+mkdir pasta861
+mkdir pasta862
+mkdir pasta863
+mkdir pasta864
+mkdir pasta865
+mkdir pasta866
+mkdir pasta867
+mkdir pasta868
+mkdir pasta869
+mkdir pasta870
+mkdir pasta871
+mkdir pasta872
+mkdir pasta873
+mkdir pasta874
+mkdir pasta875
+mkdir pasta876
+mkdir pasta877
+mkdir pasta878
+mkdir pasta879
+mkdir pasta880
+mkdir pasta881
+mkdir pasta882
+mkdir pasta883
+mkdir pasta884
+mkdir pasta885
+mkdir pasta886
+mkdir pasta887
+mkdir pasta888
+mkdir pasta889
+mkdir pasta890
+mkdir pasta891
+mkdir pasta892
+mkdir pasta893
+mkdir pasta894
+mkdir pasta895
+mkdir pasta896
+mkdir pasta897
+mkdir pasta898
+mkdir pasta899
+mkdir pasta900
+mkdir pasta901
+mkdir pasta902
+mkdir pasta903
+mkdir pasta904
+mkdir pasta905
+mkdir pasta906
+mkdir pasta907
+mkdir pasta908
+mkdir pasta909
+mkdir pasta910
+mkdir pasta911
+mkdir pasta912
+mkdir pasta913
+mkdir pasta914
+mkdir pasta915
+mkdir pasta916
+mkdir pasta917
+mkdir pasta918
+mkdir pasta919
+mkdir pasta920
+mkdir pasta921
+mkdir pasta922
+mkdir pasta923
+mkdir pasta924
+mkdir pasta925
+mkdir pasta926
+mkdir pasta927
+mkdir pasta928
+mkdir pasta929
+mkdir pasta930
+mkdir pasta931
+mkdir pasta932
+mkdir pasta933
+mkdir pasta934
+mkdir pasta935
+mkdir pasta936
+mkdir pasta937
+mkdir pasta938
+mkdir pasta939
+mkdir pasta940
+mkdir pasta941
+mkdir pasta942
+mkdir pasta943
+mkdir pasta944
+mkdir pasta945
+mkdir pasta946
+mkdir pasta947
+mkdir pasta948
+mkdir pasta949
+mkdir pasta950
+mkdir pasta951
+mkdir pasta952
+mkdir pasta953
+mkdir pasta954
+mkdir pasta955
+mkdir pasta956
+mkdir pasta957
+mkdir pasta958
+mkdir pasta959
+mkdir pasta960
+mkdir pasta961
+mkdir pasta962
+mkdir pasta963
+mkdir pasta964
+mkdir pasta965
+mkdir pasta966
+mkdir pasta967
+mkdir pasta968
+mkdir pasta969
+mkdir pasta970
+mkdir pasta971
+mkdir pasta972
+mkdir pasta973
+mkdir pasta974
+mkdir pasta975
+mkdir pasta976
+mkdir pasta977
+mkdir pasta978
+mkdir pasta979
+mkdir pasta980
+mkdir pasta981
+mkdir pasta982
+mkdir pasta983
+mkdir pasta984
+mkdir pasta985
+mkdir pasta986
+mkdir pasta987
+mkdir pasta988
+mkdir pasta989
+mkdir pasta990
+mkdir pasta991
+mkdir pasta992
+mkdir pasta993
+mkdir pasta994
+mkdir pasta995
+mkdir pasta996
+mkdir pasta997
+mkdir pasta998
+mkdir pasta999
+createfile ././.././././pasta00/arquivo00.txt Testado criacao do arquivo\nna pasta00
+createfile ././.././././pasta01/arquivo01.txt Testado criacao do arquivo\nna pasta01
+createfile ././.././././pasta02/arquivo02.txt Testado criacao do arquivo\nna pasta02
+createfile ././.././././pasta03/arquivo03.txt Testado criacao do arquivo\nna pasta03
+createfile ././.././././pasta04/arquivo04.txt Testado criacao do arquivo\nna pasta04
+createfile ././.././././pasta05/arquivo05.txt Testado criacao do arquivo\nna pasta05
+createfile ././.././././pasta06/arquivo06.txt Testado criacao do arquivo\nna pasta06
+createfile ././.././././pasta07/arquivo07.txt Testado criacao do arquivo\nna pasta07
+createfile ././.././././pasta08/arquivo08.txt Testado criacao do arquivo\nna pasta08
+createfile ././.././././pasta09/arquivo09.txt Testado criacao do arquivo\nna pasta09
+createfile ././.././././pasta10/arquivo10.txt Testado criacao do arquivo\nna pasta10
+createfile ././.././././pasta11/arquivo11.txt Testado criacao do arquivo\nna pasta11
+createfile ././.././././pasta12/arquivo12.txt Testado criacao do arquivo\nna pasta12
+createfile ././.././././pasta13/arquivo13.txt Testado criacao do arquivo\nna pasta13
+createfile ././.././././pasta14/arquivo14.txt Testado criacao do arquivo\nna pasta14
+createfile ././.././././pasta15/arquivo15.txt Testado criacao do arquivo\nna pasta15
+createfile ././.././././pasta16/arquivo16.txt Testado criacao do arquivo\nna pasta16
+createfile ././.././././pasta17/arquivo17.txt Testado criacao do arquivo\nna pasta17
+createfile ././.././././pasta18/arquivo18.txt Testado criacao do arquivo\nna pasta18
+createfile ././.././././pasta19/arquivo19.txt Testado criacao do arquivo\nna pasta19
+createfile ././.././././pasta20/arquivo20.txt Testado criacao do arquivo\nna pasta20
+createfile ././.././././pasta21/arquivo21.txt Testado criacao do arquivo\nna pasta21
+createfile ././.././././pasta22/arquivo22.txt Testado criacao do arquivo\nna pasta22
+createfile ././.././././pasta23/arquivo23.txt Testado criacao do arquivo\nna pasta23
+createfile ././.././././pasta24/arquivo24.txt Testado criacao do arquivo\nna pasta24
+createfile ././.././././pasta25/arquivo25.txt Testado criacao do arquivo\nna pasta25
+createfile ././.././././pasta26/arquivo26.txt Testado criacao do arquivo\nna pasta26
+createfile ././.././././pasta27/arquivo27.txt Testado criacao do arquivo\nna pasta27
+createfile ././.././././pasta28/arquivo28.txt Testado criacao do arquivo\nna pasta28
+createfile ././.././././pasta29/arquivo29.txt Testado criacao do arquivo\nna pasta29
+createfile ././.././././pasta30/arquivo30.txt Testado criacao do arquivo\nna pasta30
+createfile ././.././././pasta31/arquivo31.txt Testado criacao do arquivo\nna pasta31
+createfile ././.././././pasta32/arquivo32.txt Testado criacao do arquivo\nna pasta32
+createfile ././.././././pasta33/arquivo33.txt Testado criacao do arquivo\nna pasta33
+createfile ././.././././pasta34/arquivo34.txt Testado criacao do arquivo\nna pasta34
+createfile ././.././././pasta35/arquivo35.txt Testado criacao do arquivo\nna pasta35
+createfile ././.././././pasta36/arquivo36.txt Testado criacao do arquivo\nna pasta36
+createfile ././.././././pasta37/arquivo37.txt Testado criacao do arquivo\nna pasta37
+createfile ././.././././pasta38/arquivo38.txt Testado criacao do arquivo\nna pasta38
+createfile ././.././././pasta39/arquivo39.txt Testado criacao do arquivo\nna pasta39
+createfile ././.././././pasta40/arquivo40.txt Testado criacao do arquivo\nna pasta40
+createfile ././.././././pasta41/arquivo41.txt Testado criacao do arquivo\nna pasta41
+createfile ././.././././pasta42/arquivo42.txt Testado criacao do arquivo\nna pasta42
+createfile ././.././././pasta43/arquivo43.txt Testado criacao do arquivo\nna pasta43
+createfile ././.././././pasta44/arquivo44.txt Testado criacao do arquivo\nna pasta44
+createfile ././.././././pasta45/arquivo45.txt Testado criacao do arquivo\nna pasta45
+createfile ././.././././pasta46/arquivo46.txt Testado criacao do arquivo\nna pasta46
+createfile ././.././././pasta47/arquivo47.txt Testado criacao do arquivo\nna pasta47
+createfile ././.././././pasta48/arquivo48.txt Testado criacao do arquivo\nna pasta48
+createfile ././.././././pasta49/arquivo49.txt Testado criacao do arquivo\nna pasta49
+createfile ././.././././pasta50/arquivo50.txt Testado criacao do arquivo\nna pasta50
+createfile ././.././././pasta51/arquivo51.txt Testado criacao do arquivo\nna pasta51
+createfile ././.././././pasta52/arquivo52.txt Testado criacao do arquivo\nna pasta52
+createfile ././.././././pasta53/arquivo53.txt Testado criacao do arquivo\nna pasta53
+createfile ././.././././pasta54/arquivo54.txt Testado criacao do arquivo\nna pasta54
+createfile ././.././././pasta55/arquivo55.txt Testado criacao do arquivo\nna pasta55
+createfile ././.././././pasta56/arquivo56.txt Testado criacao do arquivo\nna pasta56
+createfile ././.././././pasta57/arquivo57.txt Testado criacao do arquivo\nna pasta57
+createfile ././.././././pasta58/arquivo58.txt Testado criacao do arquivo\nna pasta58
+createfile ././.././././pasta59/arquivo59.txt Testado criacao do arquivo\nna pasta59
+createfile ././.././././pasta60/arquivo60.txt Testado criacao do arquivo\nna pasta60
+createfile ././.././././pasta61/arquivo61.txt Testado criacao do arquivo\nna pasta61
+createfile ././.././././pasta62/arquivo62.txt Testado criacao do arquivo\nna pasta62
+createfile ././.././././pasta63/arquivo63.txt Testado criacao do arquivo\nna pasta63
+createfile ././.././././pasta64/arquivo64.txt Testado criacao do arquivo\nna pasta64
+createfile ././.././././pasta65/arquivo65.txt Testado criacao do arquivo\nna pasta65
+createfile ././.././././pasta66/arquivo66.txt Testado criacao do arquivo\nna pasta66
+createfile ././.././././pasta67/arquivo67.txt Testado criacao do arquivo\nna pasta67
+createfile ././.././././pasta68/arquivo68.txt Testado criacao do arquivo\nna pasta68
+createfile ././.././././pasta69/arquivo69.txt Testado criacao do arquivo\nna pasta69
+createfile ././.././././pasta70/arquivo70.txt Testado criacao do arquivo\nna pasta70
+createfile ././.././././pasta71/arquivo71.txt Testado criacao do arquivo\nna pasta71
+createfile ././.././././pasta72/arquivo72.txt Testado criacao do arquivo\nna pasta72
+createfile ././.././././pasta73/arquivo73.txt Testado criacao do arquivo\nna pasta73
+createfile ././.././././pasta74/arquivo74.txt Testado criacao do arquivo\nna pasta74
+createfile ././.././././pasta75/arquivo75.txt Testado criacao do arquivo\nna pasta75
+createfile ././.././././pasta76/arquivo76.txt Testado criacao do arquivo\nna pasta76
+createfile ././.././././pasta77/arquivo77.txt Testado criacao do arquivo\nna pasta77
+createfile ././.././././pasta78/arquivo78.txt Testado criacao do arquivo\nna pasta78
+createfile ././.././././pasta79/arquivo79.txt Testado criacao do arquivo\nna pasta79
+createfile ././.././././pasta80/arquivo80.txt Testado criacao do arquivo\nna pasta80
+createfile ././.././././pasta81/arquivo81.txt Testado criacao do arquivo\nna pasta81
+createfile ././.././././pasta82/arquivo82.txt Testado criacao do arquivo\nna pasta82
+createfile ././.././././pasta83/arquivo83.txt Testado criacao do arquivo\nna pasta83
+createfile ././.././././pasta84/arquivo84.txt Testado criacao do arquivo\nna pasta84
+createfile ././.././././pasta85/arquivo85.txt Testado criacao do arquivo\nna pasta85
+createfile ././.././././pasta86/arquivo86.txt Testado criacao do arquivo\nna pasta86
+createfile ././.././././pasta87/arquivo87.txt Testado criacao do arquivo\nna pasta87
+createfile ././.././././pasta88/arquivo88.txt Testado criacao do arquivo\nna pasta88
+createfile ././.././././pasta89/arquivo89.txt Testado criacao do arquivo\nna pasta89
+createfile ././.././././pasta90/arquivo90.txt Testado criacao do arquivo\nna pasta90
+createfile ././.././././pasta91/arquivo91.txt Testado criacao do arquivo\nna pasta91
+createfile ././.././././pasta92/arquivo92.txt Testado criacao do arquivo\nna pasta92
+createfile ././.././././pasta93/arquivo93.txt Testado criacao do arquivo\nna pasta93
+createfile ././.././././pasta94/arquivo94.txt Testado criacao do arquivo\nna pasta94
+createfile ././.././././pasta95/arquivo95.txt Testado criacao do arquivo\nna pasta95
+createfile ././.././././pasta96/arquivo96.txt Testado criacao do arquivo\nna pasta96
+createfile ././.././././pasta97/arquivo97.txt Testado criacao do arquivo\nna pasta97
+createfile ././.././././pasta98/arquivo98.txt Testado criacao do arquivo\nna pasta98
+createfile ././.././././pasta99/arquivo99.txt Testado criacao do arquivo\nna pasta99
+createfile ././.././././pasta100/arquivo100.txt Testado criacao do arquivo\nna pasta100
+createfile ././.././././pasta101/arquivo101.txt Testado criacao do arquivo\nna pasta101
+createfile ././.././././pasta102/arquivo102.txt Testado criacao do arquivo\nna pasta102
+createfile ././.././././pasta103/arquivo103.txt Testado criacao do arquivo\nna pasta103
+createfile ././.././././pasta104/arquivo104.txt Testado criacao do arquivo\nna pasta104
+createfile ././.././././pasta105/arquivo105.txt Testado criacao do arquivo\nna pasta105
+createfile ././.././././pasta106/arquivo106.txt Testado criacao do arquivo\nna pasta106
+createfile ././.././././pasta107/arquivo107.txt Testado criacao do arquivo\nna pasta107
+createfile ././.././././pasta108/arquivo108.txt Testado criacao do arquivo\nna pasta108
+createfile ././.././././pasta109/arquivo109.txt Testado criacao do arquivo\nna pasta109
+createfile ././.././././pasta110/arquivo110.txt Testado criacao do arquivo\nna pasta110
+createfile ././.././././pasta111/arquivo111.txt Testado criacao do arquivo\nna pasta111
+createfile ././.././././pasta112/arquivo112.txt Testado criacao do arquivo\nna pasta112
+createfile ././.././././pasta113/arquivo113.txt Testado criacao do arquivo\nna pasta113
+createfile ././.././././pasta114/arquivo114.txt Testado criacao do arquivo\nna pasta114
+createfile ././.././././pasta115/arquivo115.txt Testado criacao do arquivo\nna pasta115
+createfile ././.././././pasta116/arquivo116.txt Testado criacao do arquivo\nna pasta116
+createfile ././.././././pasta117/arquivo117.txt Testado criacao do arquivo\nna pasta117
+createfile ././.././././pasta118/arquivo118.txt Testado criacao do arquivo\nna pasta118
+createfile ././.././././pasta119/arquivo119.txt Testado criacao do arquivo\nna pasta119
+createfile ././.././././pasta120/arquivo120.txt Testado criacao do arquivo\nna pasta120
+createfile ././.././././pasta121/arquivo121.txt Testado criacao do arquivo\nna pasta121
+createfile ././.././././pasta122/arquivo122.txt Testado criacao do arquivo\nna pasta122
+createfile ././.././././pasta123/arquivo123.txt Testado criacao do arquivo\nna pasta123
+createfile ././.././././pasta124/arquivo124.txt Testado criacao do arquivo\nna pasta124
+createfile ././.././././pasta125/arquivo125.txt Testado criacao do arquivo\nna pasta125
+createfile ././.././././pasta126/arquivo126.txt Testado criacao do arquivo\nna pasta126
+createfile ././.././././pasta127/arquivo127.txt Testado criacao do arquivo\nna pasta127
+createfile ././.././././pasta128/arquivo128.txt Testado criacao do arquivo\nna pasta128
+createfile ././.././././pasta129/arquivo129.txt Testado criacao do arquivo\nna pasta129
+createfile ././.././././pasta130/arquivo130.txt Testado criacao do arquivo\nna pasta130
+createfile ././.././././pasta131/arquivo131.txt Testado criacao do arquivo\nna pasta131
+createfile ././.././././pasta132/arquivo132.txt Testado criacao do arquivo\nna pasta132
+createfile ././.././././pasta133/arquivo133.txt Testado criacao do arquivo\nna pasta133
+createfile ././.././././pasta134/arquivo134.txt Testado criacao do arquivo\nna pasta134
+createfile ././.././././pasta135/arquivo135.txt Testado criacao do arquivo\nna pasta135
+createfile ././.././././pasta136/arquivo136.txt Testado criacao do arquivo\nna pasta136
+createfile ././.././././pasta137/arquivo137.txt Testado criacao do arquivo\nna pasta137
+createfile ././.././././pasta138/arquivo138.txt Testado criacao do arquivo\nna pasta138
+createfile ././.././././pasta139/arquivo139.txt Testado criacao do arquivo\nna pasta139
+createfile ././.././././pasta140/arquivo140.txt Testado criacao do arquivo\nna pasta140
+createfile ././.././././pasta141/arquivo141.txt Testado criacao do arquivo\nna pasta141
+createfile ././.././././pasta142/arquivo142.txt Testado criacao do arquivo\nna pasta142
+createfile ././.././././pasta143/arquivo143.txt Testado criacao do arquivo\nna pasta143
+createfile ././.././././pasta144/arquivo144.txt Testado criacao do arquivo\nna pasta144
+createfile ././.././././pasta145/arquivo145.txt Testado criacao do arquivo\nna pasta145
+createfile ././.././././pasta146/arquivo146.txt Testado criacao do arquivo\nna pasta146
+createfile ././.././././pasta147/arquivo147.txt Testado criacao do arquivo\nna pasta147
+createfile ././.././././pasta148/arquivo148.txt Testado criacao do arquivo\nna pasta148
+createfile ././.././././pasta149/arquivo149.txt Testado criacao do arquivo\nna pasta149
+createfile ././.././././pasta150/arquivo150.txt Testado criacao do arquivo\nna pasta150
+createfile ././.././././pasta151/arquivo151.txt Testado criacao do arquivo\nna pasta151
+createfile ././.././././pasta152/arquivo152.txt Testado criacao do arquivo\nna pasta152
+createfile ././.././././pasta153/arquivo153.txt Testado criacao do arquivo\nna pasta153
+createfile ././.././././pasta154/arquivo154.txt Testado criacao do arquivo\nna pasta154
+createfile ././.././././pasta155/arquivo155.txt Testado criacao do arquivo\nna pasta155
+createfile ././.././././pasta156/arquivo156.txt Testado criacao do arquivo\nna pasta156
+createfile ././.././././pasta157/arquivo157.txt Testado criacao do arquivo\nna pasta157
+createfile ././.././././pasta158/arquivo158.txt Testado criacao do arquivo\nna pasta158
+createfile ././.././././pasta159/arquivo159.txt Testado criacao do arquivo\nna pasta159
+createfile ././.././././pasta160/arquivo160.txt Testado criacao do arquivo\nna pasta160
+createfile ././.././././pasta161/arquivo161.txt Testado criacao do arquivo\nna pasta161
+createfile ././.././././pasta162/arquivo162.txt Testado criacao do arquivo\nna pasta162
+createfile ././.././././pasta163/arquivo163.txt Testado criacao do arquivo\nna pasta163
+createfile ././.././././pasta164/arquivo164.txt Testado criacao do arquivo\nna pasta164
+createfile ././.././././pasta165/arquivo165.txt Testado criacao do arquivo\nna pasta165
+createfile ././.././././pasta166/arquivo166.txt Testado criacao do arquivo\nna pasta166
+createfile ././.././././pasta167/arquivo167.txt Testado criacao do arquivo\nna pasta167
+createfile ././.././././pasta168/arquivo168.txt Testado criacao do arquivo\nna pasta168
+createfile ././.././././pasta169/arquivo169.txt Testado criacao do arquivo\nna pasta169
+createfile ././.././././pasta170/arquivo170.txt Testado criacao do arquivo\nna pasta170
+createfile ././.././././pasta171/arquivo171.txt Testado criacao do arquivo\nna pasta171
+createfile ././.././././pasta172/arquivo172.txt Testado criacao do arquivo\nna pasta172
+createfile ././.././././pasta173/arquivo173.txt Testado criacao do arquivo\nna pasta173
+createfile ././.././././pasta174/arquivo174.txt Testado criacao do arquivo\nna pasta174
+createfile ././.././././pasta175/arquivo175.txt Testado criacao do arquivo\nna pasta175
+createfile ././.././././pasta176/arquivo176.txt Testado criacao do arquivo\nna pasta176
+createfile ././.././././pasta177/arquivo177.txt Testado criacao do arquivo\nna pasta177
+createfile ././.././././pasta178/arquivo178.txt Testado criacao do arquivo\nna pasta178
+createfile ././.././././pasta179/arquivo179.txt Testado criacao do arquivo\nna pasta179
+createfile ././.././././pasta180/arquivo180.txt Testado criacao do arquivo\nna pasta180
+createfile ././.././././pasta181/arquivo181.txt Testado criacao do arquivo\nna pasta181
+createfile ././.././././pasta182/arquivo182.txt Testado criacao do arquivo\nna pasta182
+createfile ././.././././pasta183/arquivo183.txt Testado criacao do arquivo\nna pasta183
+createfile ././.././././pasta184/arquivo184.txt Testado criacao do arquivo\nna pasta184
+createfile ././.././././pasta185/arquivo185.txt Testado criacao do arquivo\nna pasta185
+createfile ././.././././pasta186/arquivo186.txt Testado criacao do arquivo\nna pasta186
+createfile ././.././././pasta187/arquivo187.txt Testado criacao do arquivo\nna pasta187
+createfile ././.././././pasta188/arquivo188.txt Testado criacao do arquivo\nna pasta188
+createfile ././.././././pasta189/arquivo189.txt Testado criacao do arquivo\nna pasta189
+createfile ././.././././pasta190/arquivo190.txt Testado criacao do arquivo\nna pasta190
+createfile ././.././././pasta191/arquivo191.txt Testado criacao do arquivo\nna pasta191
+createfile ././.././././pasta192/arquivo192.txt Testado criacao do arquivo\nna pasta192
+createfile ././.././././pasta193/arquivo193.txt Testado criacao do arquivo\nna pasta193
+createfile ././.././././pasta194/arquivo194.txt Testado criacao do arquivo\nna pasta194
+createfile ././.././././pasta195/arquivo195.txt Testado criacao do arquivo\nna pasta195
+createfile ././.././././pasta196/arquivo196.txt Testado criacao do arquivo\nna pasta196
+createfile ././.././././pasta197/arquivo197.txt Testado criacao do arquivo\nna pasta197
+createfile ././.././././pasta198/arquivo198.txt Testado criacao do arquivo\nna pasta198
+createfile ././.././././pasta199/arquivo199.txt Testado criacao do arquivo\nna pasta199
+createfile ././.././././pasta200/arquivo200.txt Testado criacao do arquivo\nna pasta200
+createfile ././.././././pasta201/arquivo201.txt Testado criacao do arquivo\nna pasta201
+createfile ././.././././pasta202/arquivo202.txt Testado criacao do arquivo\nna pasta202
+createfile ././.././././pasta203/arquivo203.txt Testado criacao do arquivo\nna pasta203
+createfile ././.././././pasta204/arquivo204.txt Testado criacao do arquivo\nna pasta204
+createfile ././.././././pasta205/arquivo205.txt Testado criacao do arquivo\nna pasta205
+createfile ././.././././pasta206/arquivo206.txt Testado criacao do arquivo\nna pasta206
+createfile ././.././././pasta207/arquivo207.txt Testado criacao do arquivo\nna pasta207
+createfile ././.././././pasta208/arquivo208.txt Testado criacao do arquivo\nna pasta208
+createfile ././.././././pasta209/arquivo209.txt Testado criacao do arquivo\nna pasta209
+createfile ././.././././pasta210/arquivo210.txt Testado criacao do arquivo\nna pasta210
+createfile ././.././././pasta211/arquivo211.txt Testado criacao do arquivo\nna pasta211
+createfile ././.././././pasta212/arquivo212.txt Testado criacao do arquivo\nna pasta212
+createfile ././.././././pasta213/arquivo213.txt Testado criacao do arquivo\nna pasta213
+createfile ././.././././pasta214/arquivo214.txt Testado criacao do arquivo\nna pasta214
+createfile ././.././././pasta215/arquivo215.txt Testado criacao do arquivo\nna pasta215
+createfile ././.././././pasta216/arquivo216.txt Testado criacao do arquivo\nna pasta216
+createfile ././.././././pasta217/arquivo217.txt Testado criacao do arquivo\nna pasta217
+createfile ././.././././pasta218/arquivo218.txt Testado criacao do arquivo\nna pasta218
+createfile ././.././././pasta219/arquivo219.txt Testado criacao do arquivo\nna pasta219
+createfile ././.././././pasta220/arquivo220.txt Testado criacao do arquivo\nna pasta220
+createfile ././.././././pasta221/arquivo221.txt Testado criacao do arquivo\nna pasta221
+createfile ././.././././pasta222/arquivo222.txt Testado criacao do arquivo\nna pasta222
+createfile ././.././././pasta223/arquivo223.txt Testado criacao do arquivo\nna pasta223
+createfile ././.././././pasta224/arquivo224.txt Testado criacao do arquivo\nna pasta224
+createfile ././.././././pasta225/arquivo225.txt Testado criacao do arquivo\nna pasta225
+createfile ././.././././pasta226/arquivo226.txt Testado criacao do arquivo\nna pasta226
+createfile ././.././././pasta227/arquivo227.txt Testado criacao do arquivo\nna pasta227
+createfile ././.././././pasta228/arquivo228.txt Testado criacao do arquivo\nna pasta228
+createfile ././.././././pasta229/arquivo229.txt Testado criacao do arquivo\nna pasta229
+createfile ././.././././pasta230/arquivo230.txt Testado criacao do arquivo\nna pasta230
+createfile ././.././././pasta231/arquivo231.txt Testado criacao do arquivo\nna pasta231
+createfile ././.././././pasta232/arquivo232.txt Testado criacao do arquivo\nna pasta232
+createfile ././.././././pasta233/arquivo233.txt Testado criacao do arquivo\nna pasta233
+createfile ././.././././pasta234/arquivo234.txt Testado criacao do arquivo\nna pasta234
+createfile ././.././././pasta235/arquivo235.txt Testado criacao do arquivo\nna pasta235
+createfile ././.././././pasta236/arquivo236.txt Testado criacao do arquivo\nna pasta236
+createfile ././.././././pasta237/arquivo237.txt Testado criacao do arquivo\nna pasta237
+createfile ././.././././pasta238/arquivo238.txt Testado criacao do arquivo\nna pasta238
+createfile ././.././././pasta239/arquivo239.txt Testado criacao do arquivo\nna pasta239
+createfile ././.././././pasta240/arquivo240.txt Testado criacao do arquivo\nna pasta240
+createfile ././.././././pasta241/arquivo241.txt Testado criacao do arquivo\nna pasta241
+createfile ././.././././pasta242/arquivo242.txt Testado criacao do arquivo\nna pasta242
+createfile ././.././././pasta243/arquivo243.txt Testado criacao do arquivo\nna pasta243
+createfile ././.././././pasta244/arquivo244.txt Testado criacao do arquivo\nna pasta244
+createfile ././.././././pasta245/arquivo245.txt Testado criacao do arquivo\nna pasta245
+createfile ././.././././pasta246/arquivo246.txt Testado criacao do arquivo\nna pasta246
+createfile ././.././././pasta247/arquivo247.txt Testado criacao do arquivo\nna pasta247
+createfile ././.././././pasta248/arquivo248.txt Testado criacao do arquivo\nna pasta248
+createfile ././.././././pasta249/arquivo249.txt Testado criacao do arquivo\nna pasta249
+createfile ././.././././pasta250/arquivo250.txt Testado criacao do arquivo\nna pasta250
+createfile ././.././././pasta251/arquivo251.txt Testado criacao do arquivo\nna pasta251
+createfile ././.././././pasta252/arquivo252.txt Testado criacao do arquivo\nna pasta252
+createfile ././.././././pasta253/arquivo253.txt Testado criacao do arquivo\nna pasta253
+createfile ././.././././pasta254/arquivo254.txt Testado criacao do arquivo\nna pasta254
+createfile ././.././././pasta255/arquivo255.txt Testado criacao do arquivo\nna pasta255
+createfile ././.././././pasta256/arquivo256.txt Testado criacao do arquivo\nna pasta256
+createfile ././.././././pasta257/arquivo257.txt Testado criacao do arquivo\nna pasta257
+createfile ././.././././pasta258/arquivo258.txt Testado criacao do arquivo\nna pasta258
+createfile ././.././././pasta259/arquivo259.txt Testado criacao do arquivo\nna pasta259
+createfile ././.././././pasta260/arquivo260.txt Testado criacao do arquivo\nna pasta260
+createfile ././.././././pasta261/arquivo261.txt Testado criacao do arquivo\nna pasta261
+createfile ././.././././pasta262/arquivo262.txt Testado criacao do arquivo\nna pasta262
+createfile ././.././././pasta263/arquivo263.txt Testado criacao do arquivo\nna pasta263
+createfile ././.././././pasta264/arquivo264.txt Testado criacao do arquivo\nna pasta264
+createfile ././.././././pasta265/arquivo265.txt Testado criacao do arquivo\nna pasta265
+createfile ././.././././pasta266/arquivo266.txt Testado criacao do arquivo\nna pasta266
+createfile ././.././././pasta267/arquivo267.txt Testado criacao do arquivo\nna pasta267
+createfile ././.././././pasta268/arquivo268.txt Testado criacao do arquivo\nna pasta268
+createfile ././.././././pasta269/arquivo269.txt Testado criacao do arquivo\nna pasta269
+createfile ././.././././pasta270/arquivo270.txt Testado criacao do arquivo\nna pasta270
+createfile ././.././././pasta271/arquivo271.txt Testado criacao do arquivo\nna pasta271
+createfile ././.././././pasta272/arquivo272.txt Testado criacao do arquivo\nna pasta272
+createfile ././.././././pasta273/arquivo273.txt Testado criacao do arquivo\nna pasta273
+createfile ././.././././pasta274/arquivo274.txt Testado criacao do arquivo\nna pasta274
+createfile ././.././././pasta275/arquivo275.txt Testado criacao do arquivo\nna pasta275
+createfile ././.././././pasta276/arquivo276.txt Testado criacao do arquivo\nna pasta276
+createfile ././.././././pasta277/arquivo277.txt Testado criacao do arquivo\nna pasta277
+createfile ././.././././pasta278/arquivo278.txt Testado criacao do arquivo\nna pasta278
+createfile ././.././././pasta279/arquivo279.txt Testado criacao do arquivo\nna pasta279
+createfile ././.././././pasta280/arquivo280.txt Testado criacao do arquivo\nna pasta280
+createfile ././.././././pasta281/arquivo281.txt Testado criacao do arquivo\nna pasta281
+createfile ././.././././pasta282/arquivo282.txt Testado criacao do arquivo\nna pasta282
+createfile ././.././././pasta283/arquivo283.txt Testado criacao do arquivo\nna pasta283
+createfile ././.././././pasta284/arquivo284.txt Testado criacao do arquivo\nna pasta284
+createfile ././.././././pasta285/arquivo285.txt Testado criacao do arquivo\nna pasta285
+createfile ././.././././pasta286/arquivo286.txt Testado criacao do arquivo\nna pasta286
+createfile ././.././././pasta287/arquivo287.txt Testado criacao do arquivo\nna pasta287
+createfile ././.././././pasta288/arquivo288.txt Testado criacao do arquivo\nna pasta288
+createfile ././.././././pasta289/arquivo289.txt Testado criacao do arquivo\nna pasta289
+createfile ././.././././pasta290/arquivo290.txt Testado criacao do arquivo\nna pasta290
+createfile ././.././././pasta291/arquivo291.txt Testado criacao do arquivo\nna pasta291
+createfile ././.././././pasta292/arquivo292.txt Testado criacao do arquivo\nna pasta292
+createfile ././.././././pasta293/arquivo293.txt Testado criacao do arquivo\nna pasta293
+createfile ././.././././pasta294/arquivo294.txt Testado criacao do arquivo\nna pasta294
+createfile ././.././././pasta295/arquivo295.txt Testado criacao do arquivo\nna pasta295
+createfile ././.././././pasta296/arquivo296.txt Testado criacao do arquivo\nna pasta296
+createfile ././.././././pasta297/arquivo297.txt Testado criacao do arquivo\nna pasta297
+createfile ././.././././pasta298/arquivo298.txt Testado criacao do arquivo\nna pasta298
+createfile ././.././././pasta299/arquivo299.txt Testado criacao do arquivo\nna pasta299
+createfile ././.././././pasta300/arquivo300.txt Testado criacao do arquivo\nna pasta300
+createfile ././.././././pasta301/arquivo301.txt Testado criacao do arquivo\nna pasta301
+createfile ././.././././pasta302/arquivo302.txt Testado criacao do arquivo\nna pasta302
+createfile ././.././././pasta303/arquivo303.txt Testado criacao do arquivo\nna pasta303
+createfile ././.././././pasta304/arquivo304.txt Testado criacao do arquivo\nna pasta304
+createfile ././.././././pasta305/arquivo305.txt Testado criacao do arquivo\nna pasta305
+createfile ././.././././pasta306/arquivo306.txt Testado criacao do arquivo\nna pasta306
+createfile ././.././././pasta307/arquivo307.txt Testado criacao do arquivo\nna pasta307
+createfile ././.././././pasta308/arquivo308.txt Testado criacao do arquivo\nna pasta308
+createfile ././.././././pasta309/arquivo309.txt Testado criacao do arquivo\nna pasta309
+createfile ././.././././pasta310/arquivo310.txt Testado criacao do arquivo\nna pasta310
+createfile ././.././././pasta311/arquivo311.txt Testado criacao do arquivo\nna pasta311
+createfile ././.././././pasta312/arquivo312.txt Testado criacao do arquivo\nna pasta312
+createfile ././.././././pasta313/arquivo313.txt Testado criacao do arquivo\nna pasta313
+createfile ././.././././pasta314/arquivo314.txt Testado criacao do arquivo\nna pasta314
+createfile ././.././././pasta315/arquivo315.txt Testado criacao do arquivo\nna pasta315
+createfile ././.././././pasta316/arquivo316.txt Testado criacao do arquivo\nna pasta316
+createfile ././.././././pasta317/arquivo317.txt Testado criacao do arquivo\nna pasta317
+createfile ././.././././pasta318/arquivo318.txt Testado criacao do arquivo\nna pasta318
+createfile ././.././././pasta319/arquivo319.txt Testado criacao do arquivo\nna pasta319
+createfile ././.././././pasta320/arquivo320.txt Testado criacao do arquivo\nna pasta320
+createfile ././.././././pasta321/arquivo321.txt Testado criacao do arquivo\nna pasta321
+createfile ././.././././pasta322/arquivo322.txt Testado criacao do arquivo\nna pasta322
+createfile ././.././././pasta323/arquivo323.txt Testado criacao do arquivo\nna pasta323
+createfile ././.././././pasta324/arquivo324.txt Testado criacao do arquivo\nna pasta324
+createfile ././.././././pasta325/arquivo325.txt Testado criacao do arquivo\nna pasta325
+createfile ././.././././pasta326/arquivo326.txt Testado criacao do arquivo\nna pasta326
+createfile ././.././././pasta327/arquivo327.txt Testado criacao do arquivo\nna pasta327
+createfile ././.././././pasta328/arquivo328.txt Testado criacao do arquivo\nna pasta328
+createfile ././.././././pasta329/arquivo329.txt Testado criacao do arquivo\nna pasta329
+createfile ././.././././pasta330/arquivo330.txt Testado criacao do arquivo\nna pasta330
+createfile ././.././././pasta331/arquivo331.txt Testado criacao do arquivo\nna pasta331
+createfile ././.././././pasta332/arquivo332.txt Testado criacao do arquivo\nna pasta332
+createfile ././.././././pasta333/arquivo333.txt Testado criacao do arquivo\nna pasta333
+createfile ././.././././pasta334/arquivo334.txt Testado criacao do arquivo\nna pasta334
+createfile ././.././././pasta335/arquivo335.txt Testado criacao do arquivo\nna pasta335
+createfile ././.././././pasta336/arquivo336.txt Testado criacao do arquivo\nna pasta336
+createfile ././.././././pasta337/arquivo337.txt Testado criacao do arquivo\nna pasta337
+createfile ././.././././pasta338/arquivo338.txt Testado criacao do arquivo\nna pasta338
+createfile ././.././././pasta339/arquivo339.txt Testado criacao do arquivo\nna pasta339
+createfile ././.././././pasta340/arquivo340.txt Testado criacao do arquivo\nna pasta340
+createfile ././.././././pasta341/arquivo341.txt Testado criacao do arquivo\nna pasta341
+createfile ././.././././pasta342/arquivo342.txt Testado criacao do arquivo\nna pasta342
+createfile ././.././././pasta343/arquivo343.txt Testado criacao do arquivo\nna pasta343
+createfile ././.././././pasta344/arquivo344.txt Testado criacao do arquivo\nna pasta344
+createfile ././.././././pasta345/arquivo345.txt Testado criacao do arquivo\nna pasta345
+createfile ././.././././pasta346/arquivo346.txt Testado criacao do arquivo\nna pasta346
+createfile ././.././././pasta347/arquivo347.txt Testado criacao do arquivo\nna pasta347
+createfile ././.././././pasta348/arquivo348.txt Testado criacao do arquivo\nna pasta348
+createfile ././.././././pasta349/arquivo349.txt Testado criacao do arquivo\nna pasta349
+createfile ././.././././pasta350/arquivo350.txt Testado criacao do arquivo\nna pasta350
+createfile ././.././././pasta351/arquivo351.txt Testado criacao do arquivo\nna pasta351
+createfile ././.././././pasta352/arquivo352.txt Testado criacao do arquivo\nna pasta352
+createfile ././.././././pasta353/arquivo353.txt Testado criacao do arquivo\nna pasta353
+createfile ././.././././pasta354/arquivo354.txt Testado criacao do arquivo\nna pasta354
+createfile ././.././././pasta355/arquivo355.txt Testado criacao do arquivo\nna pasta355
+createfile ././.././././pasta356/arquivo356.txt Testado criacao do arquivo\nna pasta356
+createfile ././.././././pasta357/arquivo357.txt Testado criacao do arquivo\nna pasta357
+createfile ././.././././pasta358/arquivo358.txt Testado criacao do arquivo\nna pasta358
+createfile ././.././././pasta359/arquivo359.txt Testado criacao do arquivo\nna pasta359
+createfile ././.././././pasta360/arquivo360.txt Testado criacao do arquivo\nna pasta360
+createfile ././.././././pasta361/arquivo361.txt Testado criacao do arquivo\nna pasta361
+createfile ././.././././pasta362/arquivo362.txt Testado criacao do arquivo\nna pasta362
+createfile ././.././././pasta363/arquivo363.txt Testado criacao do arquivo\nna pasta363
+createfile ././.././././pasta364/arquivo364.txt Testado criacao do arquivo\nna pasta364
+createfile ././.././././pasta365/arquivo365.txt Testado criacao do arquivo\nna pasta365
+createfile ././.././././pasta366/arquivo366.txt Testado criacao do arquivo\nna pasta366
+createfile ././.././././pasta367/arquivo367.txt Testado criacao do arquivo\nna pasta367
+createfile ././.././././pasta368/arquivo368.txt Testado criacao do arquivo\nna pasta368
+createfile ././.././././pasta369/arquivo369.txt Testado criacao do arquivo\nna pasta369
+createfile ././.././././pasta370/arquivo370.txt Testado criacao do arquivo\nna pasta370
+createfile ././.././././pasta371/arquivo371.txt Testado criacao do arquivo\nna pasta371
+createfile ././.././././pasta372/arquivo372.txt Testado criacao do arquivo\nna pasta372
+createfile ././.././././pasta373/arquivo373.txt Testado criacao do arquivo\nna pasta373
+createfile ././.././././pasta374/arquivo374.txt Testado criacao do arquivo\nna pasta374
+createfile ././.././././pasta375/arquivo375.txt Testado criacao do arquivo\nna pasta375
+createfile ././.././././pasta376/arquivo376.txt Testado criacao do arquivo\nna pasta376
+createfile ././.././././pasta377/arquivo377.txt Testado criacao do arquivo\nna pasta377
+createfile ././.././././pasta378/arquivo378.txt Testado criacao do arquivo\nna pasta378
+createfile ././.././././pasta379/arquivo379.txt Testado criacao do arquivo\nna pasta379
+createfile ././.././././pasta380/arquivo380.txt Testado criacao do arquivo\nna pasta380
+createfile ././.././././pasta381/arquivo381.txt Testado criacao do arquivo\nna pasta381
+createfile ././.././././pasta382/arquivo382.txt Testado criacao do arquivo\nna pasta382
+createfile ././.././././pasta383/arquivo383.txt Testado criacao do arquivo\nna pasta383
+createfile ././.././././pasta384/arquivo384.txt Testado criacao do arquivo\nna pasta384
+createfile ././.././././pasta385/arquivo385.txt Testado criacao do arquivo\nna pasta385
+createfile ././.././././pasta386/arquivo386.txt Testado criacao do arquivo\nna pasta386
+createfile ././.././././pasta387/arquivo387.txt Testado criacao do arquivo\nna pasta387
+createfile ././.././././pasta388/arquivo388.txt Testado criacao do arquivo\nna pasta388
+createfile ././.././././pasta389/arquivo389.txt Testado criacao do arquivo\nna pasta389
+createfile ././.././././pasta390/arquivo390.txt Testado criacao do arquivo\nna pasta390
+createfile ././.././././pasta391/arquivo391.txt Testado criacao do arquivo\nna pasta391
+createfile ././.././././pasta392/arquivo392.txt Testado criacao do arquivo\nna pasta392
+createfile ././.././././pasta393/arquivo393.txt Testado criacao do arquivo\nna pasta393
+createfile ././.././././pasta394/arquivo394.txt Testado criacao do arquivo\nna pasta394
+createfile ././.././././pasta395/arquivo395.txt Testado criacao do arquivo\nna pasta395
+createfile ././.././././pasta396/arquivo396.txt Testado criacao do arquivo\nna pasta396
+createfile ././.././././pasta397/arquivo397.txt Testado criacao do arquivo\nna pasta397
+createfile ././.././././pasta398/arquivo398.txt Testado criacao do arquivo\nna pasta398
+createfile ././.././././pasta399/arquivo399.txt Testado criacao do arquivo\nna pasta399
+createfile ././.././././pasta400/arquivo400.txt Testado criacao do arquivo\nna pasta400
+createfile ././.././././pasta401/arquivo401.txt Testado criacao do arquivo\nna pasta401
+createfile ././.././././pasta402/arquivo402.txt Testado criacao do arquivo\nna pasta402
+createfile ././.././././pasta403/arquivo403.txt Testado criacao do arquivo\nna pasta403
+createfile ././.././././pasta404/arquivo404.txt Testado criacao do arquivo\nna pasta404
+createfile ././.././././pasta405/arquivo405.txt Testado criacao do arquivo\nna pasta405
+createfile ././.././././pasta406/arquivo406.txt Testado criacao do arquivo\nna pasta406
+createfile ././.././././pasta407/arquivo407.txt Testado criacao do arquivo\nna pasta407
+createfile ././.././././pasta408/arquivo408.txt Testado criacao do arquivo\nna pasta408
+createfile ././.././././pasta409/arquivo409.txt Testado criacao do arquivo\nna pasta409
+createfile ././.././././pasta410/arquivo410.txt Testado criacao do arquivo\nna pasta410
+createfile ././.././././pasta411/arquivo411.txt Testado criacao do arquivo\nna pasta411
+createfile ././.././././pasta412/arquivo412.txt Testado criacao do arquivo\nna pasta412
+createfile ././.././././pasta413/arquivo413.txt Testado criacao do arquivo\nna pasta413
+createfile ././.././././pasta414/arquivo414.txt Testado criacao do arquivo\nna pasta414
+createfile ././.././././pasta415/arquivo415.txt Testado criacao do arquivo\nna pasta415
+createfile ././.././././pasta416/arquivo416.txt Testado criacao do arquivo\nna pasta416
+createfile ././.././././pasta417/arquivo417.txt Testado criacao do arquivo\nna pasta417
+createfile ././.././././pasta418/arquivo418.txt Testado criacao do arquivo\nna pasta418
+createfile ././.././././pasta419/arquivo419.txt Testado criacao do arquivo\nna pasta419
+createfile ././.././././pasta420/arquivo420.txt Testado criacao do arquivo\nna pasta420
+createfile ././.././././pasta421/arquivo421.txt Testado criacao do arquivo\nna pasta421
+createfile ././.././././pasta422/arquivo422.txt Testado criacao do arquivo\nna pasta422
+createfile ././.././././pasta423/arquivo423.txt Testado criacao do arquivo\nna pasta423
+createfile ././.././././pasta424/arquivo424.txt Testado criacao do arquivo\nna pasta424
+createfile ././.././././pasta425/arquivo425.txt Testado criacao do arquivo\nna pasta425
+createfile ././.././././pasta426/arquivo426.txt Testado criacao do arquivo\nna pasta426
+createfile ././.././././pasta427/arquivo427.txt Testado criacao do arquivo\nna pasta427
+createfile ././.././././pasta428/arquivo428.txt Testado criacao do arquivo\nna pasta428
+createfile ././.././././pasta429/arquivo429.txt Testado criacao do arquivo\nna pasta429
+createfile ././.././././pasta430/arquivo430.txt Testado criacao do arquivo\nna pasta430
+createfile ././.././././pasta431/arquivo431.txt Testado criacao do arquivo\nna pasta431
+createfile ././.././././pasta432/arquivo432.txt Testado criacao do arquivo\nna pasta432
+createfile ././.././././pasta433/arquivo433.txt Testado criacao do arquivo\nna pasta433
+createfile ././.././././pasta434/arquivo434.txt Testado criacao do arquivo\nna pasta434
+createfile ././.././././pasta435/arquivo435.txt Testado criacao do arquivo\nna pasta435
+createfile ././.././././pasta436/arquivo436.txt Testado criacao do arquivo\nna pasta436
+createfile ././.././././pasta437/arquivo437.txt Testado criacao do arquivo\nna pasta437
+createfile ././.././././pasta438/arquivo438.txt Testado criacao do arquivo\nna pasta438
+createfile ././.././././pasta439/arquivo439.txt Testado criacao do arquivo\nna pasta439
+createfile ././.././././pasta440/arquivo440.txt Testado criacao do arquivo\nna pasta440
+createfile ././.././././pasta441/arquivo441.txt Testado criacao do arquivo\nna pasta441
+createfile ././.././././pasta442/arquivo442.txt Testado criacao do arquivo\nna pasta442
+createfile ././.././././pasta443/arquivo443.txt Testado criacao do arquivo\nna pasta443
+createfile ././.././././pasta444/arquivo444.txt Testado criacao do arquivo\nna pasta444
+createfile ././.././././pasta445/arquivo445.txt Testado criacao do arquivo\nna pasta445
+createfile ././.././././pasta446/arquivo446.txt Testado criacao do arquivo\nna pasta446
+createfile ././.././././pasta447/arquivo447.txt Testado criacao do arquivo\nna pasta447
+createfile ././.././././pasta448/arquivo448.txt Testado criacao do arquivo\nna pasta448
+createfile ././.././././pasta449/arquivo449.txt Testado criacao do arquivo\nna pasta449
+createfile ././.././././pasta450/arquivo450.txt Testado criacao do arquivo\nna pasta450
+createfile ././.././././pasta451/arquivo451.txt Testado criacao do arquivo\nna pasta451
+createfile ././.././././pasta452/arquivo452.txt Testado criacao do arquivo\nna pasta452
+createfile ././.././././pasta453/arquivo453.txt Testado criacao do arquivo\nna pasta453
+createfile ././.././././pasta454/arquivo454.txt Testado criacao do arquivo\nna pasta454
+createfile ././.././././pasta455/arquivo455.txt Testado criacao do arquivo\nna pasta455
+createfile ././.././././pasta456/arquivo456.txt Testado criacao do arquivo\nna pasta456
+createfile ././.././././pasta457/arquivo457.txt Testado criacao do arquivo\nna pasta457
+createfile ././.././././pasta458/arquivo458.txt Testado criacao do arquivo\nna pasta458
+createfile ././.././././pasta459/arquivo459.txt Testado criacao do arquivo\nna pasta459
+createfile ././.././././pasta460/arquivo460.txt Testado criacao do arquivo\nna pasta460
+createfile ././.././././pasta461/arquivo461.txt Testado criacao do arquivo\nna pasta461
+createfile ././.././././pasta462/arquivo462.txt Testado criacao do arquivo\nna pasta462
+createfile ././.././././pasta463/arquivo463.txt Testado criacao do arquivo\nna pasta463
+createfile ././.././././pasta464/arquivo464.txt Testado criacao do arquivo\nna pasta464
+createfile ././.././././pasta465/arquivo465.txt Testado criacao do arquivo\nna pasta465
+createfile ././.././././pasta466/arquivo466.txt Testado criacao do arquivo\nna pasta466
+createfile ././.././././pasta467/arquivo467.txt Testado criacao do arquivo\nna pasta467
+createfile ././.././././pasta468/arquivo468.txt Testado criacao do arquivo\nna pasta468
+createfile ././.././././pasta469/arquivo469.txt Testado criacao do arquivo\nna pasta469
+createfile ././.././././pasta470/arquivo470.txt Testado criacao do arquivo\nna pasta470
+createfile ././.././././pasta471/arquivo471.txt Testado criacao do arquivo\nna pasta471
+createfile ././.././././pasta472/arquivo472.txt Testado criacao do arquivo\nna pasta472
+createfile ././.././././pasta473/arquivo473.txt Testado criacao do arquivo\nna pasta473
+createfile ././.././././pasta474/arquivo474.txt Testado criacao do arquivo\nna pasta474
+createfile ././.././././pasta475/arquivo475.txt Testado criacao do arquivo\nna pasta475
+createfile ././.././././pasta476/arquivo476.txt Testado criacao do arquivo\nna pasta476
+createfile ././.././././pasta477/arquivo477.txt Testado criacao do arquivo\nna pasta477
+createfile ././.././././pasta478/arquivo478.txt Testado criacao do arquivo\nna pasta478
+createfile ././.././././pasta479/arquivo479.txt Testado criacao do arquivo\nna pasta479
+createfile ././.././././pasta480/arquivo480.txt Testado criacao do arquivo\nna pasta480
+createfile ././.././././pasta481/arquivo481.txt Testado criacao do arquivo\nna pasta481
+createfile ././.././././pasta482/arquivo482.txt Testado criacao do arquivo\nna pasta482
+createfile ././.././././pasta483/arquivo483.txt Testado criacao do arquivo\nna pasta483
+createfile ././.././././pasta484/arquivo484.txt Testado criacao do arquivo\nna pasta484
+createfile ././.././././pasta485/arquivo485.txt Testado criacao do arquivo\nna pasta485
+createfile ././.././././pasta486/arquivo486.txt Testado criacao do arquivo\nna pasta486
+createfile ././.././././pasta487/arquivo487.txt Testado criacao do arquivo\nna pasta487
+createfile ././.././././pasta488/arquivo488.txt Testado criacao do arquivo\nna pasta488
+createfile ././.././././pasta489/arquivo489.txt Testado criacao do arquivo\nna pasta489
+createfile ././.././././pasta490/arquivo490.txt Testado criacao do arquivo\nna pasta490
+createfile ././.././././pasta491/arquivo491.txt Testado criacao do arquivo\nna pasta491
+createfile ././.././././pasta492/arquivo492.txt Testado criacao do arquivo\nna pasta492
+createfile ././.././././pasta493/arquivo493.txt Testado criacao do arquivo\nna pasta493
+createfile ././.././././pasta494/arquivo494.txt Testado criacao do arquivo\nna pasta494
+createfile ././.././././pasta495/arquivo495.txt Testado criacao do arquivo\nna pasta495
+createfile ././.././././pasta496/arquivo496.txt Testado criacao do arquivo\nna pasta496
+createfile ././.././././pasta497/arquivo497.txt Testado criacao do arquivo\nna pasta497
+createfile ././.././././pasta498/arquivo498.txt Testado criacao do arquivo\nna pasta498
+createfile ././.././././pasta499/arquivo499.txt Testado criacao do arquivo\nna pasta499
+createfile ././.././././pasta500/arquivo500.txt Testado criacao do arquivo\nna pasta500
+createfile ././.././././pasta501/arquivo501.txt Testado criacao do arquivo\nna pasta501
+createfile ././.././././pasta502/arquivo502.txt Testado criacao do arquivo\nna pasta502
+createfile ././.././././pasta503/arquivo503.txt Testado criacao do arquivo\nna pasta503
+createfile ././.././././pasta504/arquivo504.txt Testado criacao do arquivo\nna pasta504
+createfile ././.././././pasta505/arquivo505.txt Testado criacao do arquivo\nna pasta505
+createfile ././.././././pasta506/arquivo506.txt Testado criacao do arquivo\nna pasta506
+createfile ././.././././pasta507/arquivo507.txt Testado criacao do arquivo\nna pasta507
+createfile ././.././././pasta508/arquivo508.txt Testado criacao do arquivo\nna pasta508
+createfile ././.././././pasta509/arquivo509.txt Testado criacao do arquivo\nna pasta509
+createfile ././.././././pasta510/arquivo510.txt Testado criacao do arquivo\nna pasta510
+createfile ././.././././pasta511/arquivo511.txt Testado criacao do arquivo\nna pasta511
+createfile ././.././././pasta512/arquivo512.txt Testado criacao do arquivo\nna pasta512
+createfile ././.././././pasta513/arquivo513.txt Testado criacao do arquivo\nna pasta513
+createfile ././.././././pasta514/arquivo514.txt Testado criacao do arquivo\nna pasta514
+createfile ././.././././pasta515/arquivo515.txt Testado criacao do arquivo\nna pasta515
+createfile ././.././././pasta516/arquivo516.txt Testado criacao do arquivo\nna pasta516
+createfile ././.././././pasta517/arquivo517.txt Testado criacao do arquivo\nna pasta517
+createfile ././.././././pasta518/arquivo518.txt Testado criacao do arquivo\nna pasta518
+createfile ././.././././pasta519/arquivo519.txt Testado criacao do arquivo\nna pasta519
+createfile ././.././././pasta520/arquivo520.txt Testado criacao do arquivo\nna pasta520
+createfile ././.././././pasta521/arquivo521.txt Testado criacao do arquivo\nna pasta521
+createfile ././.././././pasta522/arquivo522.txt Testado criacao do arquivo\nna pasta522
+createfile ././.././././pasta523/arquivo523.txt Testado criacao do arquivo\nna pasta523
+createfile ././.././././pasta524/arquivo524.txt Testado criacao do arquivo\nna pasta524
+createfile ././.././././pasta525/arquivo525.txt Testado criacao do arquivo\nna pasta525
+createfile ././.././././pasta526/arquivo526.txt Testado criacao do arquivo\nna pasta526
+createfile ././.././././pasta527/arquivo527.txt Testado criacao do arquivo\nna pasta527
+createfile ././.././././pasta528/arquivo528.txt Testado criacao do arquivo\nna pasta528
+createfile ././.././././pasta529/arquivo529.txt Testado criacao do arquivo\nna pasta529
+createfile ././.././././pasta530/arquivo530.txt Testado criacao do arquivo\nna pasta530
+createfile ././.././././pasta531/arquivo531.txt Testado criacao do arquivo\nna pasta531
+createfile ././.././././pasta532/arquivo532.txt Testado criacao do arquivo\nna pasta532
+createfile ././.././././pasta533/arquivo533.txt Testado criacao do arquivo\nna pasta533
+createfile ././.././././pasta534/arquivo534.txt Testado criacao do arquivo\nna pasta534
+createfile ././.././././pasta535/arquivo535.txt Testado criacao do arquivo\nna pasta535
+createfile ././.././././pasta536/arquivo536.txt Testado criacao do arquivo\nna pasta536
+createfile ././.././././pasta537/arquivo537.txt Testado criacao do arquivo\nna pasta537
+createfile ././.././././pasta538/arquivo538.txt Testado criacao do arquivo\nna pasta538
+createfile ././.././././pasta539/arquivo539.txt Testado criacao do arquivo\nna pasta539
+createfile ././.././././pasta540/arquivo540.txt Testado criacao do arquivo\nna pasta540
+createfile ././.././././pasta541/arquivo541.txt Testado criacao do arquivo\nna pasta541
+createfile ././.././././pasta542/arquivo542.txt Testado criacao do arquivo\nna pasta542
+createfile ././.././././pasta543/arquivo543.txt Testado criacao do arquivo\nna pasta543
+createfile ././.././././pasta544/arquivo544.txt Testado criacao do arquivo\nna pasta544
+createfile ././.././././pasta545/arquivo545.txt Testado criacao do arquivo\nna pasta545
+createfile ././.././././pasta546/arquivo546.txt Testado criacao do arquivo\nna pasta546
+createfile ././.././././pasta547/arquivo547.txt Testado criacao do arquivo\nna pasta547
+createfile ././.././././pasta548/arquivo548.txt Testado criacao do arquivo\nna pasta548
+createfile ././.././././pasta549/arquivo549.txt Testado criacao do arquivo\nna pasta549
+createfile ././.././././pasta550/arquivo550.txt Testado criacao do arquivo\nna pasta550
+createfile ././.././././pasta551/arquivo551.txt Testado criacao do arquivo\nna pasta551
+createfile ././.././././pasta552/arquivo552.txt Testado criacao do arquivo\nna pasta552
+createfile ././.././././pasta553/arquivo553.txt Testado criacao do arquivo\nna pasta553
+createfile ././.././././pasta554/arquivo554.txt Testado criacao do arquivo\nna pasta554
+createfile ././.././././pasta555/arquivo555.txt Testado criacao do arquivo\nna pasta555
+createfile ././.././././pasta556/arquivo556.txt Testado criacao do arquivo\nna pasta556
+createfile ././.././././pasta557/arquivo557.txt Testado criacao do arquivo\nna pasta557
+createfile ././.././././pasta558/arquivo558.txt Testado criacao do arquivo\nna pasta558
+createfile ././.././././pasta559/arquivo559.txt Testado criacao do arquivo\nna pasta559
+createfile ././.././././pasta560/arquivo560.txt Testado criacao do arquivo\nna pasta560
+createfile ././.././././pasta561/arquivo561.txt Testado criacao do arquivo\nna pasta561
+createfile ././.././././pasta562/arquivo562.txt Testado criacao do arquivo\nna pasta562
+createfile ././.././././pasta563/arquivo563.txt Testado criacao do arquivo\nna pasta563
+createfile ././.././././pasta564/arquivo564.txt Testado criacao do arquivo\nna pasta564
+createfile ././.././././pasta565/arquivo565.txt Testado criacao do arquivo\nna pasta565
+createfile ././.././././pasta566/arquivo566.txt Testado criacao do arquivo\nna pasta566
+createfile ././.././././pasta567/arquivo567.txt Testado criacao do arquivo\nna pasta567
+createfile ././.././././pasta568/arquivo568.txt Testado criacao do arquivo\nna pasta568
+createfile ././.././././pasta569/arquivo569.txt Testado criacao do arquivo\nna pasta569
+createfile ././.././././pasta570/arquivo570.txt Testado criacao do arquivo\nna pasta570
+createfile ././.././././pasta571/arquivo571.txt Testado criacao do arquivo\nna pasta571
+createfile ././.././././pasta572/arquivo572.txt Testado criacao do arquivo\nna pasta572
+createfile ././.././././pasta573/arquivo573.txt Testado criacao do arquivo\nna pasta573
+createfile ././.././././pasta574/arquivo574.txt Testado criacao do arquivo\nna pasta574
+createfile ././.././././pasta575/arquivo575.txt Testado criacao do arquivo\nna pasta575
+createfile ././.././././pasta576/arquivo576.txt Testado criacao do arquivo\nna pasta576
+createfile ././.././././pasta577/arquivo577.txt Testado criacao do arquivo\nna pasta577
+createfile ././.././././pasta578/arquivo578.txt Testado criacao do arquivo\nna pasta578
+createfile ././.././././pasta579/arquivo579.txt Testado criacao do arquivo\nna pasta579
+createfile ././.././././pasta580/arquivo580.txt Testado criacao do arquivo\nna pasta580
+createfile ././.././././pasta581/arquivo581.txt Testado criacao do arquivo\nna pasta581
+createfile ././.././././pasta582/arquivo582.txt Testado criacao do arquivo\nna pasta582
+createfile ././.././././pasta583/arquivo583.txt Testado criacao do arquivo\nna pasta583
+createfile ././.././././pasta584/arquivo584.txt Testado criacao do arquivo\nna pasta584
+createfile ././.././././pasta585/arquivo585.txt Testado criacao do arquivo\nna pasta585
+createfile ././.././././pasta586/arquivo586.txt Testado criacao do arquivo\nna pasta586
+createfile ././.././././pasta587/arquivo587.txt Testado criacao do arquivo\nna pasta587
+createfile ././.././././pasta588/arquivo588.txt Testado criacao do arquivo\nna pasta588
+createfile ././.././././pasta589/arquivo589.txt Testado criacao do arquivo\nna pasta589
+createfile ././.././././pasta590/arquivo590.txt Testado criacao do arquivo\nna pasta590
+createfile ././.././././pasta591/arquivo591.txt Testado criacao do arquivo\nna pasta591
+createfile ././.././././pasta592/arquivo592.txt Testado criacao do arquivo\nna pasta592
+createfile ././.././././pasta593/arquivo593.txt Testado criacao do arquivo\nna pasta593
+createfile ././.././././pasta594/arquivo594.txt Testado criacao do arquivo\nna pasta594
+createfile ././.././././pasta595/arquivo595.txt Testado criacao do arquivo\nna pasta595
+createfile ././.././././pasta596/arquivo596.txt Testado criacao do arquivo\nna pasta596
+createfile ././.././././pasta597/arquivo597.txt Testado criacao do arquivo\nna pasta597
+createfile ././.././././pasta598/arquivo598.txt Testado criacao do arquivo\nna pasta598
+createfile ././.././././pasta599/arquivo599.txt Testado criacao do arquivo\nna pasta599
+createfile ././.././././pasta600/arquivo600.txt Testado criacao do arquivo\nna pasta600
+createfile ././.././././pasta601/arquivo601.txt Testado criacao do arquivo\nna pasta601
+createfile ././.././././pasta602/arquivo602.txt Testado criacao do arquivo\nna pasta602
+createfile ././.././././pasta603/arquivo603.txt Testado criacao do arquivo\nna pasta603
+createfile ././.././././pasta604/arquivo604.txt Testado criacao do arquivo\nna pasta604
+createfile ././.././././pasta605/arquivo605.txt Testado criacao do arquivo\nna pasta605
+createfile ././.././././pasta606/arquivo606.txt Testado criacao do arquivo\nna pasta606
+createfile ././.././././pasta607/arquivo607.txt Testado criacao do arquivo\nna pasta607
+createfile ././.././././pasta608/arquivo608.txt Testado criacao do arquivo\nna pasta608
+createfile ././.././././pasta609/arquivo609.txt Testado criacao do arquivo\nna pasta609
+createfile ././.././././pasta610/arquivo610.txt Testado criacao do arquivo\nna pasta610
+createfile ././.././././pasta611/arquivo611.txt Testado criacao do arquivo\nna pasta611
+createfile ././.././././pasta612/arquivo612.txt Testado criacao do arquivo\nna pasta612
+createfile ././.././././pasta613/arquivo613.txt Testado criacao do arquivo\nna pasta613
+createfile ././.././././pasta614/arquivo614.txt Testado criacao do arquivo\nna pasta614
+createfile ././.././././pasta615/arquivo615.txt Testado criacao do arquivo\nna pasta615
+createfile ././.././././pasta616/arquivo616.txt Testado criacao do arquivo\nna pasta616
+createfile ././.././././pasta617/arquivo617.txt Testado criacao do arquivo\nna pasta617
+createfile ././.././././pasta618/arquivo618.txt Testado criacao do arquivo\nna pasta618
+createfile ././.././././pasta619/arquivo619.txt Testado criacao do arquivo\nna pasta619
+createfile ././.././././pasta620/arquivo620.txt Testado criacao do arquivo\nna pasta620
+createfile ././.././././pasta621/arquivo621.txt Testado criacao do arquivo\nna pasta621
+createfile ././.././././pasta622/arquivo622.txt Testado criacao do arquivo\nna pasta622
+createfile ././.././././pasta623/arquivo623.txt Testado criacao do arquivo\nna pasta623
+createfile ././.././././pasta624/arquivo624.txt Testado criacao do arquivo\nna pasta624
+createfile ././.././././pasta625/arquivo625.txt Testado criacao do arquivo\nna pasta625
+createfile ././.././././pasta626/arquivo626.txt Testado criacao do arquivo\nna pasta626
+createfile ././.././././pasta627/arquivo627.txt Testado criacao do arquivo\nna pasta627
+createfile ././.././././pasta628/arquivo628.txt Testado criacao do arquivo\nna pasta628
+createfile ././.././././pasta629/arquivo629.txt Testado criacao do arquivo\nna pasta629
+createfile ././.././././pasta630/arquivo630.txt Testado criacao do arquivo\nna pasta630
+createfile ././.././././pasta631/arquivo631.txt Testado criacao do arquivo\nna pasta631
+createfile ././.././././pasta632/arquivo632.txt Testado criacao do arquivo\nna pasta632
+createfile ././.././././pasta633/arquivo633.txt Testado criacao do arquivo\nna pasta633
+createfile ././.././././pasta634/arquivo634.txt Testado criacao do arquivo\nna pasta634
+createfile ././.././././pasta635/arquivo635.txt Testado criacao do arquivo\nna pasta635
+createfile ././.././././pasta636/arquivo636.txt Testado criacao do arquivo\nna pasta636
+createfile ././.././././pasta637/arquivo637.txt Testado criacao do arquivo\nna pasta637
+createfile ././.././././pasta638/arquivo638.txt Testado criacao do arquivo\nna pasta638
+createfile ././.././././pasta639/arquivo639.txt Testado criacao do arquivo\nna pasta639
+createfile ././.././././pasta640/arquivo640.txt Testado criacao do arquivo\nna pasta640
+createfile ././.././././pasta641/arquivo641.txt Testado criacao do arquivo\nna pasta641
+createfile ././.././././pasta642/arquivo642.txt Testado criacao do arquivo\nna pasta642
+createfile ././.././././pasta643/arquivo643.txt Testado criacao do arquivo\nna pasta643
+createfile ././.././././pasta644/arquivo644.txt Testado criacao do arquivo\nna pasta644
+createfile ././.././././pasta645/arquivo645.txt Testado criacao do arquivo\nna pasta645
+createfile ././.././././pasta646/arquivo646.txt Testado criacao do arquivo\nna pasta646
+createfile ././.././././pasta647/arquivo647.txt Testado criacao do arquivo\nna pasta647
+createfile ././.././././pasta648/arquivo648.txt Testado criacao do arquivo\nna pasta648
+createfile ././.././././pasta649/arquivo649.txt Testado criacao do arquivo\nna pasta649
+createfile ././.././././pasta650/arquivo650.txt Testado criacao do arquivo\nna pasta650
+createfile ././.././././pasta651/arquivo651.txt Testado criacao do arquivo\nna pasta651
+createfile ././.././././pasta652/arquivo652.txt Testado criacao do arquivo\nna pasta652
+createfile ././.././././pasta653/arquivo653.txt Testado criacao do arquivo\nna pasta653
+createfile ././.././././pasta654/arquivo654.txt Testado criacao do arquivo\nna pasta654
+createfile ././.././././pasta655/arquivo655.txt Testado criacao do arquivo\nna pasta655
+createfile ././.././././pasta656/arquivo656.txt Testado criacao do arquivo\nna pasta656
+createfile ././.././././pasta657/arquivo657.txt Testado criacao do arquivo\nna pasta657
+createfile ././.././././pasta658/arquivo658.txt Testado criacao do arquivo\nna pasta658
+createfile ././.././././pasta659/arquivo659.txt Testado criacao do arquivo\nna pasta659
+createfile ././.././././pasta660/arquivo660.txt Testado criacao do arquivo\nna pasta660
+createfile ././.././././pasta661/arquivo661.txt Testado criacao do arquivo\nna pasta661
+createfile ././.././././pasta662/arquivo662.txt Testado criacao do arquivo\nna pasta662
+createfile ././.././././pasta663/arquivo663.txt Testado criacao do arquivo\nna pasta663
+createfile ././.././././pasta664/arquivo664.txt Testado criacao do arquivo\nna pasta664
+createfile ././.././././pasta665/arquivo665.txt Testado criacao do arquivo\nna pasta665
+createfile ././.././././pasta666/arquivo666.txt Testado criacao do arquivo\nna pasta666
+createfile ././.././././pasta667/arquivo667.txt Testado criacao do arquivo\nna pasta667
+createfile ././.././././pasta668/arquivo668.txt Testado criacao do arquivo\nna pasta668
+createfile ././.././././pasta669/arquivo669.txt Testado criacao do arquivo\nna pasta669
+createfile ././.././././pasta670/arquivo670.txt Testado criacao do arquivo\nna pasta670
+createfile ././.././././pasta671/arquivo671.txt Testado criacao do arquivo\nna pasta671
+createfile ././.././././pasta672/arquivo672.txt Testado criacao do arquivo\nna pasta672
+createfile ././.././././pasta673/arquivo673.txt Testado criacao do arquivo\nna pasta673
+createfile ././.././././pasta674/arquivo674.txt Testado criacao do arquivo\nna pasta674
+createfile ././.././././pasta675/arquivo675.txt Testado criacao do arquivo\nna pasta675
+createfile ././.././././pasta676/arquivo676.txt Testado criacao do arquivo\nna pasta676
+createfile ././.././././pasta677/arquivo677.txt Testado criacao do arquivo\nna pasta677
+createfile ././.././././pasta678/arquivo678.txt Testado criacao do arquivo\nna pasta678
+createfile ././.././././pasta679/arquivo679.txt Testado criacao do arquivo\nna pasta679
+createfile ././.././././pasta680/arquivo680.txt Testado criacao do arquivo\nna pasta680
+createfile ././.././././pasta681/arquivo681.txt Testado criacao do arquivo\nna pasta681
+createfile ././.././././pasta682/arquivo682.txt Testado criacao do arquivo\nna pasta682
+createfile ././.././././pasta683/arquivo683.txt Testado criacao do arquivo\nna pasta683
+createfile ././.././././pasta684/arquivo684.txt Testado criacao do arquivo\nna pasta684
+createfile ././.././././pasta685/arquivo685.txt Testado criacao do arquivo\nna pasta685
+createfile ././.././././pasta686/arquivo686.txt Testado criacao do arquivo\nna pasta686
+createfile ././.././././pasta687/arquivo687.txt Testado criacao do arquivo\nna pasta687
+createfile ././.././././pasta688/arquivo688.txt Testado criacao do arquivo\nna pasta688
+createfile ././.././././pasta689/arquivo689.txt Testado criacao do arquivo\nna pasta689
+createfile ././.././././pasta690/arquivo690.txt Testado criacao do arquivo\nna pasta690
+createfile ././.././././pasta691/arquivo691.txt Testado criacao do arquivo\nna pasta691
+createfile ././.././././pasta692/arquivo692.txt Testado criacao do arquivo\nna pasta692
+createfile ././.././././pasta693/arquivo693.txt Testado criacao do arquivo\nna pasta693
+createfile ././.././././pasta694/arquivo694.txt Testado criacao do arquivo\nna pasta694
+createfile ././.././././pasta695/arquivo695.txt Testado criacao do arquivo\nna pasta695
+createfile ././.././././pasta696/arquivo696.txt Testado criacao do arquivo\nna pasta696
+createfile ././.././././pasta697/arquivo697.txt Testado criacao do arquivo\nna pasta697
+createfile ././.././././pasta698/arquivo698.txt Testado criacao do arquivo\nna pasta698
+createfile ././.././././pasta699/arquivo699.txt Testado criacao do arquivo\nna pasta699
+createfile ././.././././pasta700/arquivo700.txt Testado criacao do arquivo\nna pasta700
+createfile ././.././././pasta701/arquivo701.txt Testado criacao do arquivo\nna pasta701
+createfile ././.././././pasta702/arquivo702.txt Testado criacao do arquivo\nna pasta702
+createfile ././.././././pasta703/arquivo703.txt Testado criacao do arquivo\nna pasta703
+createfile ././.././././pasta704/arquivo704.txt Testado criacao do arquivo\nna pasta704
+createfile ././.././././pasta705/arquivo705.txt Testado criacao do arquivo\nna pasta705
+createfile ././.././././pasta706/arquivo706.txt Testado criacao do arquivo\nna pasta706
+createfile ././.././././pasta707/arquivo707.txt Testado criacao do arquivo\nna pasta707
+createfile ././.././././pasta708/arquivo708.txt Testado criacao do arquivo\nna pasta708
+createfile ././.././././pasta709/arquivo709.txt Testado criacao do arquivo\nna pasta709
+createfile ././.././././pasta710/arquivo710.txt Testado criacao do arquivo\nna pasta710
+createfile ././.././././pasta711/arquivo711.txt Testado criacao do arquivo\nna pasta711
+createfile ././.././././pasta712/arquivo712.txt Testado criacao do arquivo\nna pasta712
+createfile ././.././././pasta713/arquivo713.txt Testado criacao do arquivo\nna pasta713
+createfile ././.././././pasta714/arquivo714.txt Testado criacao do arquivo\nna pasta714
+createfile ././.././././pasta715/arquivo715.txt Testado criacao do arquivo\nna pasta715
+createfile ././.././././pasta716/arquivo716.txt Testado criacao do arquivo\nna pasta716
+createfile ././.././././pasta717/arquivo717.txt Testado criacao do arquivo\nna pasta717
+createfile ././.././././pasta718/arquivo718.txt Testado criacao do arquivo\nna pasta718
+createfile ././.././././pasta719/arquivo719.txt Testado criacao do arquivo\nna pasta719
+createfile ././.././././pasta720/arquivo720.txt Testado criacao do arquivo\nna pasta720
+createfile ././.././././pasta721/arquivo721.txt Testado criacao do arquivo\nna pasta721
+createfile ././.././././pasta722/arquivo722.txt Testado criacao do arquivo\nna pasta722
+createfile ././.././././pasta723/arquivo723.txt Testado criacao do arquivo\nna pasta723
+createfile ././.././././pasta724/arquivo724.txt Testado criacao do arquivo\nna pasta724
+createfile ././.././././pasta725/arquivo725.txt Testado criacao do arquivo\nna pasta725
+createfile ././.././././pasta726/arquivo726.txt Testado criacao do arquivo\nna pasta726
+createfile ././.././././pasta727/arquivo727.txt Testado criacao do arquivo\nna pasta727
+createfile ././.././././pasta728/arquivo728.txt Testado criacao do arquivo\nna pasta728
+createfile ././.././././pasta729/arquivo729.txt Testado criacao do arquivo\nna pasta729
+createfile ././.././././pasta730/arquivo730.txt Testado criacao do arquivo\nna pasta730
+createfile ././.././././pasta731/arquivo731.txt Testado criacao do arquivo\nna pasta731
+createfile ././.././././pasta732/arquivo732.txt Testado criacao do arquivo\nna pasta732
+createfile ././.././././pasta733/arquivo733.txt Testado criacao do arquivo\nna pasta733
+createfile ././.././././pasta734/arquivo734.txt Testado criacao do arquivo\nna pasta734
+createfile ././.././././pasta735/arquivo735.txt Testado criacao do arquivo\nna pasta735
+createfile ././.././././pasta736/arquivo736.txt Testado criacao do arquivo\nna pasta736
+createfile ././.././././pasta737/arquivo737.txt Testado criacao do arquivo\nna pasta737
+createfile ././.././././pasta738/arquivo738.txt Testado criacao do arquivo\nna pasta738
+createfile ././.././././pasta739/arquivo739.txt Testado criacao do arquivo\nna pasta739
+createfile ././.././././pasta740/arquivo740.txt Testado criacao do arquivo\nna pasta740
+createfile ././.././././pasta741/arquivo741.txt Testado criacao do arquivo\nna pasta741
+createfile ././.././././pasta742/arquivo742.txt Testado criacao do arquivo\nna pasta742
+createfile ././.././././pasta743/arquivo743.txt Testado criacao do arquivo\nna pasta743
+createfile ././.././././pasta744/arquivo744.txt Testado criacao do arquivo\nna pasta744
+createfile ././.././././pasta745/arquivo745.txt Testado criacao do arquivo\nna pasta745
+createfile ././.././././pasta746/arquivo746.txt Testado criacao do arquivo\nna pasta746
+createfile ././.././././pasta747/arquivo747.txt Testado criacao do arquivo\nna pasta747
+createfile ././.././././pasta748/arquivo748.txt Testado criacao do arquivo\nna pasta748
+createfile ././.././././pasta749/arquivo749.txt Testado criacao do arquivo\nna pasta749
+createfile ././.././././pasta750/arquivo750.txt Testado criacao do arquivo\nna pasta750
+createfile ././.././././pasta751/arquivo751.txt Testado criacao do arquivo\nna pasta751
+createfile ././.././././pasta752/arquivo752.txt Testado criacao do arquivo\nna pasta752
+createfile ././.././././pasta753/arquivo753.txt Testado criacao do arquivo\nna pasta753
+createfile ././.././././pasta754/arquivo754.txt Testado criacao do arquivo\nna pasta754
+createfile ././.././././pasta755/arquivo755.txt Testado criacao do arquivo\nna pasta755
+createfile ././.././././pasta756/arquivo756.txt Testado criacao do arquivo\nna pasta756
+createfile ././.././././pasta757/arquivo757.txt Testado criacao do arquivo\nna pasta757
+createfile ././.././././pasta758/arquivo758.txt Testado criacao do arquivo\nna pasta758
+createfile ././.././././pasta759/arquivo759.txt Testado criacao do arquivo\nna pasta759
+createfile ././.././././pasta760/arquivo760.txt Testado criacao do arquivo\nna pasta760
+createfile ././.././././pasta761/arquivo761.txt Testado criacao do arquivo\nna pasta761
+createfile ././.././././pasta762/arquivo762.txt Testado criacao do arquivo\nna pasta762
+createfile ././.././././pasta763/arquivo763.txt Testado criacao do arquivo\nna pasta763
+createfile ././.././././pasta764/arquivo764.txt Testado criacao do arquivo\nna pasta764
+createfile ././.././././pasta765/arquivo765.txt Testado criacao do arquivo\nna pasta765
+createfile ././.././././pasta766/arquivo766.txt Testado criacao do arquivo\nna pasta766
+createfile ././.././././pasta767/arquivo767.txt Testado criacao do arquivo\nna pasta767
+createfile ././.././././pasta768/arquivo768.txt Testado criacao do arquivo\nna pasta768
+createfile ././.././././pasta769/arquivo769.txt Testado criacao do arquivo\nna pasta769
+createfile ././.././././pasta770/arquivo770.txt Testado criacao do arquivo\nna pasta770
+createfile ././.././././pasta771/arquivo771.txt Testado criacao do arquivo\nna pasta771
+createfile ././.././././pasta772/arquivo772.txt Testado criacao do arquivo\nna pasta772
+createfile ././.././././pasta773/arquivo773.txt Testado criacao do arquivo\nna pasta773
+createfile ././.././././pasta774/arquivo774.txt Testado criacao do arquivo\nna pasta774
+createfile ././.././././pasta775/arquivo775.txt Testado criacao do arquivo\nna pasta775
+createfile ././.././././pasta776/arquivo776.txt Testado criacao do arquivo\nna pasta776
+createfile ././.././././pasta777/arquivo777.txt Testado criacao do arquivo\nna pasta777
+createfile ././.././././pasta778/arquivo778.txt Testado criacao do arquivo\nna pasta778
+createfile ././.././././pasta779/arquivo779.txt Testado criacao do arquivo\nna pasta779
+createfile ././.././././pasta780/arquivo780.txt Testado criacao do arquivo\nna pasta780
+createfile ././.././././pasta781/arquivo781.txt Testado criacao do arquivo\nna pasta781
+createfile ././.././././pasta782/arquivo782.txt Testado criacao do arquivo\nna pasta782
+createfile ././.././././pasta783/arquivo783.txt Testado criacao do arquivo\nna pasta783
+createfile ././.././././pasta784/arquivo784.txt Testado criacao do arquivo\nna pasta784
+createfile ././.././././pasta785/arquivo785.txt Testado criacao do arquivo\nna pasta785
+createfile ././.././././pasta786/arquivo786.txt Testado criacao do arquivo\nna pasta786
+createfile ././.././././pasta787/arquivo787.txt Testado criacao do arquivo\nna pasta787
+createfile ././.././././pasta788/arquivo788.txt Testado criacao do arquivo\nna pasta788
+createfile ././.././././pasta789/arquivo789.txt Testado criacao do arquivo\nna pasta789
+createfile ././.././././pasta790/arquivo790.txt Testado criacao do arquivo\nna pasta790
+createfile ././.././././pasta791/arquivo791.txt Testado criacao do arquivo\nna pasta791
+createfile ././.././././pasta792/arquivo792.txt Testado criacao do arquivo\nna pasta792
+createfile ././.././././pasta793/arquivo793.txt Testado criacao do arquivo\nna pasta793
+createfile ././.././././pasta794/arquivo794.txt Testado criacao do arquivo\nna pasta794
+createfile ././.././././pasta795/arquivo795.txt Testado criacao do arquivo\nna pasta795
+createfile ././.././././pasta796/arquivo796.txt Testado criacao do arquivo\nna pasta796
+createfile ././.././././pasta797/arquivo797.txt Testado criacao do arquivo\nna pasta797
+createfile ././.././././pasta798/arquivo798.txt Testado criacao do arquivo\nna pasta798
+createfile ././.././././pasta799/arquivo799.txt Testado criacao do arquivo\nna pasta799
+createfile ././.././././pasta800/arquivo800.txt Testado criacao do arquivo\nna pasta800
+createfile ././.././././pasta801/arquivo801.txt Testado criacao do arquivo\nna pasta801
+createfile ././.././././pasta802/arquivo802.txt Testado criacao do arquivo\nna pasta802
+createfile ././.././././pasta803/arquivo803.txt Testado criacao do arquivo\nna pasta803
+createfile ././.././././pasta804/arquivo804.txt Testado criacao do arquivo\nna pasta804
+createfile ././.././././pasta805/arquivo805.txt Testado criacao do arquivo\nna pasta805
+createfile ././.././././pasta806/arquivo806.txt Testado criacao do arquivo\nna pasta806
+createfile ././.././././pasta807/arquivo807.txt Testado criacao do arquivo\nna pasta807
+createfile ././.././././pasta808/arquivo808.txt Testado criacao do arquivo\nna pasta808
+createfile ././.././././pasta809/arquivo809.txt Testado criacao do arquivo\nna pasta809
+createfile ././.././././pasta810/arquivo810.txt Testado criacao do arquivo\nna pasta810
+createfile ././.././././pasta811/arquivo811.txt Testado criacao do arquivo\nna pasta811
+createfile ././.././././pasta812/arquivo812.txt Testado criacao do arquivo\nna pasta812
+createfile ././.././././pasta813/arquivo813.txt Testado criacao do arquivo\nna pasta813
+createfile ././.././././pasta814/arquivo814.txt Testado criacao do arquivo\nna pasta814
+createfile ././.././././pasta815/arquivo815.txt Testado criacao do arquivo\nna pasta815
+createfile ././.././././pasta816/arquivo816.txt Testado criacao do arquivo\nna pasta816
+createfile ././.././././pasta817/arquivo817.txt Testado criacao do arquivo\nna pasta817
+createfile ././.././././pasta818/arquivo818.txt Testado criacao do arquivo\nna pasta818
+createfile ././.././././pasta819/arquivo819.txt Testado criacao do arquivo\nna pasta819
+createfile ././.././././pasta820/arquivo820.txt Testado criacao do arquivo\nna pasta820
+createfile ././.././././pasta821/arquivo821.txt Testado criacao do arquivo\nna pasta821
+createfile ././.././././pasta822/arquivo822.txt Testado criacao do arquivo\nna pasta822
+createfile ././.././././pasta823/arquivo823.txt Testado criacao do arquivo\nna pasta823
+createfile ././.././././pasta824/arquivo824.txt Testado criacao do arquivo\nna pasta824
+createfile ././.././././pasta825/arquivo825.txt Testado criacao do arquivo\nna pasta825
+createfile ././.././././pasta826/arquivo826.txt Testado criacao do arquivo\nna pasta826
+createfile ././.././././pasta827/arquivo827.txt Testado criacao do arquivo\nna pasta827
+createfile ././.././././pasta828/arquivo828.txt Testado criacao do arquivo\nna pasta828
+createfile ././.././././pasta829/arquivo829.txt Testado criacao do arquivo\nna pasta829
+createfile ././.././././pasta830/arquivo830.txt Testado criacao do arquivo\nna pasta830
+createfile ././.././././pasta831/arquivo831.txt Testado criacao do arquivo\nna pasta831
+createfile ././.././././pasta832/arquivo832.txt Testado criacao do arquivo\nna pasta832
+createfile ././.././././pasta833/arquivo833.txt Testado criacao do arquivo\nna pasta833
+createfile ././.././././pasta834/arquivo834.txt Testado criacao do arquivo\nna pasta834
+createfile ././.././././pasta835/arquivo835.txt Testado criacao do arquivo\nna pasta835
+createfile ././.././././pasta836/arquivo836.txt Testado criacao do arquivo\nna pasta836
+createfile ././.././././pasta837/arquivo837.txt Testado criacao do arquivo\nna pasta837
+createfile ././.././././pasta838/arquivo838.txt Testado criacao do arquivo\nna pasta838
+createfile ././.././././pasta839/arquivo839.txt Testado criacao do arquivo\nna pasta839
+createfile ././.././././pasta840/arquivo840.txt Testado criacao do arquivo\nna pasta840
+createfile ././.././././pasta841/arquivo841.txt Testado criacao do arquivo\nna pasta841
+createfile ././.././././pasta842/arquivo842.txt Testado criacao do arquivo\nna pasta842
+createfile ././.././././pasta843/arquivo843.txt Testado criacao do arquivo\nna pasta843
+createfile ././.././././pasta844/arquivo844.txt Testado criacao do arquivo\nna pasta844
+createfile ././.././././pasta845/arquivo845.txt Testado criacao do arquivo\nna pasta845
+createfile ././.././././pasta846/arquivo846.txt Testado criacao do arquivo\nna pasta846
+createfile ././.././././pasta847/arquivo847.txt Testado criacao do arquivo\nna pasta847
+createfile ././.././././pasta848/arquivo848.txt Testado criacao do arquivo\nna pasta848
+createfile ././.././././pasta849/arquivo849.txt Testado criacao do arquivo\nna pasta849
+createfile ././.././././pasta850/arquivo850.txt Testado criacao do arquivo\nna pasta850
+createfile ././.././././pasta851/arquivo851.txt Testado criacao do arquivo\nna pasta851
+createfile ././.././././pasta852/arquivo852.txt Testado criacao do arquivo\nna pasta852
+createfile ././.././././pasta853/arquivo853.txt Testado criacao do arquivo\nna pasta853
+createfile ././.././././pasta854/arquivo854.txt Testado criacao do arquivo\nna pasta854
+createfile ././.././././pasta855/arquivo855.txt Testado criacao do arquivo\nna pasta855
+createfile ././.././././pasta856/arquivo856.txt Testado criacao do arquivo\nna pasta856
+createfile ././.././././pasta857/arquivo857.txt Testado criacao do arquivo\nna pasta857
+createfile ././.././././pasta858/arquivo858.txt Testado criacao do arquivo\nna pasta858
+createfile ././.././././pasta859/arquivo859.txt Testado criacao do arquivo\nna pasta859
+createfile ././.././././pasta860/arquivo860.txt Testado criacao do arquivo\nna pasta860
+createfile ././.././././pasta861/arquivo861.txt Testado criacao do arquivo\nna pasta861
+createfile ././.././././pasta862/arquivo862.txt Testado criacao do arquivo\nna pasta862
+createfile ././.././././pasta863/arquivo863.txt Testado criacao do arquivo\nna pasta863
+createfile ././.././././pasta864/arquivo864.txt Testado criacao do arquivo\nna pasta864
+createfile ././.././././pasta865/arquivo865.txt Testado criacao do arquivo\nna pasta865
+createfile ././.././././pasta866/arquivo866.txt Testado criacao do arquivo\nna pasta866
+createfile ././.././././pasta867/arquivo867.txt Testado criacao do arquivo\nna pasta867
+createfile ././.././././pasta868/arquivo868.txt Testado criacao do arquivo\nna pasta868
+createfile ././.././././pasta869/arquivo869.txt Testado criacao do arquivo\nna pasta869
+createfile ././.././././pasta870/arquivo870.txt Testado criacao do arquivo\nna pasta870
+createfile ././.././././pasta871/arquivo871.txt Testado criacao do arquivo\nna pasta871
+createfile ././.././././pasta872/arquivo872.txt Testado criacao do arquivo\nna pasta872
+createfile ././.././././pasta873/arquivo873.txt Testado criacao do arquivo\nna pasta873
+createfile ././.././././pasta874/arquivo874.txt Testado criacao do arquivo\nna pasta874
+createfile ././.././././pasta875/arquivo875.txt Testado criacao do arquivo\nna pasta875
+createfile ././.././././pasta876/arquivo876.txt Testado criacao do arquivo\nna pasta876
+createfile ././.././././pasta877/arquivo877.txt Testado criacao do arquivo\nna pasta877
+createfile ././.././././pasta878/arquivo878.txt Testado criacao do arquivo\nna pasta878
+createfile ././.././././pasta879/arquivo879.txt Testado criacao do arquivo\nna pasta879
+createfile ././.././././pasta880/arquivo880.txt Testado criacao do arquivo\nna pasta880
+createfile ././.././././pasta881/arquivo881.txt Testado criacao do arquivo\nna pasta881
+createfile ././.././././pasta882/arquivo882.txt Testado criacao do arquivo\nna pasta882
+createfile ././.././././pasta883/arquivo883.txt Testado criacao do arquivo\nna pasta883
+createfile ././.././././pasta884/arquivo884.txt Testado criacao do arquivo\nna pasta884
+createfile ././.././././pasta885/arquivo885.txt Testado criacao do arquivo\nna pasta885
+createfile ././.././././pasta886/arquivo886.txt Testado criacao do arquivo\nna pasta886
+createfile ././.././././pasta887/arquivo887.txt Testado criacao do arquivo\nna pasta887
+createfile ././.././././pasta888/arquivo888.txt Testado criacao do arquivo\nna pasta888
+createfile ././.././././pasta889/arquivo889.txt Testado criacao do arquivo\nna pasta889
+createfile ././.././././pasta890/arquivo890.txt Testado criacao do arquivo\nna pasta890
+createfile ././.././././pasta891/arquivo891.txt Testado criacao do arquivo\nna pasta891
+createfile ././.././././pasta892/arquivo892.txt Testado criacao do arquivo\nna pasta892
+createfile ././.././././pasta893/arquivo893.txt Testado criacao do arquivo\nna pasta893
+createfile ././.././././pasta894/arquivo894.txt Testado criacao do arquivo\nna pasta894
+createfile ././.././././pasta895/arquivo895.txt Testado criacao do arquivo\nna pasta895
+createfile ././.././././pasta896/arquivo896.txt Testado criacao do arquivo\nna pasta896
+createfile ././.././././pasta897/arquivo897.txt Testado criacao do arquivo\nna pasta897
+createfile ././.././././pasta898/arquivo898.txt Testado criacao do arquivo\nna pasta898
+createfile ././.././././pasta899/arquivo899.txt Testado criacao do arquivo\nna pasta899
+createfile ././.././././pasta900/arquivo900.txt Testado criacao do arquivo\nna pasta900
+createfile ././.././././pasta901/arquivo901.txt Testado criacao do arquivo\nna pasta901
+createfile ././.././././pasta902/arquivo902.txt Testado criacao do arquivo\nna pasta902
+createfile ././.././././pasta903/arquivo903.txt Testado criacao do arquivo\nna pasta903
+createfile ././.././././pasta904/arquivo904.txt Testado criacao do arquivo\nna pasta904
+createfile ././.././././pasta905/arquivo905.txt Testado criacao do arquivo\nna pasta905
+createfile ././.././././pasta906/arquivo906.txt Testado criacao do arquivo\nna pasta906
+createfile ././.././././pasta907/arquivo907.txt Testado criacao do arquivo\nna pasta907
+createfile ././.././././pasta908/arquivo908.txt Testado criacao do arquivo\nna pasta908
+createfile ././.././././pasta909/arquivo909.txt Testado criacao do arquivo\nna pasta909
+createfile ././.././././pasta910/arquivo910.txt Testado criacao do arquivo\nna pasta910
+createfile ././.././././pasta911/arquivo911.txt Testado criacao do arquivo\nna pasta911
+createfile ././.././././pasta912/arquivo912.txt Testado criacao do arquivo\nna pasta912
+createfile ././.././././pasta913/arquivo913.txt Testado criacao do arquivo\nna pasta913
+createfile ././.././././pasta914/arquivo914.txt Testado criacao do arquivo\nna pasta914
+createfile ././.././././pasta915/arquivo915.txt Testado criacao do arquivo\nna pasta915
+createfile ././.././././pasta916/arquivo916.txt Testado criacao do arquivo\nna pasta916
+createfile ././.././././pasta917/arquivo917.txt Testado criacao do arquivo\nna pasta917
+createfile ././.././././pasta918/arquivo918.txt Testado criacao do arquivo\nna pasta918
+createfile ././.././././pasta919/arquivo919.txt Testado criacao do arquivo\nna pasta919
+createfile ././.././././pasta920/arquivo920.txt Testado criacao do arquivo\nna pasta920
+createfile ././.././././pasta921/arquivo921.txt Testado criacao do arquivo\nna pasta921
+createfile ././.././././pasta922/arquivo922.txt Testado criacao do arquivo\nna pasta922
+createfile ././.././././pasta923/arquivo923.txt Testado criacao do arquivo\nna pasta923
+createfile ././.././././pasta924/arquivo924.txt Testado criacao do arquivo\nna pasta924
+createfile ././.././././pasta925/arquivo925.txt Testado criacao do arquivo\nna pasta925
+createfile ././.././././pasta926/arquivo926.txt Testado criacao do arquivo\nna pasta926
+createfile ././.././././pasta927/arquivo927.txt Testado criacao do arquivo\nna pasta927
+createfile ././.././././pasta928/arquivo928.txt Testado criacao do arquivo\nna pasta928
+createfile ././.././././pasta929/arquivo929.txt Testado criacao do arquivo\nna pasta929
+createfile ././.././././pasta930/arquivo930.txt Testado criacao do arquivo\nna pasta930
+createfile ././.././././pasta931/arquivo931.txt Testado criacao do arquivo\nna pasta931
+createfile ././.././././pasta932/arquivo932.txt Testado criacao do arquivo\nna pasta932
+createfile ././.././././pasta933/arquivo933.txt Testado criacao do arquivo\nna pasta933
+createfile ././.././././pasta934/arquivo934.txt Testado criacao do arquivo\nna pasta934
+createfile ././.././././pasta935/arquivo935.txt Testado criacao do arquivo\nna pasta935
+createfile ././.././././pasta936/arquivo936.txt Testado criacao do arquivo\nna pasta936
+createfile ././.././././pasta937/arquivo937.txt Testado criacao do arquivo\nna pasta937
+createfile ././.././././pasta938/arquivo938.txt Testado criacao do arquivo\nna pasta938
+createfile ././.././././pasta939/arquivo939.txt Testado criacao do arquivo\nna pasta939
+createfile ././.././././pasta940/arquivo940.txt Testado criacao do arquivo\nna pasta940
+createfile ././.././././pasta941/arquivo941.txt Testado criacao do arquivo\nna pasta941
+createfile ././.././././pasta942/arquivo942.txt Testado criacao do arquivo\nna pasta942
+createfile ././.././././pasta943/arquivo943.txt Testado criacao do arquivo\nna pasta943
+createfile ././.././././pasta944/arquivo944.txt Testado criacao do arquivo\nna pasta944
+createfile ././.././././pasta945/arquivo945.txt Testado criacao do arquivo\nna pasta945
+createfile ././.././././pasta946/arquivo946.txt Testado criacao do arquivo\nna pasta946
+createfile ././.././././pasta947/arquivo947.txt Testado criacao do arquivo\nna pasta947
+createfile ././.././././pasta948/arquivo948.txt Testado criacao do arquivo\nna pasta948
+createfile ././.././././pasta949/arquivo949.txt Testado criacao do arquivo\nna pasta949
+createfile ././.././././pasta950/arquivo950.txt Testado criacao do arquivo\nna pasta950
+createfile ././.././././pasta951/arquivo951.txt Testado criacao do arquivo\nna pasta951
+createfile ././.././././pasta952/arquivo952.txt Testado criacao do arquivo\nna pasta952
+createfile ././.././././pasta953/arquivo953.txt Testado criacao do arquivo\nna pasta953
+createfile ././.././././pasta954/arquivo954.txt Testado criacao do arquivo\nna pasta954
+createfile ././.././././pasta955/arquivo955.txt Testado criacao do arquivo\nna pasta955
+createfile ././.././././pasta956/arquivo956.txt Testado criacao do arquivo\nna pasta956
+createfile ././.././././pasta957/arquivo957.txt Testado criacao do arquivo\nna pasta957
+createfile ././.././././pasta958/arquivo958.txt Testado criacao do arquivo\nna pasta958
+createfile ././.././././pasta959/arquivo959.txt Testado criacao do arquivo\nna pasta959
+createfile ././.././././pasta960/arquivo960.txt Testado criacao do arquivo\nna pasta960
+createfile ././.././././pasta961/arquivo961.txt Testado criacao do arquivo\nna pasta961
+createfile ././.././././pasta962/arquivo962.txt Testado criacao do arquivo\nna pasta962
+createfile ././.././././pasta963/arquivo963.txt Testado criacao do arquivo\nna pasta963
+createfile ././.././././pasta964/arquivo964.txt Testado criacao do arquivo\nna pasta964
+createfile ././.././././pasta965/arquivo965.txt Testado criacao do arquivo\nna pasta965
+createfile ././.././././pasta966/arquivo966.txt Testado criacao do arquivo\nna pasta966
+createfile ././.././././pasta967/arquivo967.txt Testado criacao do arquivo\nna pasta967
+createfile ././.././././pasta968/arquivo968.txt Testado criacao do arquivo\nna pasta968
+createfile ././.././././pasta969/arquivo969.txt Testado criacao do arquivo\nna pasta969
+createfile ././.././././pasta970/arquivo970.txt Testado criacao do arquivo\nna pasta970
+createfile ././.././././pasta971/arquivo971.txt Testado criacao do arquivo\nna pasta971
+createfile ././.././././pasta972/arquivo972.txt Testado criacao do arquivo\nna pasta972
+createfile ././.././././pasta973/arquivo973.txt Testado criacao do arquivo\nna pasta973
+createfile ././.././././pasta974/arquivo974.txt Testado criacao do arquivo\nna pasta974
+createfile ././.././././pasta975/arquivo975.txt Testado criacao do arquivo\nna pasta975
+createfile ././.././././pasta976/arquivo976.txt Testado criacao do arquivo\nna pasta976
+createfile ././.././././pasta977/arquivo977.txt Testado criacao do arquivo\nna pasta977
+createfile ././.././././pasta978/arquivo978.txt Testado criacao do arquivo\nna pasta978
+createfile ././.././././pasta979/arquivo979.txt Testado criacao do arquivo\nna pasta979
+createfile ././.././././pasta980/arquivo980.txt Testado criacao do arquivo\nna pasta980
+createfile ././.././././pasta981/arquivo981.txt Testado criacao do arquivo\nna pasta981
+createfile ././.././././pasta982/arquivo982.txt Testado criacao do arquivo\nna pasta982
+createfile ././.././././pasta983/arquivo983.txt Testado criacao do arquivo\nna pasta983
+createfile ././.././././pasta984/arquivo984.txt Testado criacao do arquivo\nna pasta984
+createfile ././.././././pasta985/arquivo985.txt Testado criacao do arquivo\nna pasta985
+createfile ././.././././pasta986/arquivo986.txt Testado criacao do arquivo\nna pasta986
+createfile ././.././././pasta987/arquivo987.txt Testado criacao do arquivo\nna pasta987
+createfile ././.././././pasta988/arquivo988.txt Testado criacao do arquivo\nna pasta988
+createfile ././.././././pasta989/arquivo989.txt Testado criacao do arquivo\nna pasta989
+createfile ././.././././pasta990/arquivo990.txt Testado criacao do arquivo\nna pasta990
+createfile ././.././././pasta991/arquivo991.txt Testado criacao do arquivo\nna pasta991
+createfile ././.././././pasta992/arquivo992.txt Testado criacao do arquivo\nna pasta992
+createfile ././.././././pasta993/arquivo993.txt Testado criacao do arquivo\nna pasta993
+createfile ././.././././pasta994/arquivo994.txt Testado criacao do arquivo\nna pasta994
+createfile ././.././././pasta995/arquivo995.txt Testado criacao do arquivo\nna pasta995
+createfile ././.././././pasta996/arquivo996.txt Testado criacao do arquivo\nna pasta996
+createfile ././.././././pasta997/arquivo997.txt Testado criacao do arquivo\nna pasta997
+createfile ././.././././pasta998/arquivo998.txt Testado criacao do arquivo\nna pasta998
+createfile ././.././././pasta999/arquivo999.txt Testado criacao do arquivo\nna pasta999
+chmod 775 ./pasta00/arquivo00.txt
+rm -R pasta01
+chmod 775 ./pasta02/arquivo02.txt
+rm -R pasta03
+chmod 775 ./pasta04/arquivo04.txt
+rm -R pasta05
+chmod 775 ./pasta06/arquivo06.txt
+rm -R pasta07
+chmod 775 ./pasta08/arquivo08.txt
+rm -R pasta09
+chmod 775 ./pasta10/arquivo10.txt
+rm -R pasta11
+chmod 775 ./pasta12/arquivo12.txt
+rm -R pasta13
+chmod 775 ./pasta14/arquivo14.txt
+rm -R pasta15
+chmod 775 ./pasta16/arquivo16.txt
+rm -R pasta17
+chmod 775 ./pasta18/arquivo18.txt
+rm -R pasta19
+chmod 775 ./pasta20/arquivo20.txt
+rm -R pasta21
+chmod 775 ./pasta22/arquivo22.txt
+rm -R pasta23
+chmod 775 ./pasta24/arquivo24.txt
+rm -R pasta25
+chmod 775 ./pasta26/arquivo26.txt
+rm -R pasta27
+chmod 775 ./pasta28/arquivo28.txt
+rm -R pasta29
+chmod 775 ./pasta30/arquivo30.txt
+rm -R pasta31
+chmod 775 ./pasta32/arquivo32.txt
+rm -R pasta33
+chmod 775 ./pasta34/arquivo34.txt
+rm -R pasta35
+chmod 775 ./pasta36/arquivo36.txt
+rm -R pasta37
+chmod 775 ./pasta38/arquivo38.txt
+rm -R pasta39
+chmod 775 ./pasta40/arquivo40.txt
+rm -R pasta41
+chmod 775 ./pasta42/arquivo42.txt
+rm -R pasta43
+chmod 775 ./pasta44/arquivo44.txt
+rm -R pasta45
+chmod 775 ./pasta46/arquivo46.txt
+rm -R pasta47
+chmod 775 ./pasta48/arquivo48.txt
+rm -R pasta49
+chmod 775 ./pasta50/arquivo50.txt
+rm -R pasta51
+chmod 775 ./pasta52/arquivo52.txt
+rm -R pasta53
+chmod 775 ./pasta54/arquivo54.txt
+rm -R pasta55
+chmod 775 ./pasta56/arquivo56.txt
+rm -R pasta57
+chmod 775 ./pasta58/arquivo58.txt
+rm -R pasta59
+chmod 775 ./pasta60/arquivo60.txt
+rm -R pasta61
+chmod 775 ./pasta62/arquivo62.txt
+rm -R pasta63
+chmod 775 ./pasta64/arquivo64.txt
+rm -R pasta65
+chmod 775 ./pasta66/arquivo66.txt
+rm -R pasta67
+chmod 775 ./pasta68/arquivo68.txt
+rm -R pasta69
+chmod 775 ./pasta70/arquivo70.txt
+rm -R pasta71
+chmod 775 ./pasta72/arquivo72.txt
+rm -R pasta73
+chmod 775 ./pasta74/arquivo74.txt
+rm -R pasta75
+chmod 775 ./pasta76/arquivo76.txt
+rm -R pasta77
+chmod 775 ./pasta78/arquivo78.txt
+rm -R pasta79
+chmod 775 ./pasta80/arquivo80.txt
+rm -R pasta81
+chmod 775 ./pasta82/arquivo82.txt
+rm -R pasta83
+chmod 775 ./pasta84/arquivo84.txt
+rm -R pasta85
+chmod 775 ./pasta86/arquivo86.txt
+rm -R pasta87
+chmod 775 ./pasta88/arquivo88.txt
+rm -R pasta89
+chmod 775 ./pasta90/arquivo90.txt
+rm -R pasta91
+chmod 775 ./pasta92/arquivo92.txt
+rm -R pasta93
+chmod 775 ./pasta94/arquivo94.txt
+rm -R pasta95
+chmod 775 ./pasta96/arquivo96.txt
+rm -R pasta97
+chmod 775 ./pasta98/arquivo98.txt
+rm -R pasta99
+chmod 775 ./pasta100/arquivo100.txt
+rm -R pasta101
+chmod 775 ./pasta102/arquivo102.txt
+rm -R pasta103
+chmod 775 ./pasta104/arquivo104.txt
+rm -R pasta105
+chmod 775 ./pasta106/arquivo106.txt
+rm -R pasta107
+chmod 775 ./pasta108/arquivo108.txt
+rm -R pasta109
+chmod 775 ./pasta110/arquivo110.txt
+rm -R pasta111
+chmod 775 ./pasta112/arquivo112.txt
+rm -R pasta113
+chmod 775 ./pasta114/arquivo114.txt
+rm -R pasta115
+chmod 775 ./pasta116/arquivo116.txt
+rm -R pasta117
+chmod 775 ./pasta118/arquivo118.txt
+rm -R pasta119
+chmod 775 ./pasta120/arquivo120.txt
+rm -R pasta121
+chmod 775 ./pasta122/arquivo122.txt
+rm -R pasta123
+chmod 775 ./pasta124/arquivo124.txt
+rm -R pasta125
+chmod 775 ./pasta126/arquivo126.txt
+rm -R pasta127
+chmod 775 ./pasta128/arquivo128.txt
+rm -R pasta129
+chmod 775 ./pasta130/arquivo130.txt
+rm -R pasta131
+chmod 775 ./pasta132/arquivo132.txt
+rm -R pasta133
+chmod 775 ./pasta134/arquivo134.txt
+rm -R pasta135
+chmod 775 ./pasta136/arquivo136.txt
+rm -R pasta137
+chmod 775 ./pasta138/arquivo138.txt
+rm -R pasta139
+chmod 775 ./pasta140/arquivo140.txt
+rm -R pasta141
+chmod 775 ./pasta142/arquivo142.txt
+rm -R pasta143
+chmod 775 ./pasta144/arquivo144.txt
+rm -R pasta145
+chmod 775 ./pasta146/arquivo146.txt
+rm -R pasta147
+chmod 775 ./pasta148/arquivo148.txt
+rm -R pasta149
+chmod 775 ./pasta150/arquivo150.txt
+rm -R pasta151
+chmod 775 ./pasta152/arquivo152.txt
+rm -R pasta153
+chmod 775 ./pasta154/arquivo154.txt
+rm -R pasta155
+chmod 775 ./pasta156/arquivo156.txt
+rm -R pasta157
+chmod 775 ./pasta158/arquivo158.txt
+rm -R pasta159
+chmod 775 ./pasta160/arquivo160.txt
+rm -R pasta161
+chmod 775 ./pasta162/arquivo162.txt
+rm -R pasta163
+chmod 775 ./pasta164/arquivo164.txt
+rm -R pasta165
+chmod 775 ./pasta166/arquivo166.txt
+rm -R pasta167
+chmod 775 ./pasta168/arquivo168.txt
+rm -R pasta169
+chmod 775 ./pasta170/arquivo170.txt
+rm -R pasta171
+chmod 775 ./pasta172/arquivo172.txt
+rm -R pasta173
+chmod 775 ./pasta174/arquivo174.txt
+rm -R pasta175
+chmod 775 ./pasta176/arquivo176.txt
+rm -R pasta177
+chmod 775 ./pasta178/arquivo178.txt
+rm -R pasta179
+chmod 775 ./pasta180/arquivo180.txt
+rm -R pasta181
+chmod 775 ./pasta182/arquivo182.txt
+rm -R pasta183
+chmod 775 ./pasta184/arquivo184.txt
+rm -R pasta185
+chmod 775 ./pasta186/arquivo186.txt
+rm -R pasta187
+chmod 775 ./pasta188/arquivo188.txt
+rm -R pasta189
+chmod 775 ./pasta190/arquivo190.txt
+rm -R pasta191
+chmod 775 ./pasta192/arquivo192.txt
+rm -R pasta193
+chmod 775 ./pasta194/arquivo194.txt
+rm -R pasta195
+chmod 775 ./pasta196/arquivo196.txt
+rm -R pasta197
+chmod 775 ./pasta198/arquivo198.txt
+rm -R pasta199
+chmod 775 ./pasta200/arquivo200.txt
+rm -R pasta201
+chmod 775 ./pasta202/arquivo202.txt
+rm -R pasta203
+chmod 775 ./pasta204/arquivo204.txt
+rm -R pasta205
+chmod 775 ./pasta206/arquivo206.txt
+rm -R pasta207
+chmod 775 ./pasta208/arquivo208.txt
+rm -R pasta209
+chmod 775 ./pasta210/arquivo210.txt
+rm -R pasta211
+chmod 775 ./pasta212/arquivo212.txt
+rm -R pasta213
+chmod 775 ./pasta214/arquivo214.txt
+rm -R pasta215
+chmod 775 ./pasta216/arquivo216.txt
+rm -R pasta217
+chmod 775 ./pasta218/arquivo218.txt
+rm -R pasta219
+chmod 775 ./pasta220/arquivo220.txt
+rm -R pasta221
+chmod 775 ./pasta222/arquivo222.txt
+rm -R pasta223
+chmod 775 ./pasta224/arquivo224.txt
+rm -R pasta225
+chmod 775 ./pasta226/arquivo226.txt
+rm -R pasta227
+chmod 775 ./pasta228/arquivo228.txt
+rm -R pasta229
+chmod 775 ./pasta230/arquivo230.txt
+rm -R pasta231
+chmod 775 ./pasta232/arquivo232.txt
+rm -R pasta233
+chmod 775 ./pasta234/arquivo234.txt
+rm -R pasta235
+chmod 775 ./pasta236/arquivo236.txt
+rm -R pasta237
+chmod 775 ./pasta238/arquivo238.txt
+rm -R pasta239
+chmod 775 ./pasta240/arquivo240.txt
+rm -R pasta241
+chmod 775 ./pasta242/arquivo242.txt
+rm -R pasta243
+chmod 775 ./pasta244/arquivo244.txt
+rm -R pasta245
+chmod 775 ./pasta246/arquivo246.txt
+rm -R pasta247
+chmod 775 ./pasta248/arquivo248.txt
+rm -R pasta249
+chmod 775 ./pasta250/arquivo250.txt
+rm -R pasta251
+chmod 775 ./pasta252/arquivo252.txt
+rm -R pasta253
+chmod 775 ./pasta254/arquivo254.txt
+rm -R pasta255
+chmod 775 ./pasta256/arquivo256.txt
+rm -R pasta257
+chmod 775 ./pasta258/arquivo258.txt
+rm -R pasta259
+chmod 775 ./pasta260/arquivo260.txt
+rm -R pasta261
+chmod 775 ./pasta262/arquivo262.txt
+rm -R pasta263
+chmod 775 ./pasta264/arquivo264.txt
+rm -R pasta265
+chmod 775 ./pasta266/arquivo266.txt
+rm -R pasta267
+chmod 775 ./pasta268/arquivo268.txt
+rm -R pasta269
+chmod 775 ./pasta270/arquivo270.txt
+rm -R pasta271
+chmod 775 ./pasta272/arquivo272.txt
+rm -R pasta273
+chmod 775 ./pasta274/arquivo274.txt
+rm -R pasta275
+chmod 775 ./pasta276/arquivo276.txt
+rm -R pasta277
+chmod 775 ./pasta278/arquivo278.txt
+rm -R pasta279
+chmod 775 ./pasta280/arquivo280.txt
+rm -R pasta281
+chmod 775 ./pasta282/arquivo282.txt
+rm -R pasta283
+chmod 775 ./pasta284/arquivo284.txt
+rm -R pasta285
+chmod 775 ./pasta286/arquivo286.txt
+rm -R pasta287
+chmod 775 ./pasta288/arquivo288.txt
+rm -R pasta289
+chmod 775 ./pasta290/arquivo290.txt
+rm -R pasta291
+chmod 775 ./pasta292/arquivo292.txt
+rm -R pasta293
+chmod 775 ./pasta294/arquivo294.txt
+rm -R pasta295
+chmod 775 ./pasta296/arquivo296.txt
+rm -R pasta297
+chmod 775 ./pasta298/arquivo298.txt
+rm -R pasta299
+chmod 775 ./pasta300/arquivo300.txt
+rm -R pasta301
+chmod 775 ./pasta302/arquivo302.txt
+rm -R pasta303
+chmod 775 ./pasta304/arquivo304.txt
+rm -R pasta305
+chmod 775 ./pasta306/arquivo306.txt
+rm -R pasta307
+chmod 775 ./pasta308/arquivo308.txt
+rm -R pasta309
+chmod 775 ./pasta310/arquivo310.txt
+rm -R pasta311
+chmod 775 ./pasta312/arquivo312.txt
+rm -R pasta313
+chmod 775 ./pasta314/arquivo314.txt
+rm -R pasta315
+chmod 775 ./pasta316/arquivo316.txt
+rm -R pasta317
+chmod 775 ./pasta318/arquivo318.txt
+rm -R pasta319
+chmod 775 ./pasta320/arquivo320.txt
+rm -R pasta321
+chmod 775 ./pasta322/arquivo322.txt
+rm -R pasta323
+chmod 775 ./pasta324/arquivo324.txt
+rm -R pasta325
+chmod 775 ./pasta326/arquivo326.txt
+rm -R pasta327
+chmod 775 ./pasta328/arquivo328.txt
+rm -R pasta329
+chmod 775 ./pasta330/arquivo330.txt
+rm -R pasta331
+chmod 775 ./pasta332/arquivo332.txt
+rm -R pasta333
+chmod 775 ./pasta334/arquivo334.txt
+rm -R pasta335
+chmod 775 ./pasta336/arquivo336.txt
+rm -R pasta337
+chmod 775 ./pasta338/arquivo338.txt
+rm -R pasta339
+chmod 775 ./pasta340/arquivo340.txt
+rm -R pasta341
+chmod 775 ./pasta342/arquivo342.txt
+rm -R pasta343
+chmod 775 ./pasta344/arquivo344.txt
+rm -R pasta345
+chmod 775 ./pasta346/arquivo346.txt
+rm -R pasta347
+chmod 775 ./pasta348/arquivo348.txt
+rm -R pasta349
+chmod 775 ./pasta350/arquivo350.txt
+rm -R pasta351
+chmod 775 ./pasta352/arquivo352.txt
+rm -R pasta353
+chmod 775 ./pasta354/arquivo354.txt
+rm -R pasta355
+chmod 775 ./pasta356/arquivo356.txt
+rm -R pasta357
+chmod 775 ./pasta358/arquivo358.txt
+rm -R pasta359
+chmod 775 ./pasta360/arquivo360.txt
+rm -R pasta361
+chmod 775 ./pasta362/arquivo362.txt
+rm -R pasta363
+chmod 775 ./pasta364/arquivo364.txt
+rm -R pasta365
+chmod 775 ./pasta366/arquivo366.txt
+rm -R pasta367
+chmod 775 ./pasta368/arquivo368.txt
+rm -R pasta369
+chmod 775 ./pasta370/arquivo370.txt
+rm -R pasta371
+chmod 775 ./pasta372/arquivo372.txt
+rm -R pasta373
+chmod 775 ./pasta374/arquivo374.txt
+rm -R pasta375
+chmod 775 ./pasta376/arquivo376.txt
+rm -R pasta377
+chmod 775 ./pasta378/arquivo378.txt
+rm -R pasta379
+chmod 775 ./pasta380/arquivo380.txt
+rm -R pasta381
+chmod 775 ./pasta382/arquivo382.txt
+rm -R pasta383
+chmod 775 ./pasta384/arquivo384.txt
+rm -R pasta385
+chmod 775 ./pasta386/arquivo386.txt
+rm -R pasta387
+chmod 775 ./pasta388/arquivo388.txt
+rm -R pasta389
+chmod 775 ./pasta390/arquivo390.txt
+rm -R pasta391
+chmod 775 ./pasta392/arquivo392.txt
+rm -R pasta393
+chmod 775 ./pasta394/arquivo394.txt
+rm -R pasta395
+chmod 775 ./pasta396/arquivo396.txt
+rm -R pasta397
+chmod 775 ./pasta398/arquivo398.txt
+rm -R pasta399
+chmod 775 ./pasta400/arquivo400.txt
+rm -R pasta401
+chmod 775 ./pasta402/arquivo402.txt
+rm -R pasta403
+chmod 775 ./pasta404/arquivo404.txt
+rm -R pasta405
+chmod 775 ./pasta406/arquivo406.txt
+rm -R pasta407
+chmod 775 ./pasta408/arquivo408.txt
+rm -R pasta409
+chmod 775 ./pasta410/arquivo410.txt
+rm -R pasta411
+chmod 775 ./pasta412/arquivo412.txt
+rm -R pasta413
+chmod 775 ./pasta414/arquivo414.txt
+rm -R pasta415
+chmod 775 ./pasta416/arquivo416.txt
+rm -R pasta417
+chmod 775 ./pasta418/arquivo418.txt
+rm -R pasta419
+chmod 775 ./pasta420/arquivo420.txt
+rm -R pasta421
+chmod 775 ./pasta422/arquivo422.txt
+rm -R pasta423
+chmod 775 ./pasta424/arquivo424.txt
+rm -R pasta425
+chmod 775 ./pasta426/arquivo426.txt
+rm -R pasta427
+chmod 775 ./pasta428/arquivo428.txt
+rm -R pasta429
+chmod 775 ./pasta430/arquivo430.txt
+rm -R pasta431
+chmod 775 ./pasta432/arquivo432.txt
+rm -R pasta433
+chmod 775 ./pasta434/arquivo434.txt
+rm -R pasta435
+chmod 775 ./pasta436/arquivo436.txt
+rm -R pasta437
+chmod 775 ./pasta438/arquivo438.txt
+rm -R pasta439
+chmod 775 ./pasta440/arquivo440.txt
+rm -R pasta441
+chmod 775 ./pasta442/arquivo442.txt
+rm -R pasta443
+chmod 775 ./pasta444/arquivo444.txt
+rm -R pasta445
+chmod 775 ./pasta446/arquivo446.txt
+rm -R pasta447
+chmod 775 ./pasta448/arquivo448.txt
+rm -R pasta449
+chmod 775 ./pasta450/arquivo450.txt
+rm -R pasta451
+chmod 775 ./pasta452/arquivo452.txt
+rm -R pasta453
+chmod 775 ./pasta454/arquivo454.txt
+rm -R pasta455
+chmod 775 ./pasta456/arquivo456.txt
+rm -R pasta457
+chmod 775 ./pasta458/arquivo458.txt
+rm -R pasta459
+chmod 775 ./pasta460/arquivo460.txt
+rm -R pasta461
+chmod 775 ./pasta462/arquivo462.txt
+rm -R pasta463
+chmod 775 ./pasta464/arquivo464.txt
+rm -R pasta465
+chmod 775 ./pasta466/arquivo466.txt
+rm -R pasta467
+chmod 775 ./pasta468/arquivo468.txt
+rm -R pasta469
+chmod 775 ./pasta470/arquivo470.txt
+rm -R pasta471
+chmod 775 ./pasta472/arquivo472.txt
+rm -R pasta473
+chmod 775 ./pasta474/arquivo474.txt
+rm -R pasta475
+chmod 775 ./pasta476/arquivo476.txt
+rm -R pasta477
+chmod 775 ./pasta478/arquivo478.txt
+rm -R pasta479
+chmod 775 ./pasta480/arquivo480.txt
+rm -R pasta481
+chmod 775 ./pasta482/arquivo482.txt
+rm -R pasta483
+chmod 775 ./pasta484/arquivo484.txt
+rm -R pasta485
+chmod 775 ./pasta486/arquivo486.txt
+rm -R pasta487
+chmod 775 ./pasta488/arquivo488.txt
+rm -R pasta489
+chmod 775 ./pasta490/arquivo490.txt
+rm -R pasta491
+chmod 775 ./pasta492/arquivo492.txt
+rm -R pasta493
+chmod 775 ./pasta494/arquivo494.txt
+rm -R pasta495
+chmod 775 ./pasta496/arquivo496.txt
+rm -R pasta497
+chmod 775 ./pasta498/arquivo498.txt
+rm -R pasta499
+chmod 775 ./pasta500/arquivo500.txt
+rm -R pasta501
+chmod 775 ./pasta502/arquivo502.txt
+rm -R pasta503
+chmod 775 ./pasta504/arquivo504.txt
+rm -R pasta505
+chmod 775 ./pasta506/arquivo506.txt
+rm -R pasta507
+chmod 775 ./pasta508/arquivo508.txt
+rm -R pasta509
+chmod 775 ./pasta510/arquivo510.txt
+rm -R pasta511
+chmod 775 ./pasta512/arquivo512.txt
+rm -R pasta513
+chmod 775 ./pasta514/arquivo514.txt
+rm -R pasta515
+chmod 775 ./pasta516/arquivo516.txt
+rm -R pasta517
+chmod 775 ./pasta518/arquivo518.txt
+rm -R pasta519
+chmod 775 ./pasta520/arquivo520.txt
+rm -R pasta521
+chmod 775 ./pasta522/arquivo522.txt
+rm -R pasta523
+chmod 775 ./pasta524/arquivo524.txt
+rm -R pasta525
+chmod 775 ./pasta526/arquivo526.txt
+rm -R pasta527
+chmod 775 ./pasta528/arquivo528.txt
+rm -R pasta529
+chmod 775 ./pasta530/arquivo530.txt
+rm -R pasta531
+chmod 775 ./pasta532/arquivo532.txt
+rm -R pasta533
+chmod 775 ./pasta534/arquivo534.txt
+rm -R pasta535
+chmod 775 ./pasta536/arquivo536.txt
+rm -R pasta537
+chmod 775 ./pasta538/arquivo538.txt
+rm -R pasta539
+chmod 775 ./pasta540/arquivo540.txt
+rm -R pasta541
+chmod 775 ./pasta542/arquivo542.txt
+rm -R pasta543
+chmod 775 ./pasta544/arquivo544.txt
+rm -R pasta545
+chmod 775 ./pasta546/arquivo546.txt
+rm -R pasta547
+chmod 775 ./pasta548/arquivo548.txt
+rm -R pasta549
+chmod 775 ./pasta550/arquivo550.txt
+rm -R pasta551
+chmod 775 ./pasta552/arquivo552.txt
+rm -R pasta553
+chmod 775 ./pasta554/arquivo554.txt
+rm -R pasta555
+chmod 775 ./pasta556/arquivo556.txt
+rm -R pasta557
+chmod 775 ./pasta558/arquivo558.txt
+rm -R pasta559
+chmod 775 ./pasta560/arquivo560.txt
+rm -R pasta561
+chmod 775 ./pasta562/arquivo562.txt
+rm -R pasta563
+chmod 775 ./pasta564/arquivo564.txt
+rm -R pasta565
+chmod 775 ./pasta566/arquivo566.txt
+rm -R pasta567
+chmod 775 ./pasta568/arquivo568.txt
+rm -R pasta569
+chmod 775 ./pasta570/arquivo570.txt
+rm -R pasta571
+chmod 775 ./pasta572/arquivo572.txt
+rm -R pasta573
+chmod 775 ./pasta574/arquivo574.txt
+rm -R pasta575
+chmod 775 ./pasta576/arquivo576.txt
+rm -R pasta577
+chmod 775 ./pasta578/arquivo578.txt
+rm -R pasta579
+chmod 775 ./pasta580/arquivo580.txt
+rm -R pasta581
+chmod 775 ./pasta582/arquivo582.txt
+rm -R pasta583
+chmod 775 ./pasta584/arquivo584.txt
+rm -R pasta585
+chmod 775 ./pasta586/arquivo586.txt
+rm -R pasta587
+chmod 775 ./pasta588/arquivo588.txt
+rm -R pasta589
+chmod 775 ./pasta590/arquivo590.txt
+rm -R pasta591
+chmod 775 ./pasta592/arquivo592.txt
+rm -R pasta593
+chmod 775 ./pasta594/arquivo594.txt
+rm -R pasta595
+chmod 775 ./pasta596/arquivo596.txt
+rm -R pasta597
+chmod 775 ./pasta598/arquivo598.txt
+rm -R pasta599
+chmod 775 ./pasta600/arquivo600.txt
+rm -R pasta601
+chmod 775 ./pasta602/arquivo602.txt
+rm -R pasta603
+chmod 775 ./pasta604/arquivo604.txt
+rm -R pasta605
+chmod 775 ./pasta606/arquivo606.txt
+rm -R pasta607
+chmod 775 ./pasta608/arquivo608.txt
+rm -R pasta609
+chmod 775 ./pasta610/arquivo610.txt
+rm -R pasta611
+chmod 775 ./pasta612/arquivo612.txt
+rm -R pasta613
+chmod 775 ./pasta614/arquivo614.txt
+rm -R pasta615
+chmod 775 ./pasta616/arquivo616.txt
+rm -R pasta617
+chmod 775 ./pasta618/arquivo618.txt
+rm -R pasta619
+chmod 775 ./pasta620/arquivo620.txt
+rm -R pasta621
+chmod 775 ./pasta622/arquivo622.txt
+rm -R pasta623
+chmod 775 ./pasta624/arquivo624.txt
+rm -R pasta625
+chmod 775 ./pasta626/arquivo626.txt
+rm -R pasta627
+chmod 775 ./pasta628/arquivo628.txt
+rm -R pasta629
+chmod 775 ./pasta630/arquivo630.txt
+rm -R pasta631
+chmod 775 ./pasta632/arquivo632.txt
+rm -R pasta633
+chmod 775 ./pasta634/arquivo634.txt
+rm -R pasta635
+chmod 775 ./pasta636/arquivo636.txt
+rm -R pasta637
+chmod 775 ./pasta638/arquivo638.txt
+rm -R pasta639
+chmod 775 ./pasta640/arquivo640.txt
+rm -R pasta641
+chmod 775 ./pasta642/arquivo642.txt
+rm -R pasta643
+chmod 775 ./pasta644/arquivo644.txt
+rm -R pasta645
+chmod 775 ./pasta646/arquivo646.txt
+rm -R pasta647
+chmod 775 ./pasta648/arquivo648.txt
+rm -R pasta649
+chmod 775 ./pasta650/arquivo650.txt
+rm -R pasta651
+chmod 775 ./pasta652/arquivo652.txt
+rm -R pasta653
+chmod 775 ./pasta654/arquivo654.txt
+rm -R pasta655
+chmod 775 ./pasta656/arquivo656.txt
+rm -R pasta657
+chmod 775 ./pasta658/arquivo658.txt
+rm -R pasta659
+chmod 775 ./pasta660/arquivo660.txt
+rm -R pasta661
+chmod 775 ./pasta662/arquivo662.txt
+rm -R pasta663
+chmod 775 ./pasta664/arquivo664.txt
+rm -R pasta665
+chmod 775 ./pasta666/arquivo666.txt
+rm -R pasta667
+chmod 775 ./pasta668/arquivo668.txt
+rm -R pasta669
+chmod 775 ./pasta670/arquivo670.txt
+rm -R pasta671
+chmod 775 ./pasta672/arquivo672.txt
+rm -R pasta673
+chmod 775 ./pasta674/arquivo674.txt
+rm -R pasta675
+chmod 775 ./pasta676/arquivo676.txt
+rm -R pasta677
+chmod 775 ./pasta678/arquivo678.txt
+rm -R pasta679
+chmod 775 ./pasta680/arquivo680.txt
+rm -R pasta681
+chmod 775 ./pasta682/arquivo682.txt
+rm -R pasta683
+chmod 775 ./pasta684/arquivo684.txt
+rm -R pasta685
+chmod 775 ./pasta686/arquivo686.txt
+rm -R pasta687
+chmod 775 ./pasta688/arquivo688.txt
+rm -R pasta689
+chmod 775 ./pasta690/arquivo690.txt
+rm -R pasta691
+chmod 775 ./pasta692/arquivo692.txt
+rm -R pasta693
+chmod 775 ./pasta694/arquivo694.txt
+rm -R pasta695
+chmod 775 ./pasta696/arquivo696.txt
+rm -R pasta697
+chmod 775 ./pasta698/arquivo698.txt
+rm -R pasta699
+chmod 775 ./pasta700/arquivo700.txt
+rm -R pasta701
+chmod 775 ./pasta702/arquivo702.txt
+rm -R pasta703
+chmod 775 ./pasta704/arquivo704.txt
+rm -R pasta705
+chmod 775 ./pasta706/arquivo706.txt
+rm -R pasta707
+chmod 775 ./pasta708/arquivo708.txt
+rm -R pasta709
+chmod 775 ./pasta710/arquivo710.txt
+rm -R pasta711
+chmod 775 ./pasta712/arquivo712.txt
+rm -R pasta713
+chmod 775 ./pasta714/arquivo714.txt
+rm -R pasta715
+chmod 775 ./pasta716/arquivo716.txt
+rm -R pasta717
+chmod 775 ./pasta718/arquivo718.txt
+rm -R pasta719
+chmod 775 ./pasta720/arquivo720.txt
+rm -R pasta721
+chmod 775 ./pasta722/arquivo722.txt
+rm -R pasta723
+chmod 775 ./pasta724/arquivo724.txt
+rm -R pasta725
+chmod 775 ./pasta726/arquivo726.txt
+rm -R pasta727
+chmod 775 ./pasta728/arquivo728.txt
+rm -R pasta729
+chmod 775 ./pasta730/arquivo730.txt
+rm -R pasta731
+chmod 775 ./pasta732/arquivo732.txt
+rm -R pasta733
+chmod 775 ./pasta734/arquivo734.txt
+rm -R pasta735
+chmod 775 ./pasta736/arquivo736.txt
+rm -R pasta737
+chmod 775 ./pasta738/arquivo738.txt
+rm -R pasta739
+chmod 775 ./pasta740/arquivo740.txt
+rm -R pasta741
+chmod 775 ./pasta742/arquivo742.txt
+rm -R pasta743
+chmod 775 ./pasta744/arquivo744.txt
+rm -R pasta745
+chmod 775 ./pasta746/arquivo746.txt
+rm -R pasta747
+chmod 775 ./pasta748/arquivo748.txt
+rm -R pasta749
+chmod 775 ./pasta750/arquivo750.txt
+rm -R pasta751
+chmod 775 ./pasta752/arquivo752.txt
+rm -R pasta753
+chmod 775 ./pasta754/arquivo754.txt
+rm -R pasta755
+chmod 775 ./pasta756/arquivo756.txt
+rm -R pasta757
+chmod 775 ./pasta758/arquivo758.txt
+rm -R pasta759
+chmod 775 ./pasta760/arquivo760.txt
+rm -R pasta761
+chmod 775 ./pasta762/arquivo762.txt
+rm -R pasta763
+chmod 775 ./pasta764/arquivo764.txt
+rm -R pasta765
+chmod 775 ./pasta766/arquivo766.txt
+rm -R pasta767
+chmod 775 ./pasta768/arquivo768.txt
+rm -R pasta769
+chmod 775 ./pasta770/arquivo770.txt
+rm -R pasta771
+chmod 775 ./pasta772/arquivo772.txt
+rm -R pasta773
+chmod 775 ./pasta774/arquivo774.txt
+rm -R pasta775
+chmod 775 ./pasta776/arquivo776.txt
+rm -R pasta777
+chmod 775 ./pasta778/arquivo778.txt
+rm -R pasta779
+chmod 775 ./pasta780/arquivo780.txt
+rm -R pasta781
+chmod 775 ./pasta782/arquivo782.txt
+rm -R pasta783
+chmod 775 ./pasta784/arquivo784.txt
+rm -R pasta785
+chmod 775 ./pasta786/arquivo786.txt
+rm -R pasta787
+chmod 775 ./pasta788/arquivo788.txt
+rm -R pasta789
+chmod 775 ./pasta790/arquivo790.txt
+rm -R pasta791
+chmod 775 ./pasta792/arquivo792.txt
+rm -R pasta793
+chmod 775 ./pasta794/arquivo794.txt
+rm -R pasta795
+chmod 775 ./pasta796/arquivo796.txt
+rm -R pasta797
+chmod 775 ./pasta798/arquivo798.txt
+rm -R pasta799
+chmod 775 ./pasta800/arquivo800.txt
+rm -R pasta801
+chmod 775 ./pasta802/arquivo802.txt
+rm -R pasta803
+chmod 775 ./pasta804/arquivo804.txt
+rm -R pasta805
+chmod 775 ./pasta806/arquivo806.txt
+rm -R pasta807
+chmod 775 ./pasta808/arquivo808.txt
+rm -R pasta809
+chmod 775 ./pasta810/arquivo810.txt
+rm -R pasta811
+chmod 775 ./pasta812/arquivo812.txt
+rm -R pasta813
+chmod 775 ./pasta814/arquivo814.txt
+rm -R pasta815
+chmod 775 ./pasta816/arquivo816.txt
+rm -R pasta817
+chmod 775 ./pasta818/arquivo818.txt
+rm -R pasta819
+chmod 775 ./pasta820/arquivo820.txt
+rm -R pasta821
+chmod 775 ./pasta822/arquivo822.txt
+rm -R pasta823
+chmod 775 ./pasta824/arquivo824.txt
+rm -R pasta825
+chmod 775 ./pasta826/arquivo826.txt
+rm -R pasta827
+chmod 775 ./pasta828/arquivo828.txt
+rm -R pasta829
+chmod 775 ./pasta830/arquivo830.txt
+rm -R pasta831
+chmod 775 ./pasta832/arquivo832.txt
+rm -R pasta833
+chmod 775 ./pasta834/arquivo834.txt
+rm -R pasta835
+chmod 775 ./pasta836/arquivo836.txt
+rm -R pasta837
+chmod 775 ./pasta838/arquivo838.txt
+rm -R pasta839
+chmod 775 ./pasta840/arquivo840.txt
+rm -R pasta841
+chmod 775 ./pasta842/arquivo842.txt
+rm -R pasta843
+chmod 775 ./pasta844/arquivo844.txt
+rm -R pasta845
+chmod 775 ./pasta846/arquivo846.txt
+rm -R pasta847
+chmod 775 ./pasta848/arquivo848.txt
+rm -R pasta849
+chmod 775 ./pasta850/arquivo850.txt
+rm -R pasta851
+chmod 775 ./pasta852/arquivo852.txt
+rm -R pasta853
+chmod 775 ./pasta854/arquivo854.txt
+rm -R pasta855
+chmod 775 ./pasta856/arquivo856.txt
+rm -R pasta857
+chmod 775 ./pasta858/arquivo858.txt
+rm -R pasta859
+chmod 775 ./pasta860/arquivo860.txt
+rm -R pasta861
+chmod 775 ./pasta862/arquivo862.txt
+rm -R pasta863
+chmod 775 ./pasta864/arquivo864.txt
+rm -R pasta865
+chmod 775 ./pasta866/arquivo866.txt
+rm -R pasta867
+chmod 775 ./pasta868/arquivo868.txt
+rm -R pasta869
+chmod 775 ./pasta870/arquivo870.txt
+rm -R pasta871
+chmod 775 ./pasta872/arquivo872.txt
+rm -R pasta873
+chmod 775 ./pasta874/arquivo874.txt
+rm -R pasta875
+chmod 775 ./pasta876/arquivo876.txt
+rm -R pasta877
+chmod 775 ./pasta878/arquivo878.txt
+rm -R pasta879
+chmod 775 ./pasta880/arquivo880.txt
+rm -R pasta881
+chmod 775 ./pasta882/arquivo882.txt
+rm -R pasta883
+chmod 775 ./pasta884/arquivo884.txt
+rm -R pasta885
+chmod 775 ./pasta886/arquivo886.txt
+rm -R pasta887
+chmod 775 ./pasta888/arquivo888.txt
+rm -R pasta889
+chmod 775 ./pasta890/arquivo890.txt
+rm -R pasta891
+chmod 775 ./pasta892/arquivo892.txt
+rm -R pasta893
+chmod 775 ./pasta894/arquivo894.txt
+rm -R pasta895
+chmod 775 ./pasta896/arquivo896.txt
+rm -R pasta897
+chmod 775 ./pasta898/arquivo898.txt
+rm -R pasta899
+chmod 775 ./pasta900/arquivo900.txt
+rm -R pasta901
+chmod 775 ./pasta902/arquivo902.txt
+rm -R pasta903
+chmod 775 ./pasta904/arquivo904.txt
+rm -R pasta905
+chmod 775 ./pasta906/arquivo906.txt
+rm -R pasta907
+chmod 775 ./pasta908/arquivo908.txt
+rm -R pasta909
+chmod 775 ./pasta910/arquivo910.txt
+rm -R pasta911
+chmod 775 ./pasta912/arquivo912.txt
+rm -R pasta913
+chmod 775 ./pasta914/arquivo914.txt
+rm -R pasta915
+chmod 775 ./pasta916/arquivo916.txt
+rm -R pasta917
+chmod 775 ./pasta918/arquivo918.txt
+rm -R pasta919
+chmod 775 ./pasta920/arquivo920.txt
+rm -R pasta921
+chmod 775 ./pasta922/arquivo922.txt
+rm -R pasta923
+chmod 775 ./pasta924/arquivo924.txt
+rm -R pasta925
+chmod 775 ./pasta926/arquivo926.txt
+rm -R pasta927
+chmod 775 ./pasta928/arquivo928.txt
+rm -R pasta929
+chmod 775 ./pasta930/arquivo930.txt
+rm -R pasta931
+chmod 775 ./pasta932/arquivo932.txt
+rm -R pasta933
+chmod 775 ./pasta934/arquivo934.txt
+rm -R pasta935
+chmod 775 ./pasta936/arquivo936.txt
+rm -R pasta937
+chmod 775 ./pasta938/arquivo938.txt
+rm -R pasta939
+chmod 775 ./pasta940/arquivo940.txt
+rm -R pasta941
+chmod 775 ./pasta942/arquivo942.txt
+rm -R pasta943
+chmod 775 ./pasta944/arquivo944.txt
+rm -R pasta945
+chmod 775 ./pasta946/arquivo946.txt
+rm -R pasta947
+chmod 775 ./pasta948/arquivo948.txt
+rm -R pasta949
+chmod 775 ./pasta950/arquivo950.txt
+rm -R pasta951
+chmod 775 ./pasta952/arquivo952.txt
+rm -R pasta953
+chmod 775 ./pasta954/arquivo954.txt
+rm -R pasta955
+chmod 775 ./pasta956/arquivo956.txt
+rm -R pasta957
+chmod 775 ./pasta958/arquivo958.txt
+rm -R pasta959
+chmod 775 ./pasta960/arquivo960.txt
+rm -R pasta961
+chmod 775 ./pasta962/arquivo962.txt
+rm -R pasta963
+chmod 775 ./pasta964/arquivo964.txt
+rm -R pasta965
+chmod 775 ./pasta966/arquivo966.txt
+rm -R pasta967
+chmod 775 ./pasta968/arquivo968.txt
+rm -R pasta969
+chmod 775 ./pasta970/arquivo970.txt
+rm -R pasta971
+chmod 775 ./pasta972/arquivo972.txt
+rm -R pasta973
+chmod 775 ./pasta974/arquivo974.txt
+rm -R pasta975
+chmod 775 ./pasta976/arquivo976.txt
+rm -R pasta977
+chmod 775 ./pasta978/arquivo978.txt
+rm -R pasta979
+chmod 775 ./pasta980/arquivo980.txt
+rm -R pasta981
+chmod 775 ./pasta982/arquivo982.txt
+rm -R pasta983
+chmod 775 ./pasta984/arquivo984.txt
+rm -R pasta985
+chmod 775 ./pasta986/arquivo986.txt
+rm -R pasta987
+chmod 775 ./pasta988/arquivo988.txt
+rm -R pasta989
+chmod 775 ./pasta990/arquivo990.txt
+rm -R pasta991
+chmod 775 ./pasta992/arquivo992.txt
+rm -R pasta993
+chmod 775 ./pasta994/arquivo994.txt
+rm -R pasta995
+chmod 775 ./pasta996/arquivo996.txt
+rm -R pasta997
+chmod 775 ./pasta998/arquivo998.txt
+rm -R pasta999
+dump dump.txt
